@@ -1,0 +1,674 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Künstliche Intelligenz},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Künstliche Intelligenz}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Richtiger Einsatz in Didaktik und Pädagogik \emph{Dr.~Wolfgang
+Spahn} Oct.2024}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\subsection{Agenda:}\label{agenda}
+
+\begin{itemize}
+\tightlist
+\item
+  KI verändert geistiges Arbeiten
+\item
+  KI Chatbots und Tools im Schulumfeld
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Realitäten/Kontrolle des KI Einsatzes
+  \item
+    Förderung durch KI Einsatz
+  \end{itemize}
+\item
+  konstruktivistisch-kognitive KI Lernsysteme
+
+  \begin{itemize}
+  \tightlist
+  \item
+    AIDu
+  \item
+    Vision
+  \end{itemize}
+\item
+  Diskussion
+\end{itemize}
+
+\subsection{\_}\label{section}
+
+KI verändert geistiges Arbeiten
+
+\subsection{Erste Untersuchungen über KI/Mensch
+Zusammenarbeit}\label{erste-untersuchungen-uxfcber-kimensch-zusammenarbeit}
+
+758 consultants
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{images/havardBusinessSchool.webp}
+
+4867 software developers
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{images/High skilled work AI.webp}
+
+sehen 25-40\% Zunahme der Produktivität: skales with detached (-),
+delegating (+) or immersive usage (++)
+
+\subsection{körperliche Arbeit}\label{kuxf6rperliche-arbeit}
+
+\textbf{1900}
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{images/1900_landwirtschaf_1.webp}
+
+\textbf{2024}
+
+\includegraphics[width=1\textwidth,height=\textheight]{images/claas mähdrescher.webp}
+
+als Model der zu erwartenden Transformation?
+
+\subsection{\_}\label{section-1}
+
+KI Chatbots im Schulumfeld
+
+\subsection{Chatbots in der Bildung}\label{chatbots-in-der-bildung}
+
+\includegraphics[width=1\textwidth,height=\textheight]{images/2847_cartoon_back_to_school_1.webp}
+\href{https://www.prpeak.com/opinion/cartoon-homework-assignments-7489368}{Source}
+
+``Of the top 20 education apps in the U.S. App Store, five are AI agents
+that help students with their school assignments, according to data from
+Data.ai on May 21.''
+
+\subsection{NZZ 2024}\label{nzz-2024}
+
+Ein Zürcher Maturand sagt {[}Bestnote Deutsch!{]}: «Ich habe keines
+meiner Bücher gelesen. Das hat alles die KI für mich gemacht»
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{images/NZZ Deutsch Matur.webp}
+\includegraphics[width=0.5\textwidth,height=\textheight]{images/NZZ Faust.webp}
+
+\subsection{KI Bots im Schulumfeld}\label{ki-bots-im-schulumfeld}
+
+Vergleichsstudie an 1000 Lernenden:
+
+Prüfungsvorbereitung mit und ohne KI Chatbots
+
+\begin{itemize}
+\tightlist
+\item
+  Unterschiedliche Hausaufgaben zur Mathe Prüfungsvorbereitung
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Gruppe 1: Basis - traditionell
+  \item
+    Gruppe 2: +48\% - ChatGPT
+  \item
+    Gruppe 3: +127\% - einfacher sokratischer GPT-Tutor (nicht adaptiv)
+  \end{itemize}
+\item
+  Prüfung über den Lernstoff
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{ChatGPT Gruppen sind schlechter} als die traditionelle
+    Gruppe
+  \item
+    GTP-Tutor Gruppe erzielt gleiche Ergebnisse wie die traditionelle
+    Gruppe
+  \end{itemize}
+\end{itemize}
+
+\includegraphics[width=0.7\textwidth,height=\textheight]{images/AI harm learning.webp}
+
+\subsection{KI Bots im Schulumfeld}\label{ki-bots-im-schulumfeld-1}
+
+Verbreitung und Akzeptanz generativer KI an Schulen und Hochschulen
+(Bayern)
+
+\begin{itemize}
+\item
+  Ergebnisse (Zusammenfassung
+  \href{https://www.bidt.digital/publikation/verbreitung-und-akzeptanz-generativer-ki-an-schulen-und-hochschulen/}{\textgreater/})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{\ldots{} haben unter den untersuchten Schülerinnen und
+    Schülern 73 \%, unter den betrachteten Studierenden 78 \% bereits
+    generative KI für die Text- und/oder Bildgenerierung genutzt.}
+  \item
+    \emph{\ldots, dass generative KI ihnen dabei geholfen hat, bessere
+    Noten zu erhalten, ohne dafür eine angemessene Leistung erbracht zu
+    haben, stimmen 42 \% der entsprechenden Schülerinnen und Schüler und
+    45 \% der entsprechenden Studierenden eher oder voll und ganz zu.}
+  \item
+    \emph{Die Zufriedenheit mit der Nutzung textbasierter generativer KI
+    in Schule oder Studium ist hoch. Nur eine Minderheit der
+    untersuchten Nutzerinnen und Nutzer berichtet das Gegenteil.}
+  \item
+    \emph{\ldots, Herausforderung besteht in einer adäquaten
+    Leistungsbewertung von Lernenden in Zeiten generativer KI, \ldots{}
+    . Darum sollte dem Wunsch vieler Befragten Rechnung getragen werden
+    und Prüfungsformate an Schulen und Hochschulen angepasst werden.}
+  \end{itemize}
+\end{itemize}
+
+\includegraphics[width=0.7\textwidth,height=\textheight]{images/bidt_Studie_Generative_KI-an_Schulen_und_Hochschulen.webp}
+
+\subsection{Was ist das Problem?}\label{was-ist-das-problem}
+
+\textbf{KI im Schulumfeld ist per se nicht förderlich}
+
+\begin{itemize}
+\tightlist
+\item
+  KI Technologie {\textbf{reduziert Durchdringung}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    verleitet zu {\textbf{Kompetenzsimulation}}
+  \item
+    {\textbf{reduziert die Notwendigkeit von Wissen}} durch schnelle
+    Verfügbarkeit von Information
+  \end{itemize}
+\item
+  {\textbf{Miss- und Fehlinformation}} sind leicht verfüg-/erzeugbar
+\item
+  ChatBots verführen zu {\textbf{Plagiat und Betrug}}
+\item
+  Führt zur {\textbf{fehlerhaften Selbsteinschätzung}} der eigenen
+  Kompetenz
+\end{itemize}
+
+Aber KI ist Realität. Daher ist \textbf{Wegschauen ist keine Lösung}!
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{images/consumer_education1.webp}
+
+}
+
+\caption{DALL·E 3: Consumer Education}
+
+\end{figure}%
+
+\subsection{KI bewusste Pädagogik}\label{ki-bewusste-puxe4dagogik}
+
+\textbf{Es braucht Methodik um die Vorteile von KI pädagogisch zu
+nutzen. KI: }
+
+\begin{itemize}
+\tightlist
+\item
+  bringt Kapazität für {\textbf{individuelle Förderung}}
+\item
+  ermöglicht Schöpfungstiefe durch {\textbf{komplexere
+  Aufgabenstellungen}}
+\item
+  fördert Durchdringung durch direkten {\textbf{Start an der
+  Kompetenzgrenze}}
+\item
+  zielt auf tiefes Wissen durch {\textbf{Vernetzung von Wissen und
+  Kompetenzen}}
+\item
+  motiviert durch lebensnahes, {\textbf{exploratives Lernen}} von
+  komplexen Zusammenhängen
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{images/explorer_education1.webp}
+
+}
+
+\caption{DALL·E 3: Education as Exploration}
+
+\end{figure}%
+
+\textbf{Das bedeutet eine enge Lernbegleitung durch Lehrpersonen und
+Tools}
+
+\subsection{KI bewusste Pädagogik}\label{ki-bewusste-puxe4dagogik-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Lernende}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    entwickelt Motivation hin zu {\textbf{verankertem Wissen}}
+  \item
+    erlernt {\textbf{Sprach- und Dialogkompetenz}} um auf Augenhöhe mit
+    KI zu kommunizieren
+  \item
+    arbeitet {\textbf{mit KI offen und selbstwirksam}}
+  \item
+    {\textbf{orchestriert KI}} Sitzungen um ein gewünschtes Projektziel
+    zu erreichen
+  \item
+    erwirbt vor allem {\textbf{Basalwissen}}, das effektiven KI
+    gestützten Einstieg in eine neue Domäne ermöglicht
+  \end{itemize}
+\item
+  \textbf{Lehrende}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    begeht mit den Lernenden {\textbf{individuelle Lernwege}}
+  \item
+    ermöglicht den Lernenden {\textbf{echte Kompetenzerfahrungen}}
+  \item
+    steigert {\textbf{Sprach/Dialogkompetenz}} der Lernenden
+  \item
+    lehrt {\textbf{Umgang mit Wissensüberfluss}}
+  \item
+    hat dafür {\textbf{Rüstzeug}}
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{images/Bergführerin.webp}
+
+}
+
+\caption{DALL·E 3: Seilschaft}
+
+\end{figure}%
+
+Forschungsfragen: Wie reduzieren auf {\textbf{Basalwissen}}? Welches
+{\textbf{Rüstzeug}}?
+
+\subsection{\_}\label{section-2}
+
+KI bewusste Pädagogik
+
+Intelligente Lernbegleitsysteme
+
+\subsection{AIDu: ITS Forschung}\label{aidu-its-forschung}
+
+\includegraphics[width=0.9\textwidth,height=\textheight]{images/AIdu.webp}
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/AIDu Welcome.webp}
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/AIDu Isaac.webp}
+
+\subsection{Vision Bildung 2035}\label{vision-bildung-2035}
+
+\textbf{Bildung unterstützt/ermöglicht durch KI durch}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dialog} as Grundelement
+\item
+  \textbf{personalisierte Ansätze} für
+
+  \begin{itemize}
+  \tightlist
+  \item
+    individuelle Entwicklung
+  \item
+    eigenes Tempo
+    \includegraphics[width=0.7\textwidth,height=\textheight]{images/student-study-group.webp}
+  \end{itemize}
+\item
+  \textbf{Lernen in der Gruppe}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    mit Lehrpersonen als Lernpartner
+  \item
+    mittels einem eigenverantwortlichen Lernprozess
+  \end{itemize}
+\end{itemize}
+
+\includegraphics{index_files/mediabag/images/left-right-bold-arrow-icon.pdf}
+
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/Holzwerkstatt_2-1-scaled-crop.webp}
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/csm_Finn_mit_Sonde_ea9ce59730.webp}
+\includegraphics[width=0.4\textwidth,height=\textheight]{images/schüler im labor.webp}
+
+Sources:
+\href{https://www.badische-zeitung.de/seit-30-jahren-wird-im-novartis-schullabor-in-basel-neugier-auf-wissenschaft-geweckt}{1}
+\href{https://www.evim.de/news-veranstaltungen/news-und-veranstaltungen/detail-meldungen/hoehenflug-fuer-schueler-der-technik-werkstatt/}{2}
+\href{https://freie-landschule.de/wp-content/uploads/2024/03/Holzwerkstatt_2-1-2048x1536.webp}{3}
+
+\subsection{Zusammenfassung}\label{zusammenfassung}
+
+\begin{itemize}
+\tightlist
+\item
+  KI hat das Potential die Bildung zu revolutionieren
+
+  \begin{itemize}
+  \tightlist
+  \item
+    oder zu ruinieren
+  \end{itemize}
+\item
+  KI Chatbots im Schulumfeld sind Realität
+
+  \begin{itemize}
+  \tightlist
+  \item
+    und werden heute (falsch?) genutzt
+  \end{itemize}
+\item
+  KI bewusste Pädagogik
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ist der Schlüssel
+  \end{itemize}
+\item
+  KI Lernsysteme können dabei
+
+  \begin{itemize}
+  \tightlist
+  \item
+    die nötige Unterstützung bieten
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{images/explorer_education1.webp}
+
+}
+
+\caption{DALL·E 3: Education as Exploration}
+
+\end{figure}%
+
+\subsection{\_}\label{please_vote_id}
+
+\emph{-} Danke für die Aufmerksamkeit \emph{-}
+\href{https://wolfgangspahn.github.io/intro-IS2-KI-research.github.io}{\textgreater/}
+
+\subsection{Dialoganalyse}\label{dialoganalyse}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dialog A: High score}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    AI: Let's solve this. Please read it
+  \item
+    Student: I have read it
+  \item
+    \ldots..
+  \item
+    Student: we get x
+  \item
+    AI: {So we bring everything with x on one side}
+  \item
+    Student: {8x = 10}
+  \item
+    AI: great you have done it, and now
+  \item
+    Student: I need to get x
+  \item
+    AI: {yes now you need to have just x on one side}
+  \item
+    Student: {x = 10/8}
+  \item
+    AI: nearly done
+  \item
+    Student: what do you mean
+  \item
+    AI: {you can simplify further}
+  \item
+    Student: {x = 5/4}
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dialog B: Low score}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    AI: Let's solve this. Please read it
+  \item
+    Student: I have read it
+  \item
+    AI: how would you solve this
+  \item
+    Student: {we need to isolate x to one side}
+  \item
+    AI: Good, just do it
+  \item
+    Student: {8x = 10}
+  \item
+    AI: And now
+  \item
+    Student: {x = 10/8 = 5/4}
+  \end{itemize}
+\item
+  \textbf{Fragen}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    How much is the contribution of the student and AI in A and in B.
+  \item
+    What concepts are still not understood by the student in A
+  \item
+    What strategy towards solution does AI and student use in A and B
+  \end{itemize}
+\end{itemize}
+
+\subsection{Qualitätskontrolle}\label{qualituxe4tskontrolle}
+
+Da wir mit `open ended' Fragen arbeiten, ist die Qualitätskontrolle
+schwierig.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Verwende die Vorteile von klassischer KI}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Konvertiere die Aufgabenstellung in ein computerverständliches
+    Format
+  \item
+    nutzte symbolische KI Methoden zur Verifikation
+  \end{itemize}
+\item
+  \textbf{Ansätze}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Computer Algebra Systeme für Mathematik, Physik, Chemie
+  \item
+    Knowledge Graphen für nicht mathematische Inhalte: Bio, Geschichte
+    \ldots{} (?)
+  \item
+    Expertensysteme und Logik für Schlussfolgerungen (?)
+  \end{itemize}
+\end{itemize}
+
+\includegraphics[width=1\textwidth,height=\textheight]{images/computer_algebra.webp}
+
+
+
+
+\end{document}

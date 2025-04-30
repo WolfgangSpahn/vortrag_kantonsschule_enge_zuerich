@@ -1,0 +1,718 @@
+---
+title: "KI in der Bildung"
+subtitle: |
+  Was bedeutet KI für uns und für die Bildung?
+  <br><br>
+  *Wolfgang Spahn*
+  <br><br>
+  05.05.2025
+  <br>
+  <br>
+  ![](images/phbern-cover.jpg){width="70%"}
+
+format: 
+  revealjs: 
+    config:
+      touch: false
+    controls: true
+    smaller: true
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/Logo_PH_Bern.webp
+    footer: Dr. Wolfgang Spahn
+    css: [styles.css, custom-styles.css]  # Include your custom CSS file here
+    include-in-header: includes.html
+resources:
+  - interaktive.pdf
+---
+
+## Agenda
+
+- Was ist künstliche Intelligenz in 2025? (5min)
+  - Definition, Kognition, Roboter
+- Wie funktionieren diese KI Systeme? (30min)
+  - Mustererkennung(A), Trainingsarten, Verstehen von Worten/Sätzen
+  - KI ist mehr als Imitation
+  - GPT ins "Gehirn" geschaut(A)
+- KI verändert geistiges Arbeiten (10 min)
+  - KI/Mensch Zusammenarbeit
+  - ICT Arbeitsmarkt
+  - körperliche Arbeit als Model der zu erwartenden Transformation für geistige Arbeit?
+- KI im Schulumfeld (45min)
+  - Chatbots in der Bildung
+  - KI bewusste Pädagogik
+  - AIDu - pädagogische KI-Lernbegleiter
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+Was ist künstliche Intelligenz in 2025?
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI - Intelligenz?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Viele Definitionen für Intelligenz
+
+- **Intelligenz (ganzheitlich)** ist die Hauptfunktion des menschlichen Gehirns, um kognitive Funktionen bereitzustellen, die einem Lebewesen das Überleben in einer feindlichen Umgebung ermöglichen. 
+- **Intelligenz (kommerziell)** wird benötigt, um Aufgaben zu erledigen, die von geistigen Arbeitern ausgeführt werden. 
+- 1000 andere: …
+
+**Künstliche Intelligenz**
+
+- eine Software kann bis zu einem gewissen Grad geistige Arbeit leisten.
+:::
+::: {.column width="50%"}
+Analogie
+
+![Ein künstliches Herz ersetzt ein menschliches Herz. Ja/Nein](images/artificialHeart.webp)
+
+:::
+::::
+::: {.notes}
+- Daher spreche ich lieber von cognitive Aufgaben.
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Kognition - 2025
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Text**
+![](images/ChatGPT.webp){width="70%" style="border: 1px solid lightgray;"}
+
+**Video**
+![](images/ai_dino1.gif){width="70%"}
+
+
+:::
+::: {.column width="50%"}
+
+**Bild**
+![](images/smart-city-computer-vision-yolov7-deep-learning.webp){width="80%"}
+
+**Sound**
+![](images/sound.webp){width="70%"}
+
+:::
+::::
+
+::: {.notes}
+- Forschung deckt ziemlich alle kognitiven Bereiche ab.
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Humanoide Roboter 2025
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/robots at assembly line.webp){width="80%" }
+![](images/robot gets tomato.webp){width="80%"}
+:::
+::: {.column width="50%"}
+![](images/robots in warehouse1.webp){width="80%" }
+![](images/robot is cooking.webp){width="80%" }
+:::
+![](images/robot hand.gif){.absolute top="30%" left="25%" width="30%" }
+::::
+
+::: {.notes}
+- Diese Roboter werden in Pilotprojekten eingesetzt. Keine Laborübungen.
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+Wie funktionieren diese KI Systeme?
+:::
+
+<!-- --------------------------------------------------- slide A8 ----------------------------------------------------- -->
+## Mustererkennung (A)
+
+<div type="mustererkennung" id="svg-mustererkennung"></div>
+
+<!-- --------------------------------------------------- slide A9 ----------------------------------------------------- -->
+## Trainingsarten
+
+:::: {.columns}
+::: {.column width="50%"}
+**Überwachtes Lernen**
+
+Menschliche Experten klassifizieren/markieren die Daten. Aufgrund dieser Daten wird das Modell trainiert. Aufwendig und teuer.
+
+![](images/GettyImages-898172160-scaled.webp){width="80%" }
+:::
+::: {.column width="50%"}
+**Unüberwachtes Lernen**
+Das Modell lernt aus den Daten ohne menschliche Eingriffe. Rekonstruiert verrauschte Daten. [source](https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/)
+
+![](images/Generation-with-Diffusion-Models.webp){width="90%" }
+
+Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
+:::
+::::
+
+<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
+## Wie versteht KI Worte?
+
+- Ein Wort/Token entspricht einem Zahlen Vektor
+- Wort Beziehungen entsprechen Vektor Beziehungen 
+
+![](images/word embedding.webp){width="80%" }
+
+[OpenAI Tokenizer](https://platform.openai.com/tokenizer)
+
+<!-- --------------------------------------------------- slide A11 ----------------------------------------------------- -->
+## Mehrdeutigkeit @!?
+:::: {.columns}
+::: {.column width="50%"}
+**Ein Wort, zwei Bedeutungen**
+
+- Ein Wort hat zunächst nur eine Bedeutung (embedding). 
+- Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.
+
+<br>
+
+![Beispiel: bank (Geldinstitut), bank (Ufer)](images/meaning of bank.png){width="95%" .gray-border}
+
+:::
+::: {.column width="50%"}
+
+**Das Wort im Kontext**
+
+- Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)
+- Daraus lernt es das wahrscheinlichste Wort vorherzusagen.
+
+![Beispiel: river, bank](images/context of bank.png){width="95%" .gray-border}
+
+:::
+::::
+
+<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
+## Wie versteht KI Sätze? 1/2
+
+- Ein Satz entspricht einem Zahlen Vektor
+- Satz Beziehungen entsprechen Vektor Beziehungen
+
+![](images/Attention Matrix.webp){width="80%" }
+
+<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
+## Wie versteht KI Sätze? 2/2
+
+:::: {.columns}
+::: {.column width="50%"}
+Indizien für Verstehen:
+
+- Vektorrepräsentationen von Sätzen
+  - Kann genutzt werden Informationen zu extrahieren
+  - **Nicht perfekt:** Probleme mit Verneinung
+- Eine speziell trainierte KI kann:
+  - Zahlenvektoren in Sätze zurückverwandeln
+  - Kombinationen von Vektoren erzeugen sinngemässe Sätze
+
+:::
+::: {.column width="50%"}
+  <video class="glue-ambient-video__container" playsinline="" muted="true" loop="true">
+                  <source src="images/vec2text_demo.mp4" type="video/mp4">
+                  no video support
+  </video>
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Versteht KI auch abstrakte Konzepte?
+
+Mittels Sparse Autoencoder (ein weiteres neuronales Netz) können innerhalb eines GPTs abstrakte Konzepte lokalisiert und manipuliert werden.
+
+
+
+![**Beispiel**: Anwesenheit eines Konzepts in einem Text markiert mit rot.](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/ed11fc0fba655a120823b8272377554bc57529da08537d3dee559096d35997fb/jihvovtrwche957zc6aq){width="80%"}
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI ist mehr als Imitation
+
+![Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen](images/LLMEmergentCapabilites.gif){width="80%" }
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## GPT ins "Gehirn" geschaut (A)
+
+:::: {.columns}
+::: {.column width="40%" .small}
+<br>
+
+- Vektorarithmetik = geistige Arbeit
+  - **Input Sequenz** von Worten(Token) erzeugt ein **Output Wort**.
+  - **Worte** werden in **Vektoren** (768d) umgewandelt.
+  - Über **12 Vektorgenerationen** wird Bedeutung akkumuliert,
+  - **"Verrechnung" der Vektoren** erzeugt neue Bedeutung, Schluesse und Entscheidungen.
+  - **7 x 17 Vector Maschinen** erfassen die Bedeutung des Textes und erzeugen das nächste Wort.
+:::
+::: {.column width="60%"}
+![](images/GPT.png){width="110%" }
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Beispiel: Wie addiert ein LLM Zahlen?
+
+
+![](images/LLMMathThoughts.webp)
+
+![](images/LLMMathThoughts1.webp){ .absolute top=100 left=700 width="30%" style="border: 1px solid lightgray;" .fragment }
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Wie können KIs "denken"? 
+
+LLMs „denken“ nicht wie Menschen, sondern sie **verdichten** Informationen.
+
+**Cognitive Fähigkeiten als Nebenprodukt des Trainings**:
+
+  - Neue cognitive Fähigkeiten entstehen unvorhersehbar mit zunehmender Größe des Modells
+  - Auf vielen Gebieten erreichen LLMs menschliches Niveau
+  
+**Verdichtung führt zu "echten" kognitiven Fähigkeiten**:
+
+  - Stelle sehr großer Sprachmengen mit möglichst wenigen Parametern dar
+  - Verhindere einfaches Merken, fördere Generalisieren
+
+**Auswirkungen**
+
+  - **Neuronale Netze müssen nach Strukturen, Mustern, Abstraktionen und Verallgemeinerungen suchen**
+  - **Je besser diese Komprimierung je grösser das Model, desto „intelligenter“ agieren die LLMs**
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## How many Rs?
+
+KIs sind schlau und doof zugleich
+
+![](images/HowManyRs_d.webp)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Google Research
+
+<video class="glue-ambient-video__container" playsinline="" muted="true" loop="true" style="width: 80%;">
+                <source src="https://storage.googleapis.com/gweb-research2023-media/media/PITOM1_Comprehension.mp4" type="video/mp4">
+</video>
+
+
+:::{.centered-content}
+*This study shows that neural activity in the* ***human brain aligns linearly*** *with the internal contextual embeddings of speech and language within* ***large language models (LLMs)*** *as they process everyday conversations.*
+:::
+:::{.small}
+Nature Human Behaviour - 2025/03/07 - Goldstone, A., et al. - A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+KI verändert geistiges Arbeiten
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Erste Untersuchungen über KI/Mensch Zusammenarbeit
+
+:::: {.columns}
+::: {.column width="50%"}
+
+758 consultants
+
+![](images/havardBusinessSchool.webp){width="50%" class="image-border"}
+
+:::
+::: {.column width="50%"}
+
+4867 software developers
+
+![](images/High skilled work AI.webp){width="50%" class="image-border"}
+
+:::
+::::
+
+sehen 25-40% Zunahme der Produktivität: skales with detached (-), delegating (+) or immersive usage (++)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI in der Forschung
+
+:::{.small}
+Ein Team von Wissenschaftlern hat eine **chemische KI** entwickelt, die in der Lage ist, **Moleküle zu entwerfen**, die auf dem Mars Sauerstoff produzieren könnten. 
+Dazu hat sie Marsproben analysiert und zerlegt, mehr als **3,7 Millionen mögliche Moleküle** für die Spaltung von Wasser und die Bildung von Sauerstoff auf dem Roten Planeten **identifiziert** und die **234 besten Kandidaten durch Synthese charakterisiert**. Dies würde etwa **2.000 Jahre menschlicher Arbeit** erfordern, schreiben die Autoren der Studie.
+:::
+
+:::{.centered-content}
+<iframe width="730" height="410" src="https://www.youtube.com/embed/KsBveF-PwAY" title="Research Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+
+:::{.small}
+University of Science and Technology of China
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## ICT Arbeitsmarkt
+
+
+:::: {.columns}
+::: {.column width="60%"}
+**Nicole Helmer**, Vice President & Global Head of Development Learning bei **SAP**
+
+*Neben dem unbestreitbaren Bedarf an einer verantwortungsvollen KI-Entwicklung und einer breiten KI-Kompetenz in sämtlichen IT-Berufen müssen* ***alle Mitarbeitenden*** ihre übergeordneten Fähigkeiten wie ***kritisches Denken, Kreativität und komplexes Problemlösen verbessern.***
+:::
+::: {.column width="40%" .small}
+<br>
+![](images/ICT Job impact.png){width="80%"}
+
+:::
+::::
+
+:::{.small}
+ *Study: "The Transformational Opportunity of AI on ICT Jobs": Accenture,* ***Cisco***, *Eightfold, Google, IBM, Indeed, Intel, Microsoft and SAP.*
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Freelancer Market 
+
+:::: {.columns}
+::: {.column width="65%"}
+<br>
+
+**Harvard Business Review**: Research: How Gen AI Is Already Impacting the Labor Markets
+
+ After the introduction of ChatGPT, there was a 21% decrease in the weekly number of posts in automation-prone jobs compared to manual-intensive jobs. **Writing jobs were affected the most** (30.37% decrease), followed by software, app, and web development (20.62%) and engineering (10.42%).
+:::
+::: {.column width="35%"}
+![](images/ZHU_AI_AUTOMATION_JOBS.png){width="80%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## körperliche Arbeit
+
+:::: {.columns}
+::: {.column width="50%"}
+**1900**
+
+![](images/1900_landwirtschaf_1.webp){width="75%"}
+
+:::
+::: {.column width="50%"}
+**2024**
+
+![](images/claas mähdrescher.webp){width="100%"}
+
+:::
+::::
+
+als Model der zu erwartenden Transformation für geistige Arbeit?
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+KI im Schulumfeld
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Chatbots in der Bildung
+
+:::: {.columns}
+::: {.column width="70%"}
+![](images/2847_cartoon_back_to_school_1.webp){width="100%"}
+[Source](https://www.prpeak.com/opinion/cartoon-homework-assignments-7489368)
+:::
+::: {.column width="30%" }
+
+![](images/bidt-logo-500x79.png){width="80%"}
+
+:::{.small}
+*"... unter den untersuchten Schülerinnen und Schülern 73 % [haben] 73 % bereits generative KI für die Text- und/oder Bildgenerierung genutzt."*
+
+[BIDT: März 2024](https://www.bidt.digital/publikation/verbreitung-und-akzeptanz-generativer-ki-an-schulen-und-hochschulen/)
+
+![](images/VALS-ASLA.png){width="10%"}
+
+"*.... Auch* ***konkrete Unterrichtskonzepte und -materialien*** *für die Thematisierung der Toolnutzung 
+sind gefragt. Die Ergebnisse dieser* **Studie [über Deepl/LEO Nutzung]** *legen nahe, dass es sinnvoll wäre, 
+die Lernenden dieser Stufe im kritischen Umgang mit Übersetzungstools zu 
+schulen, um sie gewinnbringender und lernförderlicher in der fremdsprachigen 
+Kommunikation einzusetzen.*"
+
+[Bulletin Suisse de Linguistique Appliquee](https://www.researchgate.net/publication/359400026_Digitale_Ubersetzungstools_im_Fremdsprachenunterricht_der_Sekundarstufe_I_Nutzung_von_DeepL_und_LEO_aus_der_Sicht_von_Lernenden_am_Beispiel_einer_Schreibaufgabe)
+
+:::
+
+:::
+::::
+
+<!-- @article{article,
+author = {Perrin, Raphaël and Wild, Sandrine and Ferris Diederich, Catherine and Grimm, Linda},
+year = {2021},
+month = {12},
+pages = {113-129},
+title = {Digitale Übersetzungstools im Fremdsprachenunterricht der Sekundarstufe I: Nutzung von DeepL und LEO aus der Sicht von Lernenden am Beispiel einer Schreibaufgabe},
+journal = {Bulletin Suisse de Linguistique Appliquee}
+} -->
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI Bots im Schulumfeld
+
+:::: {.columns}
+::: {.column width="50%"}
+Vergleichsstudie an 1000 Lernenden: 
+
+Prüfungsvorbereitung mit und ohne KI Chatbots
+
+- Unterschiedliche Hausaufgaben zur Mathe Prüfungsvorbereitung
+  - Gruppe 1: Basis - traditionell
+  - Gruppe 2: +48% - ChatGPT
+  - Gruppe 3: +127% - einfacher sokratischer GPT-Tutor (nicht adaptiv)
+- Prüfung über den Lernstoff
+  - **ChatGPT Gruppen sind schlechter** als die traditionelle Gruppe
+  - GTP-Tutor Gruppe erzielt gleiche Ergebnisse wie die traditionelle Gruppe
+
+:::
+::: {.column width="50%"}
+![](images/AI harm learning.webp){width="70%"  class="image-border"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Sprach-KI ist etabliert
+
+:::: {.columns}
+::: {.column width="60%"}
+
+OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:
+
+![](images/igem_digimonitor_w960_h620.jpg){width="100%" }
+:::
+::: {.column width="40%" .fragment}
+
+:::{.small}
+<br><br>
+*DALL·E 3*: Social Media Rabbit Hole an AI Application
+:::
+
+![](images/social_media_rabbit_hole.webp){width="87%" class="image-border"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI Nutzung
+
+Mit KI können wir auf sehr unterschiedliche Weise umgehen. 
+
+:::: {.columns}
+::: {.column width="60%"}
+
+Lernende können:
+
+- **Sich Bilden**: Sie <green> erzeugen auf Augenhöhe</green> zusammen mit KI neue Inhalte und Ideen und bauen so **Kompetenzen** auf
+- **Optimieren**: Sie <blue> automatisieren</blue> den Umgang mit Information/Wissen mithilfe von KI
+- **Reproduzieren**: Sie <red>übernehmen KI</red> generierte Inhalte ohne dass sie diese verstehen oder hinterfragen
+:::
+::: {.column width="40%"}
+![](images/KINutzen.svg){width="100%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI bewusste Pädagogik
+
+:::: {.columns}
+::: {.column width="70%"}
+**Es braucht Methodik um die Vorteile von KI pädagogisch zu nutzen. KI: **
+
+- bringt Kapazität für <span class="blue">**individuelle Förderung**</span>
+- ermöglicht Schöpfungstiefe durch <span class="blue">**komplexere Aufgabenstellungen**</span>
+- fördert Durchdringung durch direkten <span class="blue">**Start an der Kompetenzgrenze**</span>
+- zielt auf tiefes Wissen durch <span class="blue">**Vernetzung von Wissen und Kompetenzen**</span>
+- motiviert durch lebensnahes, <span class="blue">**exploratives Lernen**</span> von komplexen Zusammenhängen
+:::
+::: {.column width="30%"}
+![DALL·E 3: Education as Exploration](images/explorer_education1.webp){width="100%"}
+:::
+::::
+
+**Das bedeutet eine enge Lernbegleitung durch Lehrpersonen und Tools**
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Ansprüche 21 Jahrhundert
+
+**Der Kompetenzbegriff nach Weinert**
+
+:::{.centered-content .text-lg}
+Kompetenzen bezeichnen „*die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte* ***Probleme zu lösen***, *sowie die damit verbundenen ...* ***Bereitschaften***, *damit die Problemlösungen in* **variablen Situationen** *erfolgreich und verantwortungsvoll genutzt werden können.*“
+:::
+
+<br>
+
+:::{.small}
+Quelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001
+:::
+
+<!--
+
+**Moderne Pädagogik strebt nach**:
+
+  - nachhaltiges, transferfähiges Können
+  - Verfügbarkeit in komplexen, authentischen Situationen 
+  - Fähigkeit zur Anwendung über die Zeit hinweg 
+
+***KI sollte fördern durch*** *motivierende* ***Lerndialoge*** *wo Lernende* ***akkumulierte Kompetenzen*** *erwerben deren Verankerung sie in* ***simulierten aber authentischen Erfahrungsräumen/Lernsituationen*** *mit ganzheitlichen Anforderungen überprüfen und vertiefen*
+-->
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Welche KI Lernsituationen?
+
+Eine individuelle KI unterstütze Lernsituation kreiert intrinsische Motivation bei den Lernenden, Kompetenzen aufzubauen und zu erproben, und nicht diese zu simulieren.
+
+![AFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional](images/Flightdeck-1-Flugstunde-Airbus-A320.jpg)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Kurvendiskussion mit KI
+
+
+**Workshop mit 9. Klässlern**
+
+Aufgabe nach kurzer Einführung in prompt engineering:
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Prompt:** Bitte gib mir den Matplotlib code um die function y = x³-3x²-9x+27 zu zeichnen. Verwende das Canvas.
+
+- Und nun beginne einen Dialog über Nullstellen, Extrema, Wendepunkte, ... .
+- Frage die KI nach was die obigen Begriffe bedeuten.
+
+:::
+::: {.column width="50%"}
+
+![](images/Kurvendiskussion1.png){width="80%"}
+
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Wir zeichnen ein Comic
+
+**Workshop mit 11. und 12. Klässlern**
+
+Nach einer kurzen Einführung in Prompting fürs Comiczeichnen:
+
+:::: {.columns}
+::: {.column width="50%"}
+Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+
+- **Storyline**: Die Geschichte in einem Satz.
+- **Storyboard**: Wie sieht die Geschichte aus? 
+- **Bildbeschreibung**: Was ist auf den einzelnen Bildern zu sehen? Was passiert wenn Du Details weglässt?
+- **Dialoge**: Was sagen die Figuren?
+- **Zeichnungen**: Zeichne die Bilder.
+- **Zusammenfügen**: In einem Graphikprogramm: füge die Bilder und Dialoge zusammen.
+
+:::
+::: {.column width="50%"}
+![Was kann man hier besser machen?](images/comic.webp){width="70%"}
+:::
+::::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Welche KI Dialogführung?
+
+**AIDu - pädagogische KI-Lernbegleitung**
+
+Erste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik
+
+![](images/AIdu.webp){width="90%"}
+![](images/AIDu Welcome.webp){width="40%" .absolute top=370 left=300 style="border: 1px solid gray;"}
+![](images/AIDu Isaac.webp){width="40%" .absolute top=360 left=500 style="border: 1px solid gray;"}
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## AIDu - Demo
+
+Demonstration von AIDu Lernsituationen:
+
+- Allgemeines Assessment von Lernenden
+- Exploratives Lernen
+  - Mathematik - Vektorrechnung ohne Vorkenntnisse
+  - Physik - Streuung von Licht an Grenzflächen untersuchen ohne Vorkenntnisse
+  - Französisch - Ein Schulkollegen in einem Pariser Café treffen mit sehr wenig Vorkenntnissen
+
+[Link](https://sebayt.ch/aidu/)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Zusammenfassung
+
+:::: {.columns}
+::: {.column width="50%"}
+- KI hat das Potential die Bildung zu revolutionieren 
+  - oder zu ruinieren
+- KI Chatbots im Schulumfeld sind Realität 
+  - und werden heute (falsch?) genutzt
+- KI bewusste Pädagogik
+  - ist aus unserer Sicht notwendig
+- KI Lernsysteme können dabei 
+  - die nötigen Resourcen bieten
+:::
+::: {.column width="50%"}
+![DALL·E 3: Education as Exploration](images/explorer_education1.webp){width="80%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## _ {#please_vote_id}
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+ _-_ Danke für die Aufmerksamkeit _-_
+ <br>
+[>/](https://wolfgangspahn.github.io/intro-IS2-KI-research.github.io)
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Was ist das Problem?
+
+:::: {.columns}
+::: {.column width="70%"}
+**KI im Schulumfeld ist per se nicht förderlich**
+
+- KI Technologie <span class="red">**reduziert Durchdringung**</span>
+  - verleitet zu <span class="red">**Kompetenzsimulation**</span>
+  - <span class="red">**reduziert die Notwendigkeit von Wissen**</span> durch schnelle Verfügbarkeit von Information
+- <span class="red">**Miss- und Fehlinformation**</span> sind leichter verfüg-/erzeugbar
+- ChatBots verführen zu <span class="red">**Plagiat und Betrug**</span>
+- Führt zur <span class="red">**fehlerhaften Selbsteinschätzung**</span> der eigenen Kompetenz
+
+Aber KI ist Realität. Daher ist **Wegschauen ist keine Lösung**!
+
+:::
+::: {.column width="30%"}
+![DALL·E 3: Consumer Education](images/consumer_education1.webp){width="100%"}
+:::
+::::
