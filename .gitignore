@@ -11,7 +11,7 @@ Thumbs.db
 
 # Ignore output files
 /atelier/
-/docs/
+# /docs/
 /index_files/
 /simulations/.venv/
 

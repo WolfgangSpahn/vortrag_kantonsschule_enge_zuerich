@@ -1,0 +1,1010 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#agenda",
+    "href": "index.html#agenda",
+    "title": "KI in der Bildung",
+    "section": "Agenda",
+    "text": "Agenda\n\nWas ist künstliche Intelligenz in 2025? (5min)\n\nDefinition, Kognition, Roboter\n\nWie funktionieren diese KI Systeme? (30min)\n\nMustererkennung(A), Trainingsarten, Verstehen von Worten/Sätzen\nKI ist mehr als Imitation\nGPT ins “Gehirn” geschaut(A)\n\nKI verändert geistiges Arbeiten (10 min)\n\nKI/Mensch Zusammenarbeit\nICT Arbeitsmarkt\nkörperliche Arbeit als Model der zu erwartenden Transformation für geistige Arbeit?\n\nKI im Schulumfeld (45min)\n\nChatbots in der Bildung\nKI bewusste Pädagogik\nAIDu - pädagogische KI-Lernbegleiter"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "KI in der Bildung",
+    "section": "_",
+    "text": "_\n\n\nWas ist künstliche Intelligenz in 2025?"
+  },
+  {
+    "objectID": "index.html#erste-untersuchungen-über-kimensch-zusammenarbeit",
+    "href": "index.html#erste-untersuchungen-über-kimensch-zusammenarbeit",
+    "title": "KI in der Bildung",
+    "section": "Erste Untersuchungen über KI/Mensch Zusammenarbeit",
+    "text": "Erste Untersuchungen über KI/Mensch Zusammenarbeit\n\n\n758 consultants\n\n\n4867 software developers\n\n\nsehen 25-40% Zunahme der Produktivität: skales with detached (-), delegating (+) or immersive usage (++)"
+  },
+  {
+    "objectID": "index.html#körperliche-arbeit",
+    "href": "index.html#körperliche-arbeit",
+    "title": "KI in der Bildung",
+    "section": "körperliche Arbeit",
+    "text": "körperliche Arbeit\n\n\n1900\n\n\n2024\n\n\nals Model der zu erwartenden Transformation für geistige Arbeit?"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "KI in der Bildung",
+    "section": "_",
+    "text": "_\n\n\nWie funktionieren diese KI Systeme?"
+  },
+  {
+    "objectID": "index.html#chatbots-in-der-bildung",
+    "href": "index.html#chatbots-in-der-bildung",
+    "title": "KI in der Bildung",
+    "section": "Chatbots in der Bildung",
+    "text": "Chatbots in der Bildung\n\n\n Source\n\n\n\n“… unter den untersuchten Schülerinnen und Schülern 73 % [haben] 73 % bereits generative KI für die Text- und/oder Bildgenerierung genutzt.”\nBIDT: März 2024\n\n“…. Auch konkrete Unterrichtskonzepte und -materialien für die Thematisierung der Toolnutzung sind gefragt. Die Ergebnisse dieser Studie [über Deepl/LEO Nutzung] legen nahe, dass es sinnvoll wäre, die Lernenden dieser Stufe im kritischen Umgang mit Übersetzungstools zu schulen, um sie gewinnbringender und lernförderlicher in der fremdsprachigen Kommunikation einzusetzen.”\nBulletin Suisse de Linguistique Appliquee"
+  },
+  {
+    "objectID": "index.html#nzz-2024",
+    "href": "index.html#nzz-2024",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "NZZ 2024",
+    "text": "NZZ 2024\nEin Zürcher Maturand sagt [Bestnote Deutsch!]: «Ich habe keines meiner Bücher gelesen. Das hat alles die KI für mich gemacht»"
+  },
+  {
+    "objectID": "index.html#ki-bots-im-schulumfeld",
+    "href": "index.html#ki-bots-im-schulumfeld",
+    "title": "KI in der Bildung",
+    "section": "KI Bots im Schulumfeld",
+    "text": "KI Bots im Schulumfeld\n\n\nVergleichsstudie an 1000 Lernenden:\nPrüfungsvorbereitung mit und ohne KI Chatbots\n\nUnterschiedliche Hausaufgaben zur Mathe Prüfungsvorbereitung\n\nGruppe 1: Basis - traditionell\nGruppe 2: +48% - ChatGPT\nGruppe 3: +127% - einfacher sokratischer GPT-Tutor (nicht adaptiv)\n\nPrüfung über den Lernstoff\n\nChatGPT Gruppen sind schlechter als die traditionelle Gruppe\nGTP-Tutor Gruppe erzielt gleiche Ergebnisse wie die traditionelle Gruppe"
+  },
+  {
+    "objectID": "index.html#ki-bots-im-schulumfeld-1",
+    "href": "index.html#ki-bots-im-schulumfeld-1",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI Bots im Schulumfeld",
+    "text": "KI Bots im Schulumfeld\n\n\nVerbreitung und Akzeptanz generativer KI an Schulen und Hochschulen (Bayern)\n\nErgebnisse (Zusammenfassung &gt;/)\n\n… haben unter den untersuchten Schülerinnen und Schülern 73 %, unter den betrachteten Studierenden 78 % bereits generative KI für die Text- und/oder Bildgenerierung genutzt.\n…, dass generative KI ihnen dabei geholfen hat, bessere Noten zu erhalten, ohne dafür eine angemessene Leistung erbracht zu haben, stimmen 42 % der entsprechenden Schülerinnen und Schüler und 45 % der entsprechenden Studierenden eher oder voll und ganz zu.\nDie Zufriedenheit mit der Nutzung textbasierter generativer KI in Schule oder Studium ist hoch. Nur eine Minderheit der untersuchten Nutzerinnen und Nutzer berichtet das Gegenteil.\n…, Herausforderung besteht in einer adäquaten Leistungsbewertung von Lernenden in Zeiten generativer KI, … . Darum sollte dem Wunsch vieler Befragten Rechnung getragen werden und Prüfungsformate an Schulen und Hochschulen angepasst werden."
+  },
+  {
+    "objectID": "index.html#was-ist-das-problem",
+    "href": "index.html#was-ist-das-problem",
+    "title": "KI in der Bildung",
+    "section": "Was ist das Problem?",
+    "text": "Was ist das Problem?\n\n\nKI im Schulumfeld ist per se nicht förderlich\n\nKI Technologie reduziert Durchdringung\n\nverleitet zu Kompetenzsimulation\nreduziert die Notwendigkeit von Wissen durch schnelle Verfügbarkeit von Information\n\nMiss- und Fehlinformation sind leichter verfüg-/erzeugbar\nChatBots verführen zu Plagiat und Betrug\nFührt zur fehlerhaften Selbsteinschätzung der eigenen Kompetenz\n\nAber KI ist Realität. Daher ist Wegschauen ist keine Lösung!\n\n\n\n\nDALL·E 3: Consumer Education\n\n\n\n\n\n\n\nDr. Wolfgang Spahn"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik",
+    "href": "index.html#ki-bewusste-pädagogik",
+    "title": "KI in der Bildung",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\n\n\nEs braucht Methodik um die Vorteile von KI pädagogisch zu nutzen. KI: \n\nbringt Kapazität für individuelle Förderung\nermöglicht Schöpfungstiefe durch komplexere Aufgabenstellungen\nfördert Durchdringung durch direkten Start an der Kompetenzgrenze\nzielt auf tiefes Wissen durch Vernetzung von Wissen und Kompetenzen\nmotiviert durch lebensnahes, exploratives Lernen von komplexen Zusammenhängen\n\n\n\n\n\nDALL·E 3: Education as Exploration\n\n\n\nDas bedeutet eine enge Lernbegleitung durch Lehrpersonen und Tools"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-1",
+    "href": "index.html#ki-bewusste-pädagogik-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\n\n\n\nLernende\n\nentwickelt Motivation hin zu verankertem Wissen\nerlernt Sprach- und Dialogkompetenz um auf Augenhöhe mit KI zu kommunizieren\narbeitet mit KI offen und selbstwirksam\norchestriert KI Sitzungen um ein gewünschtes Projektziel zu erreichen\nerwirbt vor allem Basalwissen, das effektiven KI gestützten Einstieg in eine neue Domäne ermöglicht\n\nLehrende\n\nbegeht mit den Lernenden individuelle Lernwege\nermöglicht den Lernenden echte Kompetenzerfahrungen\nsteigert Sprach/Dialogkompetenz der Lernenden\nlehrt Umgang mit Wissensüberfluss\nhat dafür Rüstzeug\n\n\n\n\n\n\nDALL·E 3: Seilschaft\n\n\n\nWie reduzieren auf Basalwissen? Welches Rüstzeug?"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "KI in der Bildung",
+    "section": "_",
+    "text": "_\n\n\nKI verändert geistiges Arbeiten"
+  },
+  {
+    "objectID": "index.html#aidu-its-forschung",
+    "href": "index.html#aidu-its-forschung",
+    "title": "KI Lernsysteme IS2",
+    "section": "AIDu: ITS Forschung",
+    "text": "AIDu: ITS Forschung"
+  },
+  {
+    "objectID": "index.html#vision-bildung-2035",
+    "href": "index.html#vision-bildung-2035",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Vision Bildung 2035",
+    "text": "Vision Bildung 2035\n\n\nBildung unterstützt/ermöglicht durch KI durch\n\nDialog as Grundelement\npersonalisierte Ansätze für\n\nindividuelle Entwicklung\neigenes Tempo \n\nLernen in der Gruppe\n\nmit Lehrpersonen als Lernpartner\nmittels einem eigenverantwortlichen Lernprozess\n\n\n\n \n\n  \n\nSources: 1 2 3"
+  },
+  {
+    "objectID": "index.html#zusammenfassung",
+    "href": "index.html#zusammenfassung",
+    "title": "KI in der Bildung",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\n\n\nKI hat das Potential die Bildung zu revolutionieren\n\noder zu ruinieren\n\nKI Chatbots im Schulumfeld sind Realität\n\nund werden heute (falsch?) genutzt\n\nKI bewusste Pädagogik\n\nist aus unserer Sicht notwendig\n\nKI Lernsysteme können dabei\n\ndie nötigen Resourcen bieten\n\n\n\n\n\n\nDALL·E 3: Education as Exploration"
+  },
+  {
+    "objectID": "index.html#please_vote_id",
+    "href": "index.html#please_vote_id",
+    "title": "KI in der Bildung",
+    "section": "_",
+    "text": "_\n\n\n- Danke für die Aufmerksamkeit -  &gt;/"
+  },
+  {
+    "objectID": "index.html#dialoganalyse",
+    "href": "index.html#dialoganalyse",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse",
+    "text": "Dialoganalyse\n\n\n\nDialog A: High score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\n….\nStudent: we get x\nAI: So we bring everything with x on one side\nStudent: 8x = 10\nAI: great you have done it, and now\nStudent: I need to get x\nAI: yes now you need to have just x on one side\nStudent: x = 10/8\nAI: nearly done\nStudent: what do you mean\nAI: you can simplify further\nStudent: x = 5/4\n\n\n\n\nDialog B: Low score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\nAI: how would you solve this\nStudent: we need to isolate x to one side\nAI: Good, just do it\nStudent: 8x = 10\nAI: And now\nStudent: x = 10/8 = 5/4\n\nFragen:\n\nHow much is the contribution of the student and AI in A and in B.\nWhat concepts are still not understood by the student in A\nWhat strategy towards solution does AI and student use in A and B"
+  },
+  {
+    "objectID": "index.html#qualitätskontrolle",
+    "href": "index.html#qualitätskontrolle",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Qualitätskontrolle",
+    "text": "Qualitätskontrolle\n\n\nDa wir mit ‘open ended’ Fragen arbeiten, ist die Qualitätskontrolle schwierig.\n\nVerwende die Vorteile von klassischer KI\n\nKonvertiere die Aufgabenstellung in ein computerverständliches Format\nnutzte symbolische KI Methoden zur Verifikation\n\nAnsätze\n\nComputer Algebra Systeme für Mathematik, Physik, Chemie\nKnowledge Graphen für nicht mathematische Inhalte: Bio, Geschichte … (?)\nExpertensysteme und Logik für Schlussfolgerungen (?)"
+  },
+  {
+    "objectID": "index.html#willkommen-im-atelier",
+    "href": "index.html#willkommen-im-atelier",
+    "title": "KI in der Bildung",
+    "section": "Willkommen im Atelier",
+    "text": "Willkommen im Atelier"
+  },
+  {
+    "objectID": "index.html#was-meint-ihr",
+    "href": "index.html#was-meint-ihr",
+    "title": "KI in der Bildung",
+    "section": "Was meint ihr?",
+    "text": "Was meint ihr?\n\nDas ist ein spannendes Thema für den Nachmittag?"
+  },
+  {
+    "objectID": "index.html#vorbereitungsauftrag-erfahrungsbericht",
+    "href": "index.html#vorbereitungsauftrag-erfahrungsbericht",
+    "title": "KI Lernsysteme IS2",
+    "section": "Vorbereitungsauftrag: Erfahrungsbericht",
+    "text": "Vorbereitungsauftrag: Erfahrungsbericht\n\n\nWie war die KI Übung mit Adorno?"
+  },
+  {
+    "objectID": "index.html#hinweis",
+    "href": "index.html#hinweis",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Hinweis",
+    "text": "Hinweis\n Zum Starten des Ateliers bitte diesen Link verwenden:   https://sebayt.ch    Für Vollbildmodus bitte diesen Button “Fullscreen” klicken oder Taste “F11”.\n\nFullscreen"
+  },
+  {
+    "objectID": "index.html#forschungsfragen",
+    "href": "index.html#forschungsfragen",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen",
+    "text": "Forschungsfragen\n\n\nKI-bewusste Pädagogik - Rüstzeug\n\nLehren/Lernen im Zeitalter von KI\n\nLehrende als Lernpartner für Lernende, die von KI (privat/schulisch) unterstützt sind, wie? [in Arbeit]\nKI gestützte Bewertung von klassischen Leistungsnachweisen, wie? [in Arbeit]\nQualitätskontrolle von KI-generierten Inhalten für klassischen und KI-unterstützten Unterricht [in Arbeit]\nBewertung von Ergebnissen bei KI Chatbot/Schüler*innen Zusammenarbeit [Maturaarbeit]\n\nLehren/Lernen in Zeiten von KI-Tutoring\n\nDialoganalyse und -steuerung einer KI-Tutor-Sitzung während einer Aufgabe - Mikroassessment [in Arbeit]\nAnalyse und Steuerung des Lernfortschritts über mehrere KI Tutor Lernsitzungen hinweg - Makroassessment [Jan]\nÜberprüfung der Wissensverankerung durch KI-Tutoren - Assessment der Nachhaltigkeit\nMessung der Fähigkeit zum Wissenstransfer durch KI Tutoren - Assessment der Transferfähigkeit\n\n\n\nKI bewusste Pädagogik - Basalwissen\n\nAufteilung des Lernstoffs in Basalwissen und vertieftes Wissen [Python Kurs]\n\nProaktiv zu erlernendes Basalwissen - notwendig für den Einstieg in eine neue Domäne, muss tief verankert sein, soll interdisziplinär nutzbar sein, Kriterien?\nReaktiv vertieftes Wissen - notwendig für die Anwendung des Wissens unter Verwendung von KI für ein Projekt, einer spezifischen Aufgabe oder entlang eines individuellen Lernweges, Methodik?\n\nKontrollierte KI automatisierte ganzheitliche Erstellung von Lerninhalten[in Arbeit]\n\nStukturierung und Aufteilung von Themen,\nGenerierung von Aufgabenstellungen\n\ngemäss Blooms Taxonomie,\ngemäss einer “tiefen” Aufgabenstellung\nnach Interessenslage der Lernenden"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-status",
+    "href": "index.html#forschungsfragen-status",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Forschungsfragen [Status]",
+    "text": "Forschungsfragen [Status]\n\n\nKI-bewusste Pädagogik - Rüstzeug\n\nLehren/Lernen im Zeitalter von KI\n\nLehrende als Lernpartner für Lernende, die von KI (privat/schulisch) unterstützt sind, wie? [in Arbeit]\nKI gestützte Bewertung von klassischen Leistungsnachweisen, wie? [in Arbeit]\nQualitätskontrolle von KI-generierten Inhalten für klassischen und KI-unterstützten Unterricht [in Arbeit]\nBewertung von Ergebnissen bei KI Chatbot/Schüler*innen Zusammenarbeit [Maturaarbeit]\n\nLehren/Lernen in Zeiten von KI-Tutoring\n\nDialoganalyse und -steuerung einer KI-Tutor-Sitzung während einer Aufgabe - Mikroassessment [in Arbeit]\nAnalyse und Steuerung des Lernfortschritts über mehrere KI Tutor Lernsitzungen hinweg - Makroassessment [Jan]\nÜberprüfung der Wissensverankerung durch KI-Tutoren - Assessment der Nachhaltigkeit\nMessung der Fähigkeit zum Wissenstransfer durch KI Tutoren - Assessment der Transferfähigkeit\n\n\n\nKI bewusste Pädagogik - Basalwissen\n\nAufteilung des Lernstoffs in Basalwissen und vertieftes Wissen [Python Kurs]\n\nProaktiv zu erlernendes Basalwissen - notwendig für den Einstieg in eine neue Domäne, muss tief verankert sein, soll interdisziplinär nutzbar sein, Kriterien?\nReaktiv vertieftes Wissen - notwendig für die Anwendung des Wissens unter Verwendung von KI für ein Projekt, einer spezifischen Aufgabe oder entlang eines individuellen Lernweges, Methodik?\n\nKontrollierte KI automatisierte ganzheitliche Erstellung von Lerninhalten[in Arbeit]\n\nStukturierung und Aufteilung von Themen,\nGenerierung von Aufgabenstellungen\n\ngemäss Blooms Taxonomie,\ngemäss einer “tiefen” Aufgabenstellung\nnach Interessenslage der Lernenden"
+  },
+  {
+    "objectID": "index.html#forschungsfrage---wie-umgehen-mit-ki-unterstütze-lernende",
+    "href": "index.html#forschungsfrage---wie-umgehen-mit-ki-unterstütze-lernende",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfrage - Wie umgehen mit KI unterstütze Lernende?",
+    "text": "Forschungsfrage - Wie umgehen mit KI unterstütze Lernende?"
+  },
+  {
+    "objectID": "index.html#forschungsfrage---wie-sollkann-ki-die-lehrende-untersützen",
+    "href": "index.html#forschungsfrage---wie-sollkann-ki-die-lehrende-untersützen",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfrage - Wie soll/kann KI die Lehrende untersützen?",
+    "text": "Forschungsfrage - Wie soll/kann KI die Lehrende untersützen?"
+  },
+  {
+    "objectID": "index.html#forschungsfrage---wie-kann-man-eine-kilehrende-zusammenarbeit-gestaltenbwerteten",
+    "href": "index.html#forschungsfrage---wie-kann-man-eine-kilehrende-zusammenarbeit-gestaltenbwerteten",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfrage - Wie kann man eine KI/Lehrende Zusammenarbeit gestalten/bwerteten?",
+    "text": "Forschungsfrage - Wie kann man eine KI/Lehrende Zusammenarbeit gestalten/bwerteten?"
+  },
+  {
+    "objectID": "index.html#ki-unterstütze-lernende",
+    "href": "index.html#ki-unterstütze-lernende",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI unterstütze Lernende",
+    "text": "KI unterstütze Lernende\n\n\nWie sollen Lehrende umgehen mit Lernenden, die von KI sich massiv privat unterstützt lassen?\n\nGoogle Notebook LM: Alle Lerninhalte werden durch KI analysiert, aufbereitet, zusammengefasst und vorgelesen\n\nKI kreiert Blog zum Vorlesen\nKI erzeugt Zusammenfassung\nKI schlägt Lernstrategien vor\nKI simuliert Prüfungsfragen\n\n\n\n\n\nGo beyond: (Apple 2009) There is an APP for that! ↝ digitale Sebstwirksamkeit"
+  },
+  {
+    "objectID": "index.html#ki-unterstüze-lehrende",
+    "href": "index.html#ki-unterstüze-lehrende",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI unterstüze Lehrende",
+    "text": "KI unterstüze Lehrende\n\n\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende\nVon ein Schritt Prompting zu Multischritt Dialoge\nNeue Lehrmethoden, fokus auf Basalwissen\nQualitätskontrollen für KI generierte Inhalte/Korrekturen\n\nInhaltlich gut, fair und richtig\nPädagogisch gut\nReflektiert dass die Lernende die gleiche Antwort bekommen!\n\nCode of Conduct für KI Untersützung für Lehrende"
+  },
+  {
+    "objectID": "index.html#offizielle-kilehrende-zusammenarbeit",
+    "href": "index.html#offizielle-kilehrende-zusammenarbeit",
+    "title": "KI Lernsysteme IS2",
+    "section": "? offizielle KI/Lehrende Zusammenarbeit ?",
+    "text": "? offizielle KI/Lehrende Zusammenarbeit ?\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#dialoganalyse-und--steuerung",
+    "href": "index.html#dialoganalyse-und--steuerung",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse und -steuerung",
+    "text": "Dialoganalyse und -steuerung\nGeneration\n\npro Sprache (de,en) können Aufgabenstellungen generiert werden\n\n8 Fächer\n65 Gebiete\n190 Module\n950 EInheiten\n22800 Aufgabenstellungen (sampled)\n\n\nDialoge erzeugen\n\nes können Dialoge mit unterschiedlichen simulierten Lernenden Verhalten erzeugt werden\n\nEngagement (1-5)\nAnalytical Skills (1-5)\nCOnceptual Skills (1-5)\n\n\nDialoge analysieren\n\nDialoge können analysiert werden nach Tutor/Student pro Statement\n\nBeiträge\nRichtigkeit der Beiträge\nAbdeckung der Aufgabenstellung\n\n\nMetaanalyse\n\nHypothese Auswertung der obigen Daten liefert\n\nHinweise auf die Qualität der Aufgabenstellung\nHinweise auf die Perfomance des Tutorings (KI)\nHinweise auf den Fortschritt des Lernenden"
+  },
+  {
+    "objectID": "index.html#dialoganalyse-1",
+    "href": "index.html#dialoganalyse-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse",
+    "text": "Dialoganalyse\n\n\nDialoge erzeugen\n\nes können Dialoge mit unterschiedlichen simulierten Verhalten (125 Varianten) der Lernenden erzeugt werden\n\nEngagement (1-5)\nAnalytical Skills (1-5)\nConceptual Skills (1-5)\n\n\nDialoge analysieren\n\nDialoge können analysiert werden nach Tutor/Student pro Statement\n\nBeiträge\nRichtigkeit der Beiträge\nAbdeckung der Aufgabenstellung\n\n\n\nMetaanalyse\n\nHypothese Auswertung der obigen Daten liefert\n\nHinweise auf die Qualität der Aufgabenstellung\nHinweise auf die Perfomance des Tutorings (KI)\nHinweise auf den Fortschritt des Lernenden\n\nNext Steps:\n\nBayesian Analysis um die Hypothesen zu testen (mit Andrew)\nPaper über Methodik, Ergebnisse und Datensatz\nVeröffentlichung des Datensatzes auf Huggingface"
+  },
+  {
+    "objectID": "index.html#content-generation",
+    "href": "index.html#content-generation",
+    "title": "KI Lernsysteme IS2",
+    "section": "Content generation",
+    "text": "Content generation\n\n\nGeneration\n\npro Sprache (de,en) können Aufgabenstellungen generiert werden\n\n8 Fächer\n65 Gebiete\n190 Module\n950 EInheiten\n22800 Aufgabenstellungen (sampled)\n\n\nBewertung\n\nBewertung der Richtigkeit der Aufgabenstellung nach\n\nKriterien\nLerndialog über die Aufgabenstellung\n\n\n\n\nNext Steps:\n\nGenerierung von Aufgabenstellungen für alle Fächer\nPaper über Datensatz\nVeröffentlichung des Datensatzes auf Huggingface"
+  },
+  {
+    "objectID": "index.html#forschung-ki-bewusste-pädagogik",
+    "href": "index.html#forschung-ki-bewusste-pädagogik",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschung KI bewusste Pädagogik",
+    "text": "Forschung KI bewusste Pädagogik\nKI unterstütze Lernende\nWie umgehen mit Lernenden, die von KI sich privat unterstützt sind?\n\nGoogle Notebook LM: Alle Lerninhalte werden durch KI analysiert, aufbereitet, zusammengefasst und vorgelesen\n\n\nKI unterstüze Lehrende\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende: Methoden?\nQualitätskontrolle KI generierter Lerninhalte: Methoden?\nCode of Conduct für KI Untersützung: Does/Don’ts?\n\n\nKI/Lehrende Zusammenarbeit\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\nWas ist die Rolle des Lehrkörpers?\nWas ist das Ergebnis?\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-2",
+    "href": "index.html#ki-bewusste-pädagogik-2",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\n\n\nKI unterstütze Lernende\nWie sollen Lehrende umgehen mit Lernenden, die von KI sich massiv privat unterstützt lassen?\n\nGoogle Notebook LM: Alle Lerninhalte werden durch KI analysiert, aufbereitet, zusammengefasst und vorgelesen\n\nKI kreiert Blog zum Vorlesen\nKI erzeugt Zusammenfassung\nKI schlägt Lernstrategien vor\nKI simuliert Prüfungsfragen\n\n\n\n\n\nGo beyond: (Apple 2009) There is an APP for that! ↝ digitale Sebstwirksamkeit"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-12",
+    "href": "index.html#ki-bewusste-pädagogik-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (1/2)",
+    "text": "KI bewusste Pädagogik (1/2)\nKI/Lehrende Zusammenarbeit\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-12-1",
+    "href": "index.html#ki-bewusste-pädagogik-12-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (1/2)",
+    "text": "KI bewusste Pädagogik (1/2)\nKI/Lehrende Zusammenarbeit\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\nWas ist die Rolle des Lehrkörpers?\nWas ist das Ergebnis?\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-13",
+    "href": "index.html#ki-bewusste-pädagogik-13",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (1/3)",
+    "text": "KI bewusste Pädagogik (1/3)\n\n\nKI unterstütze Lernende\nWie sollen Lehrende umgehen mit Lernenden, die von KI sich massiv privat unterstützt lassen?\n\nGoogle Notebook LM: Alle Lerninhalte werden durch KI analysiert, aufbereitet, zusammengefasst und vorgelesen\n\nKI kreiert Blog zum Vorlesen\nKI erzeugt Zusammenfassung\nKI schlägt Lernstrategien vor\nKI simuliert Prüfungsfragen\n\n\n\n\n\nForschungsfrage: Go beyond: There is an APP for that! ↝ digitale Sebstwirksamkeit"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-13-1",
+    "href": "index.html#ki-bewusste-pädagogik-13-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (1/3)",
+    "text": "KI bewusste Pädagogik (1/3)\nKI unterstüze Lehrende\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende\nVon ein Schritt Prompting zu Multischritt Dialoge\nQualitätskontrollen für die KI generierte Inhalte\n\nInhaltlich gut\nPädagogisch gut\nReflektiert das die Lernende die gleichen Fragen stellen können\n\nCode of Conduct für KI Untersützung für Lehrende"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-23",
+    "href": "index.html#ki-bewusste-pädagogik-23",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (2/3)",
+    "text": "KI bewusste Pädagogik (2/3)\nKI unterstüze Lehrende\n\n\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende\nVon ein Schritt Prompting zu Multischritt Dialoge\nNeue Lehrmethoden, fokus auf Basalwissen\nQualitätskontrollen für KI generierte Inhalte/Korrekturen\n\nInhaltlich gut, fair und richtig\nPädagogisch gut\nReflektiert dass die Lernende die gleiche Antwort bekommen!\n\nCode of Conduct für KI Untersützung für Lehrende\n\n\n\n\nForschungsfrage: Basalwissen? Neue Ansätze? Nach welcher Definition/Kriterien?\n\nNext Steps: Pythonkurs: Basalwissen & KI Selbststudium"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-33",
+    "href": "index.html#ki-bewusste-pädagogik-33",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (3/3)",
+    "text": "KI bewusste Pädagogik (3/3)\nKI/Lehrende Zusammenarbeit\n\n\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man das Ergebnis?\n\n\n\n\nForschungsfrage: Welche Pädagogik? Welche Methodik?\n\nNext Steps: Betreuung einer KI Maturarbeit"
+  },
+  {
+    "objectID": "index.html#aidu-its-forschung-12",
+    "href": "index.html#aidu-its-forschung-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "AIDu: ITS Forschung (1/2)",
+    "text": "AIDu: ITS Forschung (1/2)"
+  },
+  {
+    "objectID": "index.html#aidu-its-forschung-22",
+    "href": "index.html#aidu-its-forschung-22",
+    "title": "KI Lernsysteme IS2",
+    "section": "AIDu: ITS Forschung (2/2)",
+    "text": "AIDu: ITS Forschung (2/2)\n\nNext Steps:\n\nPaper über Code, Methodik, Qualitätskontrolle und Verankerung in Kognition und Konstruktivismus\nVeröffentlichung eines KI-Tutor frameworks auf Github\nLehrversuche PHBern mit ESW: Dialoge Praktikumssituation, Fallbeispiele\nLehrversuche Gymnasium: Dialoge über tiefe Aufgabenstellungen, Simulationen"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-kibp",
+    "href": "index.html#ki-bewusste-pädagogik-kibp",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik (KIBP)",
+    "text": "KI bewusste Pädagogik (KIBP)\n\n\nEs braucht Methodik um die Vorteile von KI pädagogisch zu nutzen. KI: \n\nbringt Kapazität für individuelle Förderung\nermöglicht Schöpfungstiefe durch komplexere Aufgabenstellungen\nfördert Durchdringung durch direkten Start an der Kompetenzgrenze\nzielt auf tiefes Wissen durch Vernetzung von Wissen und Kompetenzen\nmotiviert durch lebensnahes, exploratives Lernen von komplexen Zusammenhängen\n\n\n\n\n\nDALL·E 3: Education as Exploration\n\n\n\nDas bedeutet eine enge Lernbegleitung durch Lehrpersonen und Tools"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-kibp-1",
+    "href": "index.html#ki-bewusste-pädagogik-kibp-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik KIBP",
+    "text": "KI bewusste Pädagogik KIBP\n\n\n\nLernende\n\nentwickelt Motivation hin zu verankertem Wissen\nerlernt Sprach- und Dialogkompetenz um auf Augenhöhe mit KI zu kommunizieren\narbeitet mit KI offen und selbstwirksam\norchestriert KI Sitzungen um ein gewünschtes Projektziel zu erreichen\nerwirbt vor allem Basalwissen, das effektiven KI gestützten Einstieg in eine neue Domäne ermöglicht\n\nLehrende\n\nbegeht mit den Lernenden individuelle Lernwege\nermöglicht den Lernenden echte Kompetenzerfahrungen\nsteigert Sprach/Dialogkompetenz der Lernenden\nlehrt Umgang mit Wissensüberfluss\nhat dafür Rüstzeug\n\n\n\n\n\n\nDALL·E 3: Seilschaft\n\n\n\nWie reduzieren auf Basalwissen? Welches Rüstzeug?"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-kibp13",
+    "href": "index.html#forschungsfragen-kibp13",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen KIBP(1/3)",
+    "text": "Forschungsfragen KIBP(1/3)\n\n\nKI unterstütze Lernende\nWie sollen Lehrende umgehen mit Lernenden, die von KI sich massiv privat unterstützt lassen?\n\nGoogle Notebook LM: Alle Lerninhalte werden durch KI analysiert, aufbereitet, zusammengefasst und vorgelesen\n\nKI kreiert Blog zum Vorlesen\nKI erzeugt Zusammenfassung\nKI schlägt Lernstrategien vor\nKI simuliert Prüfungsfragen\n\n\n\n\n\nGo beyond: (Apple 2009) There is an APP for that! ↝ digitale Sebstwirksamkeit"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-kibp23",
+    "href": "index.html#forschungsfragen-kibp23",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen KIBP(2/3)",
+    "text": "Forschungsfragen KIBP(2/3)\nKI unterstüze Lehrende\n\n\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende\nVon ein Schritt Prompting zu Multischritt Dialoge\nNeue Lehrmethoden, fokus auf Basalwissen\nQualitätskontrollen für KI generierte Inhalte/Korrekturen\n\nInhaltlich gut, fair und richtig\nPädagogisch gut\nReflektiert dass die Lernende die gleiche Antwort bekommen!\n\nCode of Conduct für KI Untersützung für Lehrende\n\n\n\n\nForschungsfrage: Basalwissen? Neue Ansätze? Nach welcher Definition/Kriterien?\n\nPythonkurs: Basalwissen & KI Selbststudium"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-kibp33",
+    "href": "index.html#forschungsfragen-kibp33",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen KIBP(3/3)",
+    "text": "Forschungsfragen KIBP(3/3)\nKI/Lehrende Zusammenarbeit\n\n\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its---aidu-12",
+    "href": "index.html#forschungsfragen-its---aidu-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS - AIDu (1/2)",
+    "text": "Forschungsfragen ITS - AIDu (1/2)"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its-12",
+    "href": "index.html#forschungsfragen-its-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS (1/2)",
+    "text": "Forschungsfragen ITS (1/2)"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its-22",
+    "href": "index.html#forschungsfragen-its-22",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS (2/2)",
+    "text": "Forschungsfragen ITS (2/2)\n\nNext Steps:\n\nPaper über Code, Methodik, Qualitätskontrolle und Verankerung in Kognition und Konstruktivismus\nVeröffentlichung eines KI-Tutor frameworks auf Github\nLehrversuche PHBern mit ESW: Dialoge Praktikumssituation, Fallbeispiele\nLehrversuche Gymnasium: Dialoge über tiefe Aufgabenstellungen, Simulationen"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its-13",
+    "href": "index.html#forschungsfragen-its-13",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS (1/3)",
+    "text": "Forschungsfragen ITS (1/3)"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its-23",
+    "href": "index.html#forschungsfragen-its-23",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS (2/3)",
+    "text": "Forschungsfragen ITS (2/3)\nAIDu - AI Tutor: Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#forschungsfragen-its-33",
+    "href": "index.html#forschungsfragen-its-33",
+    "title": "KI Lernsysteme IS2",
+    "section": "Forschungsfragen ITS (3/3)",
+    "text": "Forschungsfragen ITS (3/3)\n\nNext Steps:\n\nPaper über Code, Methodik, Qualitätskontrolle und Verankerung in Kognition und Konstruktivismus\nVeröffentlichung eines KI-Tutor frameworks auf Github\nLehrversuche PHBern mit ESW: Dialoge Praktikumssituation, Fallbeispiele\nLehrversuche Gymnasium: Dialoge über tiefe Aufgabenstellungen, Simulationen"
+  },
+  {
+    "objectID": "index.html#ki-hat-milliarden-von-nutzern",
+    "href": "index.html#ki-hat-milliarden-von-nutzern",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI hat Milliarden von “Nutzern”",
+    "text": "KI hat Milliarden von “Nutzern”\n\n\nKI Tools haben sich in kurzester Zeit am Medienmarkt etabliert.\n\n\nKI wird aber auch stark genutzt um “Nutzer” zu beeinflussen."
+  },
+  {
+    "objectID": "index.html#ki-ist-etabliert",
+    "href": "index.html#ki-ist-etabliert",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI ist etabliert",
+    "text": "KI ist etabliert\n\n\nOpenAI hat über 300 Mio Nutzer weltweit.\n\n\nOpenAI - Dall-E"
+  },
+  {
+    "objectID": "index.html#sprach-ki-ist-etabliert",
+    "href": "index.html#sprach-ki-ist-etabliert",
+    "title": "KI in der Bildung",
+    "section": "Sprach-KI ist etabliert",
+    "text": "Sprach-KI ist etabliert\n\n\nOpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:\n\n\n\n DALL·E 3: Social Media Rabbit Hole an AI Application"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-3",
+    "href": "index.html#ki-bewusste-pädagogik-3",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\nKI unterstüze Lehrende\n\n\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nPrompting für Lehrende\nVon ein Schritt Prompting zu Multischritt Dialoge\nNeue Lehrmethoden, fokus auf Basalwissen\nQualitätskontrollen für KI generierte Inhalte/Korrekturen\n\nInhaltlich gut, fair und richtig\nPädagogisch gut\nReflektiert dass die Lernende die gleiche Antwort bekommen!\n\nCode of Conduct für KI Untersützung für Lehrende"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-4",
+    "href": "index.html#ki-bewusste-pädagogik-4",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\nKI/Lehrende Zusammenarbeit\n\n\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man das Ergebnis?"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-5",
+    "href": "index.html#ki-bewusste-pädagogik-5",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-6",
+    "href": "index.html#ki-bewusste-pädagogik-6",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik",
+    "text": "KI bewusste Pädagogik\nAIDu - AI Tutor: Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-its",
+    "href": "index.html#ki-bewusste-pädagogik-its",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI bewusste Pädagogik ITS",
+    "text": "KI bewusste Pädagogik ITS\n\nNext Steps:\n\nPaper über Code, Methodik, Qualitätskontrolle und Verankerung in Kognition und Konstruktivismus\nVeröffentlichung eines KI-Tutor frameworks auf Github\nLehrversuche PHBern mit ESW: Dialoge Praktikumssituation, Fallbeispiele\nLehrversuche Gymnasium: Dialoge über tiefe Aufgabenstellungen, Simulationen \n\n\n\n\n\n\nDr. Wolfgang Spahn"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-its-1",
+    "href": "index.html#ki-bewusste-pädagogik-its-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik ITS",
+    "text": "KI bewusste Pädagogik ITS\nAIDu - AI Tutor: Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik-its-2",
+    "href": "index.html#ki-bewusste-pädagogik-its-2",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik ITS",
+    "text": "KI bewusste Pädagogik ITS\n\nNext Steps:\n\nPaper über Code, Methodik, Qualitätskontrolle und Verankerung in Kognition und Konstruktivismus\nVeröffentlichung eines KI-Tutor frameworks auf Github\nLehrversuche PHBern mit ESW: Dialoge Praktikumssituation, Fallbeispiele\nLehrversuche Gymnasium: Dialoge über tiefe Aufgabenstellungen, Simulationen"
+  },
+  {
+    "objectID": "index.html#dialoganalyse-its-12",
+    "href": "index.html#dialoganalyse-its-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse ITS 1/2",
+    "text": "Dialoganalyse ITS 1/2\n\n\n\nDialog A: High score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\n….\nStudent: we get x\nAI: So we bring everything with x on one side\nStudent: 8x = 10\nAI: great you have done it, and now\nStudent: I need to get x\nAI: yes now you need to have just x on one side\nStudent: x = 10/8\nAI: nearly done\nStudent: what do you mean\nAI: you can simplify further\nStudent: x = 5/4\n\n\n\n\nDialog B: Low score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\nAI: how would you solve this\nStudent: we need to isolate x to one side\nAI: Good, just do it\nStudent: 8x = 10\nAI: And now\nStudent: x = 10/8 = 5/4\n\nFragen:\n\nHow much is the contribution of the student and AI in A and in B.\nWhat concepts are still not understood by the student in A\nWhat strategy towards solution does AI and student use in A and B"
+  },
+  {
+    "objectID": "index.html#dialoganalyse-its-22",
+    "href": "index.html#dialoganalyse-its-22",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse ITS 2/2",
+    "text": "Dialoganalyse ITS 2/2\n\n\nDialoge erzeugen\n\nes können Dialoge mit unterschiedlichen simulierten Verhalten (125 Varianten) der Lernenden erzeugt werden\n\nEngagement (1-5)\nAnalytical Skills (1-5)\nConceptual Skills (1-5)\n\n\nDialoge analysieren\n\nDialoge können analysiert werden nach Tutor/Student pro Statement\n\nBeiträge\nRichtigkeit der Beiträge\nAbdeckung der Aufgabenstellung\n\n\n\nMetaanalyse\n\nHypothese Auswertung der obigen Daten liefert\n\nHinweise auf die Qualität der Aufgabenstellung\nHinweise auf die Perfomance des Tutorings (KI)\nHinweise auf den Fortschritt des Lernenden\n\nNext Steps:\n\nBayesian Analysis um die Hypothesen zu testen (mit Andrew)\nPaper über Methodik, Ergebnisse und Datensatz\nVeröffentlichung des Datensatzes auf Huggingface"
+  },
+  {
+    "objectID": "index.html#intelligente-lernbegleitsysteme",
+    "href": "index.html#intelligente-lernbegleitsysteme",
+    "title": "KI Lernsysteme IS2",
+    "section": "Intelligente Lernbegleitsysteme",
+    "text": "Intelligente Lernbegleitsysteme"
+  },
+  {
+    "objectID": "index.html#intelligente-lernbegleitsysteme-1",
+    "href": "index.html#intelligente-lernbegleitsysteme-1",
+    "title": "KI Lernsysteme IS2",
+    "section": "Intelligente Lernbegleitsysteme",
+    "text": "Intelligente Lernbegleitsysteme\nAIDu - AI Tutor: Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#content-generation---its",
+    "href": "index.html#content-generation---its",
+    "title": "KI Lernsysteme IS2",
+    "section": "Content generation - ITS",
+    "text": "Content generation - ITS\n\n\nGeneration\n\npro Sprache (de,en) können Aufgabenstellungen generiert werden\n\n8 Fächer\n65 Gebiete\n190 Module\n950 EInheiten\n22800 Aufgabenstellungen (sampled)\n\n\nBewertung\n\nBewertung der Richtigkeit der Aufgabenstellung nach\n\nKriterien\nLerndialog über die Aufgabenstellung\n\n\n\n\nNext Steps:\n\nGenerierung von Aufgabenstellungen für alle Fächer\nPaper über Datensatz\nVeröffentlichung des Datensatzes auf Huggingface"
+  },
+  {
+    "objectID": "index.html#dialoganalyse---its-12",
+    "href": "index.html#dialoganalyse---its-12",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse - ITS 1/2",
+    "text": "Dialoganalyse - ITS 1/2\n\n\n\nDialog A: High score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\n….\nStudent: we get x\nAI: So we bring everything with x on one side\nStudent: 8x = 10\nAI: great you have done it, and now\nStudent: I need to get x\nAI: yes now you need to have just x on one side\nStudent: x = 10/8\nAI: nearly done\nStudent: what do you mean\nAI: you can simplify further\nStudent: x = 5/4\n\n\n\n\nDialog B: Low score\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\nAI: how would you solve this\nStudent: we need to isolate x to one side\nAI: Good, just do it\nStudent: 8x = 10\nAI: And now\nStudent: x = 10/8 = 5/4\n\nFragen:\n\nHow much is the contribution of the student and AI in A and in B.\nWhat concepts are still not understood by the student in A\nWhat strategy towards solution does AI and student use in A and B"
+  },
+  {
+    "objectID": "index.html#dialoganalyse---its-22",
+    "href": "index.html#dialoganalyse---its-22",
+    "title": "KI Lernsysteme IS2",
+    "section": "Dialoganalyse - ITS 2/2",
+    "text": "Dialoganalyse - ITS 2/2\n\n\nDialoge erzeugen\n\nes können Dialoge mit unterschiedlichen simulierten Verhalten (125 Varianten) der Lernenden erzeugt werden\n\nEngagement (1-5)\nAnalytical Skills (1-5)\nConceptual Skills (1-5)\n\n\nDialoge analysieren\n\nDialoge können analysiert werden nach Tutor/Student pro Statement\n\nBeiträge\nRichtigkeit der Beiträge\nAbdeckung der Aufgabenstellung\n\n\n\nMetaanalyse\n\nHypothese Auswertung der obigen Daten liefert\n\nHinweise auf die Qualität der Aufgabenstellung\nHinweise auf die Perfomance des Tutorings (KI)\nHinweise auf den Fortschritt des Lernenden"
+  },
+  {
+    "objectID": "index.html#inhalte---its",
+    "href": "index.html#inhalte---its",
+    "title": "KI Lernsysteme IS2",
+    "section": "Inhalte - ITS",
+    "text": "Inhalte - ITS\nGeneration\n\npro Sprache (de,en) können Aufgabenstellungen generiert werden\n\n8 Fächer\n65 Gebiete\n190 Module\n950 EInheiten\n22800 Aufgabenstellungen (sampled)\n\n\nBewertung\n\nBewertung der Richtigkeit der Aufgabenstellung nach\n\nKriterien\nLerndialog über die Aufgabenstellung"
+  },
+  {
+    "objectID": "index.html#aidu---ai-tutor-rollenverteilung",
+    "href": "index.html#aidu---ai-tutor-rollenverteilung",
+    "title": "KI Lernsysteme IS2",
+    "section": "AIDu - AI Tutor: Rollenverteilung",
+    "text": "AIDu - AI Tutor: Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#aidu---inhalte",
+    "href": "index.html#aidu---inhalte",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu - Inhalte",
+    "text": "AIDu - Inhalte\n\n\nGeneration\n\npro Sprache (de,en) können Aufgabenstellungen generiert werden\n\n8 Fächer\n65 Gebiete\n190 Module\n950 EInheiten\n22800 Aufgabenstellungen (sampled)\n\n\nBewertung\n\nBewertung der Richtigkeit der Aufgabenstellung nach\n\nKriterien\nLerndialog über die Aufgabenstellung\n\n\n\n\n\n\nDALL·E: Lot’s of papers"
+  },
+  {
+    "objectID": "index.html#aidu---dialoge-12",
+    "href": "index.html#aidu---dialoge-12",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu - Dialoge 1/2",
+    "text": "AIDu - Dialoge 1/2\n\n\n\n[A] AI has the lead\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\n….\nStudent: we get x\nAI: So we bring everything with x on one side\nStudent: 8x = 10\nAI: great you have done it, and now\nStudent: I need to get x\nAI: yes now you need to have just x on one side\nStudent: x = 10/8\nAI: nearly done\nStudent: what do you mean\nAI: you can simplify further\nStudent: x = 5/4\n\n\n\n\n[B] Student has the lead\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\nAI: how would you solve this\nStudent: we need to isolate x to one side\nAI: Good, just do it\nStudent: 8x = 10\nAI: And now\nStudent: x = 10/8 = 5/4\n\nFragen:\n\nHow much is the contribution of the student and AI in A and in B.\nWhat concepts are still not understood by the student in A\nWhat strategy towards solution does AI and student use in A and B"
+  },
+  {
+    "objectID": "index.html#aidu---dialoge-22",
+    "href": "index.html#aidu---dialoge-22",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu - Dialoge 2/2",
+    "text": "AIDu - Dialoge 2/2\n\n\nDialoge erzeugen\n\nes können Dialoge mit unterschiedlichen simulierten Verhalten (125 Varianten) der Lernenden erzeugt werden\n\nEngagement (1-5)\nAnalytical Skills (1-5)\nConceptual Skills (1-5)\n\n\nDialoge analysieren\n\nDialoge können analysiert werden nach Tutor/Student pro Statement\n\nBeiträge\nRichtigkeit der Beiträge\nAbdeckung der Aufgabenstellung\n\n\n\nMetaanalyse\n\nHypothese Auswertung der obigen Daten liefert\n\nHinweise auf die Qualität der Aufgabenstellung\nHinweise auf die Perfomance des Tutorings (KI)\nHinweise auf den Fortschritt des Lernenden\n\n\n\n\n\nDALL·E: Dialog with AI"
+  },
+  {
+    "objectID": "index.html#ki-bewusste-pädagogik---kibp",
+    "href": "index.html#ki-bewusste-pädagogik---kibp",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI bewusste Pädagogik - KIBP",
+    "text": "KI bewusste Pädagogik - KIBP\n\n\nEs braucht Methodik um die Vorteile von KI pädagogisch zu nutzen. KI: \n\nbringt Kapazität für individuelle Förderung\nermöglicht Schöpfungstiefe durch komplexere Aufgabenstellungen\nfördert Durchdringung durch direkten Start an der Kompetenzgrenze\nzielt auf tiefes Wissen durch Vernetzung von Wissen und Kompetenzen\nmotiviert durch lebensnahes, exploratives Lernen von komplexen Zusammenhängen\n\n\n\n\n\nDALL·E 3: Education as Exploration\n\n\n\nDas bedeutet eine enge Lernbegleitung durch Lehrpersonen und Tools"
+  },
+  {
+    "objectID": "index.html#kibp---lernende-und-lehrende",
+    "href": "index.html#kibp---lernende-und-lehrende",
+    "title": "KI Lernsysteme IS2",
+    "section": "KIBP - Lernende und Lehrende",
+    "text": "KIBP - Lernende und Lehrende\n\n\n\nLernende\n\nentwickelt Motivation hin zu verankertem Wissen\nerlernt Sprach- und Dialogkompetenz um auf Augenhöhe mit KI zu kommunizieren\narbeitet mit KI offen und selbstwirksam\norchestriert KI Sitzungen um ein gewünschtes Projektziel zu erreichen\nerwirbt vor allem Basalwissen, das effektiven KI gestützten Einstieg in eine neue Domäne ermöglicht\n\nLehrende\n\nbegeht mit den Lernenden individuelle Lernwege\nermöglicht den Lernenden echte Kompetenzerfahrungen\nsteigert Sprach/Dialogkompetenz der Lernenden\nlehrt Umgang mit Wissensüberfluss\nhat dafür Rüstzeug\n\n\n\n\n\n\nDALL·E 3: Seilschaft\n\n\n\nWie reduzieren auf Basalwissen? Welches Rüstzeug?"
+  },
+  {
+    "objectID": "index.html#kilehrende-zusammenarbeit",
+    "href": "index.html#kilehrende-zusammenarbeit",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI/Lehrende Zusammenarbeit",
+    "text": "KI/Lehrende Zusammenarbeit\n\n\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen: Braucht mehrere Schritte, Plan und strukturiertes Vorgehen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: Zwischenergebnisse KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man das Ergebnis?\n\nformative Analyse der Dialoge, der Zwischenergebnisse und weniger des Endresultats\n\n\n\n\n\n\n\nSougwen Chung makes art with AI"
+  },
+  {
+    "objectID": "index.html#aidu---rollenverteilung",
+    "href": "index.html#aidu---rollenverteilung",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu - Rollenverteilung",
+    "text": "AIDu - Rollenverteilung\n\n\n\nRollen\n\nAI Tutor\n\nbereitet Lernsituationen\nführt den Lerndialog\nsteuert den micro Verlauf\nanalysiert den Dialog\n\nLernende\n\nentdeckt Wissens/Interessen\nlöst Aufgabenstellungen\nreflektiert über den Dialog\nbeinflusst den Macroverlauf selbstwirksam\n\nLehrperson\n\nsteuert den Macroverlauf pädagogisch\nmotiviert/interventiert/gibt Feedback\nkontrolliert die Qualität\nbewertet die Ergebnisse"
+  },
+  {
+    "objectID": "index.html#ki-unterstüzte-lehrende",
+    "href": "index.html#ki-unterstüzte-lehrende",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI unterstüzte Lehrende",
+    "text": "KI unterstüzte Lehrende\n\n\nWie sollen/können Lehrende von KI unterstützt werden? Welche Text/Wissensverabeitung hilft Lehrenden?\n\nVon Einschritt Prompting zu Multischritt Dialoge\nNeue Lehrmethoden, fokus auf Basalwissen\nQualitätskontrollen für KI generierte Inhalte/Korrekturen\n\nInhaltlich gut, fair und richtig\nPädagogisch gut\nReflektiert dass die Lernende die gleiche Antwort bekommen!\n\nCode of Conduct für KI Untersützung für Lehrende"
+  },
+  {
+    "objectID": "index.html#aidu--phbern",
+    "href": "index.html#aidu--phbern",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu -PHBern",
+    "text": "AIDu -PHBern"
+  },
+  {
+    "objectID": "index.html#ki-in-der-forschung",
+    "href": "index.html#ki-in-der-forschung",
+    "title": "KI in der Bildung",
+    "section": "KI in der Forschung",
+    "text": "KI in der Forschung\n\nEin Team von Wissenschaftlern hat eine chemische KI entwickelt, die in der Lage ist, Moleküle zu entwerfen, die auf dem Mars Sauerstoff produzieren könnten. Dazu hat sie Marsproben analysiert und zerlegt, mehr als 3,7 Millionen mögliche Moleküle für die Spaltung von Wasser und die Bildung von Sauerstoff auf dem Roten Planeten identifiziert und die 234 besten Kandidaten durch Synthese charakterisiert. Dies würde etwa 2.000 Jahre menschlicher Arbeit erfordern, schreiben die Autoren der Studie.\n\n\n\n\n\n\nUniversity of Science and Technology of China"
+  },
+  {
+    "objectID": "index.html#ki-chemiker-entwikelt-sauerstoffgewinnung-für-den-mars",
+    "href": "index.html#ki-chemiker-entwikelt-sauerstoffgewinnung-für-den-mars",
+    "title": "KI Lernsysteme IS2",
+    "section": "KI Chemiker entwikelt Sauerstoffgewinnung für den Mars",
+    "text": "KI Chemiker entwikelt Sauerstoffgewinnung für den Mars\n\nEin Team von Wissenschaftlern hat Chemiker KI entwickelt, der auf dem Roten Planeten Sauerstoff aus Wasser gewinnen könnte. Dies geht aus einer am Montag in der Zeitschrift Nature Synthesis veröffentlichten Arbeit hervor.\nAus den sechs Elementen in Mars Proben ermittelte die KI, dass sie mehr als 3,7 Millionen mögliche Moleküle für die Spaltung von Wasser und die Bildung von Sauerstoff auf dem Roten Planeten herstellen könnte. Um aus dieser umfangreichen Liste das beste zu finden, wären rund 2.000 Jahre menschlicher Arbeit nötig, schreiben die Autoren der Studie."
+  },
+  {
+    "objectID": "index.html#ki-in-dienstleistungen",
+    "href": "index.html#ki-in-dienstleistungen",
+    "title": "KI in der Bildung",
+    "section": "KI in Dienstleistungen",
+    "text": "KI in Dienstleistungen\n\nDurch Imitationslernen, das auf der gleichen Technologie wie ChatGPT basiert, hat die Robotik gewaltige Fortschritte in Richtung praktischer Anwendungen gemacht. Indem Roboter menschliche Handlungen durch Beobachtung und Nachahmung erlernen, können sie komplexe Aufgaben schneller und effizienter bewältigen. Besonders in Bereichen wie der industriellen und handwerklichen Fertigung, der medizinischen Assistenz und der autonomen Navigation eröffnen sich dadurch vielversprechende Einsatzmöglichkeiten.\n\n\n\n\n\n\nToyota/MIT, Russ Tedrake\n\n\n\n\n\nDr. Wolfgang Spahn"
+  },
+  {
+    "objectID": "index.html#aidu---pädagogischer-ki-lernbegleiter",
+    "href": "index.html#aidu---pädagogischer-ki-lernbegleiter",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "AIDu - pädagogischer KI-Lernbegleiter",
+    "text": "AIDu - pädagogischer KI-Lernbegleiter"
+  },
+  {
+    "objectID": "index.html#aidu---pädagogische-ki-lernbegleiter",
+    "href": "index.html#aidu---pädagogische-ki-lernbegleiter",
+    "title": "KI in der Bildung",
+    "section": "AIDu - pädagogische KI-Lernbegleiter",
+    "text": "AIDu - pädagogische KI-Lernbegleiter\nErste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik\n    ## AIDu - Demo\nDemonstration von AIDu Lernsituationen:\n\nAllgemeines Assessment von Lernenden\nExploratives Lernen\n\nMathematik - Vektorrechnung ohne Vorkenntnisse\nPhysik - Streuung von Licht an Grenzflächen untersuchen ohne Vorkenntnisse\nFranzösisch - Ein Schulkollegen in einem Pariser Café treffen mit sehr wenig Vorkenntnissen\n\n\nLink"
+  },
+  {
+    "objectID": "index.html#infos",
+    "href": "index.html#infos",
+    "title": "KI in der Bildung",
+    "section": "Infos",
+    "text": "Infos\n\n Zum Starten des Ateliers bitte diesen Link verwenden: \n\nsebayt.ch/docs/\n\n Für Vollbildmodus bitte diesen Button “Fullscreen” klicken oder Taste “F11”.  Fullscreen \n\nServer IP:"
+  },
+  {
+    "objectID": "index.html#agenda-nachmittag",
+    "href": "index.html#agenda-nachmittag",
+    "title": "KI in der Bildung",
+    "section": "Agenda Nachmittag",
+    "text": "Agenda Nachmittag\n\nKI sensitive Pädagogik in der Praxis (Gym Neufeld 9. 11. 12.)\nWir kreieren Texte nach unseren Vorgaben?\nWir kreieren Bilder nach unseren Ideen?\nVom Prompt zum Dialog\nLernversuch mit AIDu"
+  },
+  {
+    "objectID": "index.html#was-meint-ihr-1",
+    "href": "index.html#was-meint-ihr-1",
+    "title": "KI in der Bildung",
+    "section": "Was meint ihr?",
+    "text": "Was meint ihr?\n\nDas ist ein spannendes Thema für den Nachmittag?"
+  },
+  {
+    "objectID": "index.html#ki-kann-man-nutzen-als",
+    "href": "index.html#ki-kann-man-nutzen-als",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI kann man nutzen als",
+    "text": "KI kann man nutzen als\n\nCreator: Wir  kreieren auf Augenhöhe zusammen mit KI neue Inhalte und Ideen\nOptimizer: Wir  optimieren und beschleunigen den Umgang mit Information/Wissen\nConsumer: Wir konsumieren KI generierte Inhalte ohne das wir sie verstehen oder hinterfragen\n\nKommerzielle KI Systeme sind optimiert auf möglichst viel Profit, das heisst möglichst langes Verweilen im System mit einfach zu erstellenden Inhalten. Das ist nicht das Ziel von Bildung."
+  },
+  {
+    "objectID": "index.html#ki-nutzung-und-bilung",
+    "href": "index.html#ki-nutzung-und-bilung",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI Nutzung und Bilung",
+    "text": "KI Nutzung und Bilung\nMit KI können wir auf sehr unterschiedliche Weise umgehen.\nWir können mit KI:\n\nErzeugen: Wir  erzeugen auf Augenhöhe zusammen mit KI neue Inhalte und Ideen\nOptimieren: Wir  optimieren und beschleunigen den Umgang mit Information/Wissen\nKonsumieren: Wir konsumieren KI generierte Inhalte ohne das wir sie verstehen oder hinterfragen"
+  },
+  {
+    "objectID": "index.html#ki-nutzung",
+    "href": "index.html#ki-nutzung",
+    "title": "KI in der Bildung",
+    "section": "KI Nutzung",
+    "text": "KI Nutzung\nMit KI können wir auf sehr unterschiedliche Weise umgehen.\n\n\nLernende können:\n\nSich Bilden: Sie  erzeugen auf Augenhöhe zusammen mit KI neue Inhalte und Ideen und bauen so Kompetenzen auf\nOptimieren: Sie  automatisieren den Umgang mit Information/Wissen mithilfe von KI\nReproduzieren: Sie übernehmen KI generierte Inhalte ohne dass sie diese verstehen oder hinterfragen"
+  },
+  {
+    "objectID": "index.html#kilernendelehrende",
+    "href": "index.html#kilernendelehrende",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "KI/Lernende/Lehrende",
+    "text": "KI/Lernende/Lehrende\n\n\nLernende lassen sich mit ausdrücklicher Zustimmung des Lehrkörpers von KI unterstützen.\n\nWelche Aufgabenstellungen?\n\nTiefe Fragen: Braucht mehrere Schritte, Plan und strukturiertes Vorgehen\n\nWas ist die Rolle des Lehrkörpers?\n\nKontrolle\nUnterstützung\nFeedback\n\nWas ist das Ergebnis?\n\nTraditionell nur das Endresultat\nZukunft: Zwischenergebnisse KI Prompts/Dialoge, Versuchs-/Messprotokolle, Praktische Ergebnisse\n\nWie bewerten man den Lernprozess?\n\ndetaillierte formative Analyse der Beiträge der Lernenden\n\n\n\n\n\n\n\nSougwen Chung makes art with AI"
+  },
+  {
+    "objectID": "index.html#kognition---2024",
+    "href": "index.html#kognition---2024",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Kognition - 2024",
+    "text": "Kognition - 2024\n\n\nText \nVideo \n\nBild \nSound \n\n\n\nForschung deckt ziemlich alle kognitiven Bereiche ab."
+  },
+  {
+    "objectID": "index.html#humanoide-roboter-2024",
+    "href": "index.html#humanoide-roboter-2024",
+    "title": "pädagogische KI-Lernbegleiter",
+    "section": "Humanoide Roboter 2024",
+    "text": "Humanoide Roboter 2024\n\n\n \n\n \n\n\n\n\nDiese Roboter werden in Pilotprojekten eingesetzt. Keine Laborübungen."
+  },
+  {
+    "objectID": "index.html#kognition---2025",
+    "href": "index.html#kognition---2025",
+    "title": "KI in der Bildung",
+    "section": "Kognition - 2025",
+    "text": "Kognition - 2025\n\n\nText \nVideo \n\nBild \nSound \n\n\n\nForschung deckt ziemlich alle kognitiven Bereiche ab."
+  },
+  {
+    "objectID": "index.html#humanoide-roboter-2025",
+    "href": "index.html#humanoide-roboter-2025",
+    "title": "KI in der Bildung",
+    "section": "Humanoide Roboter 2025",
+    "text": "Humanoide Roboter 2025\n\n\n \n\n \n\n\n\n\nDiese Roboter werden in Pilotprojekten eingesetzt. Keine Laborübungen."
+  },
+  {
+    "objectID": "index.html#ki---intelligenz",
+    "href": "index.html#ki---intelligenz",
+    "title": "KI in der Bildung",
+    "section": "KI - Intelligenz?",
+    "text": "KI - Intelligenz?\n\n\nViele Definitionen für Intelligenz\n\nIntelligenz (ganzheitlich) ist die Hauptfunktion des menschlichen Gehirns, um kognitive Funktionen bereitzustellen, die einem Lebewesen das Überleben in einer feindlichen Umgebung ermöglichen.\nIntelligenz (kommerziell) wird benötigt, um Aufgaben zu erledigen, die von geistigen Arbeitern ausgeführt werden.\n1000 andere: …\n\nKünstliche Intelligenz\n\neine Software kann bis zu einem gewissen Grad geistige Arbeit leisten.\n\n\nAnalogie\n\n\n\nEin künstliches Herz ersetzt ein menschliches Herz. Ja/Nein\n\n\n\n\n\nDaher spreche ich lieber von cognitive Aufgaben."
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "KI in der Bildung",
+    "section": "_",
+    "text": "_\n\n\nKI im Schulumfeld"
+  },
+  {
+    "objectID": "index.html#mustererkennung",
+    "href": "index.html#mustererkennung",
+    "title": "KI in der Bildung",
+    "section": "Mustererkennung",
+    "text": "Mustererkennung"
+  },
+  {
+    "objectID": "index.html#trainingsarten",
+    "href": "index.html#trainingsarten",
+    "title": "KI in der Bildung",
+    "section": "Trainingsarten",
+    "text": "Trainingsarten\n\n\nÜberwachtes Lernen\nMenschliche Experten klassifizieren/markieren die Daten. Aufgrund dieser Daten wird das Modell trainiert. Aufwendig und teuer.\n\n\nUnüberwachtes Lernen Das Modell lernt aus den Daten ohne menschliche Eingriffe. Rekonstruiert verrauschte Daten. source\n\nFindet das nächste Wort/Bild in einer Sequenz. how are [you]"
+  },
+  {
+    "objectID": "index.html#text-bedeutung",
+    "href": "index.html#text-bedeutung",
+    "title": "KI in der Bildung",
+    "section": "Text Bedeutung",
+    "text": "Text Bedeutung\n\n\nWort Embeddings\n\nEin Wort/Token entspricht einem Zahlen Vektor\nWort Beziehungen entsprechen Vektor Beziehungen\n\n\n\nSatz Embedding\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen\n\n\n\nOpenAI Tokenizer"
+  },
+  {
+    "objectID": "index.html#mehrdeutigkeit",
+    "href": "index.html#mehrdeutigkeit",
+    "title": "KI in der Bildung",
+    "section": "Mehrdeutigkeit @!?",
+    "text": "Mehrdeutigkeit @!?\n\n\nEin Wort, zwei Bedeutungen\n\nEin Wort hat zunächst nur eine Bedeutung (embedding).\nUm Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.\n\n\n\n\n\nBeispiel: bank (Geldinstitut), bank (Ufer)\n\n\n\nDas Wort im Kontext\n\nEin neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)\nDaraus lernt es das wahrscheinlichste Wort vorherzusagen.\n\n\n\n\nBeispiel: river, bank"
+  },
+  {
+    "objectID": "index.html#text-bedeutung---wort-embeddings",
+    "href": "index.html#text-bedeutung---wort-embeddings",
+    "title": "KI in der Bildung",
+    "section": "Text Bedeutung - Wort Embeddings",
+    "text": "Text Bedeutung - Wort Embeddings\n\nEin Wort/Token entspricht einem Zahlen Vektor\nWort Beziehungen entsprechen Vektor Beziehungen\n\n\nOpenAI Tokenizer"
+  },
+  {
+    "objectID": "index.html#text-bedeutung---satz-embeddings",
+    "href": "index.html#text-bedeutung---satz-embeddings",
+    "title": "KI in der Bildung",
+    "section": "Text Bedeutung - Satz Embeddings",
+    "text": "Text Bedeutung - Satz Embeddings\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen"
+  },
+  {
+    "objectID": "index.html#wie-versteht-ki-worte",
+    "href": "index.html#wie-versteht-ki-worte",
+    "title": "KI in der Bildung",
+    "section": "Wie versteht KI Worte?",
+    "text": "Wie versteht KI Worte?\n\nEin Wort/Token entspricht einem Zahlen Vektor\nWort Beziehungen entsprechen Vektor Beziehungen\n\n\nOpenAI Tokenizer"
+  },
+  {
+    "objectID": "index.html#wie-versteht-ki-sätze",
+    "href": "index.html#wie-versteht-ki-sätze",
+    "title": "KI in der Bildung",
+    "section": "Wie versteht KI Sätze?",
+    "text": "Wie versteht KI Sätze?\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen"
+  },
+  {
+    "objectID": "index.html#bedeutung-zahlen",
+    "href": "index.html#bedeutung-zahlen",
+    "title": "KI in der Bildung",
+    "section": "Bedeutung == Zahlen?",
+    "text": "Bedeutung == Zahlen?\n\nZahlenvektoren lassen sich in Sätze zurückverwandeln\nZahlenvektoren lassen sich in Bilder zurückverwandeln"
+  },
+  {
+    "objectID": "index.html#schlussfolgerung-vektorarithmetik",
+    "href": "index.html#schlussfolgerung-vektorarithmetik",
+    "title": "KI in der Bildung",
+    "section": "Schlussfolgerung == Vektorarithmetik?",
+    "text": "Schlussfolgerung == Vektorarithmetik?"
+  },
+  {
+    "objectID": "index.html#bedeutung-zahlenvektoren",
+    "href": "index.html#bedeutung-zahlenvektoren",
+    "title": "KI in der Bildung",
+    "section": "Bedeutung == Zahlenvektoren?",
+    "text": "Bedeutung == Zahlenvektoren?\n\nZahlenvektoren lassen sich in Sätze zurückverwandeln\nZahlenvektoren lassen sich in Bilder zurückverwandeln"
+  },
+  {
+    "objectID": "index.html#gpt-vektorarithmetik",
+    "href": "index.html#gpt-vektorarithmetik",
+    "title": "KI in der Bildung",
+    "section": "GPT = Vektorarithmetik",
+    "text": "GPT = Vektorarithmetik\nBeispiel: NanoGPT 7 Input Worte und 12 Schichten\n\nInput Sequenz von Zahlenvektoren erzeugt ein Output Wort.\nÜber 12 Generationen wird Bedeutung accumuliert,\nKombination der Vektoren erzeugt neue Bedeutung, Schluesse und Entscheidungen.\n7 x 17 Vector Maschinen erfassen die Bedeutung des Textes und erzeugen das nächste Wort."
+  },
+  {
+    "objectID": "index.html#bedeutung-zahlenvektor",
+    "href": "index.html#bedeutung-zahlenvektor",
+    "title": "KI in der Bildung",
+    "section": "Bedeutung = Zahlenvektor",
+    "text": "Bedeutung = Zahlenvektor\n\n\n\nZahlenvektoren lassen sich in Sätze zurückverwandeln\nZahlenvektoren lassen sich in Bilder zurückverwandeln\n\n\n\n\n\n:::\n::::\n\nGPT ins “Gehirn” geschaut\n\n\n\n\nVektorarithmetik = geistige Arbeit\n\nInput Sequenz von Worten(Token) erzeugt ein Output Wort.\nWorte werden in Vektoren (768d) umgewandelt.\nÜber 12 Vektorgenerationen wird Bedeutung akkumuliert,\n“Verrechnung” der Vektoren erzeugt neue Bedeutung, Schluesse und Entscheidungen.\n7 x 17 Vector Maschinen erfassen die Bedeutung des Textes und erzeugen das nächste Wort.\n\n\n\n\n\n\n\n\nGoogle Research\n\n\n\n\nThis study shows that neural activity in the human brain aligns linearly with the internal contextual embeddings of speech and language within large language models (LLMs) as they process everyday conversations.\n\n\n\n\n_\n\n\nKI verändert geistiges Arbeiten\n\n\n\n\nErste Untersuchungen über KI/Mensch Zusammenarbeit\n\n\n758 consultants\n\n\n4867 software developers\n\n\nsehen 25-40% Zunahme der Produktivität: skales with detached (-), delegating (+) or immersive usage (++)\n\n\n\nKI in der Forschung\n\nEin Team von Wissenschaftlern hat eine chemische KI entwickelt, die in der Lage ist, Moleküle zu entwerfen, die auf dem Mars Sauerstoff produzieren könnten. Dazu hat sie Marsproben analysiert und zerlegt, mehr als 3,7 Millionen mögliche Moleküle für die Spaltung von Wasser und die Bildung von Sauerstoff auf dem Roten Planeten identifiziert und die 234 besten Kandidaten durch Synthese charakterisiert. Dies würde etwa 2.000 Jahre menschlicher Arbeit erfordern, schreiben die Autoren der Studie.\n\n\n\n\n\n\nUniversity of Science and Technology of China\n\n\n\n\nkörperliche Arbeit\n\n\n1900\n\n\n2024\n\n\nals Model der zu erwartenden Transformation für geistige Arbeit?\n\n\n\nWas meint ihr?\n\nMüssen/können wir das für die nächsten 10 Jahre erwarten?\n\n\n\n\n\n\n\n\n\n_\n\n\nKI Chatbots im Schulumfeld\n\n\n\n\nChatbots in der Bildung\n\n\n Source\n\n\n\n“… unter den untersuchten Schülerinnen und Schülern 73 % [haben] 73 % bereits generative KI für die Text- und/oder Bildgenerierung genutzt.”\n[März 2024]\n\n\n\n\n\n\n\nKI Bots im Schulumfeld\n\n\nVergleichsstudie an 1000 Lernenden:\nPrüfungsvorbereitung mit und ohne KI Chatbots\n\nUnterschiedliche Hausaufgaben zur Mathe Prüfungsvorbereitung\n\nGruppe 1: Basis - traditionell\nGruppe 2: +48% - ChatGPT\nGruppe 3: +127% - einfacher sokratischer GPT-Tutor (nicht adaptiv)\n\nPrüfung über den Lernstoff\n\nChatGPT Gruppen sind schlechter als die traditionelle Gruppe\nGTP-Tutor Gruppe erzielt gleiche Ergebnisse wie die traditionelle Gruppe\n\n\n\n\n\n\n\n\nWas ist das Problem?\n\n\nKI im Schulumfeld ist per se nicht förderlich\n\nKI Technologie reduziert Durchdringung\n\nverleitet zu Kompetenzsimulation\nreduziert die Notwendigkeit von Wissen durch schnelle Verfügbarkeit von Information\n\nMiss- und Fehlinformation sind leichter verfüg-/erzeugbar\nChatBots verführen zu Plagiat und Betrug\nFührt zur fehlerhaften Selbsteinschätzung der eigenen Kompetenz\n\nAber KI ist Realität. Daher ist Wegschauen ist keine Lösung!\n\n\n\n\nDALL·E 3: Consumer Education\n\n\n\n\n\n\nKI bewusste Pädagogik\n\n\nEs braucht Methodik um die Vorteile von KI pädagogisch zu nutzen. KI: \n\nbringt Kapazität für individuelle Förderung\nermöglicht Schöpfungstiefe durch komplexere Aufgabenstellungen\nfördert Durchdringung durch direkten Start an der Kompetenzgrenze\nzielt auf tiefes Wissen durch Vernetzung von Wissen und Kompetenzen\nmotiviert durch lebensnahes, exploratives Lernen von komplexen Zusammenhängen\n\n\n\n\n\nDALL·E 3: Education as Exploration\n\n\n\nDas bedeutet eine enge Lernbegleitung durch Lehrpersonen und Tools\n\n\n\n\n\nAIDu - pädagogische KI-Lernbegleiter\n  \n\n\n\nZusammenfassung\n\n\n\nKI hat das Potential die Bildung zu revolutionieren\n\noder zu ruinieren\n\nKI Chatbots im Schulumfeld sind Realität\n\nund werden heute (falsch?) genutzt\n\nKI bewusste Pädagogik\n\nist aus unserer Sicht notwendig\n\nKI Lernsysteme können dabei\n\ndie nötigen Resourcen bieten\n\n\n\n\n\n\nDALL·E 3: Education as Exploration\n\n\n\n\n\n\nAgenda Nachmittag\n\nKI sensitive Pädagogik in der Praxis (Gym Neufeld 9. 11. 12.)\nWir kreieren Texte nach unseren Vorgaben?\nWir kreieren Bilder nach unseren Ideen?\nVom Prompt zum Dialog\nLernversuch mit AIDu\n\n\n\n\nWas meint ihr?\n\nDas ist ein spannendes Thema für den Nachmittag?\n\n\n\n\n\n\n\n\n\n_\n\n\n- Danke für die Aufmerksamkeit -  &gt;/\n\n\n\n\nSprach-KI ist etabliert\n\n\nOpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:\n\n\n\n DALL·E 3: Social Media Rabbit Hole an AI Application\n\n\n\n\n\n\nKI Nutzung\nMit KI können wir auf sehr unterschiedliche Weise umgehen.\n\n\nWir können:\n\nErzeugen: Wir  erzeugen auf Augenhöhe zusammen mit KI neue Inhalte und Ideen\nOptimieren: Wir  optimieren und beschleunigen den Umgang mit Information/Wissen\nKonsumieren: Wir konsumieren KI generierte Inhalte ohne das wir sie verstehen oder hinterfragen\n\n\n\n\n\n\n\nKI in Dienstleistungen\n\nDurch Imitationslernen, das auf der gleichen Technologie wie ChatGPT basiert, hat die Robotik gewaltige Fortschritte in Richtung praktischer Anwendungen gemacht. Indem Roboter menschliche Handlungen durch Beobachtung und Nachahmung erlernen, können sie komplexe Aufgaben schneller und effizienter bewältigen. Besonders in Bereichen wie der industriellen und handwerklichen Fertigung, der medizinischen Assistenz und der autonomen Navigation eröffnen sich dadurch vielversprechende Einsatzmöglichkeiten.\n\n\n\n\n\n\nToyota/MIT, Russ Tedrake\n\n\n\n\n\nDr. Wolfgang Spahn"
+  },
+  {
+    "objectID": "index.html#gpt-in-gehirn-geschaut",
+    "href": "index.html#gpt-in-gehirn-geschaut",
+    "title": "KI in der Bildung",
+    "section": "GPT in “Gehirn” geschaut",
+    "text": "GPT in “Gehirn” geschaut\nVektorarithmetik verrichtet geistige Arbeit\n\n\n\nInput Sequenz von Worten(Token) erzeugt ein Output Wort.\nWorte werden in Vektoren umgewandelt.\nÜber 12 Vektorgenerationen wird Bedeutung akkumuliert,\n“Verrechnung” der Vektoren erzeugt neue Bedeutung, Schluesse und Entscheidungen.\nParameter der 7 x 17 Vector Maschinen haben Wissen und Fertigkeiten gelernt und erfassen damit die Bedeutung des Textes und erzeugen das nächste Wort."
+  },
+  {
+    "objectID": "index.html#gpt-ins-gehirn-geschaut",
+    "href": "index.html#gpt-ins-gehirn-geschaut",
+    "title": "KI in der Bildung",
+    "section": "GPT ins “Gehirn” geschaut",
+    "text": "GPT ins “Gehirn” geschaut\n\n\n\n\nVektorarithmetik = geistige Arbeit\n\nInput Sequenz von Worten(Token) erzeugt ein Output Wort.\nWorte werden in Vektoren (768d) umgewandelt.\nÜber 12 Vektorgenerationen wird Bedeutung akkumuliert,\n“Verrechnung” der Vektoren erzeugt neue Bedeutung, Schluesse und Entscheidungen.\n7 x 17 Vector Maschinen erfassen die Bedeutung des Textes und erzeugen das nächste Wort."
+  },
+  {
+    "objectID": "index.html#google-reasearch",
+    "href": "index.html#google-reasearch",
+    "title": "KI in der Bildung",
+    "section": "Google Reasearch",
+    "text": "Google Reasearch\n\nThis study shows that neural activity in the human brain aligns linearly with the internal contextual embeddings of speech and language within large language models (LLMs) as they process everyday conversations."
+  },
+  {
+    "objectID": "index.html#google-research",
+    "href": "index.html#google-research",
+    "title": "KI in der Bildung",
+    "section": "Google Research",
+    "text": "Google Research\n\n\n\n\nThis study shows that neural activity in the human brain aligns linearly with the internal contextual embeddings of speech and language within large language models (LLMs) as they process everyday conversations.\n\n\nNature Human Behaviour - 2025/03/07 - Goldstone, A., et al. - A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations"
+  },
+  {
+    "objectID": "index.html#versteht-ki-einen-satz",
+    "href": "index.html#versteht-ki-einen-satz",
+    "title": "KI in der Bildung",
+    "section": "Versteht KI einen Satz?",
+    "text": "Versteht KI einen Satz?\n\n\nIndizien für Verstehen:\n\nVektorrepräsentationen von Sätzen\n\nKann genutzt werden Informationen zu extrahieren\nNicht perfekt: Probleme mit Verneinung\n\nEine speziell trainierte KI kann:\n\nZahlenvektoren in Sätze zurückverwandeln\nKombinationen von Vektoren erzeugen sinngemässe Sätze\n\n\n\n  no video support"
+  },
+  {
+    "objectID": "index.html#wie-versteht-ki-sätze-12",
+    "href": "index.html#wie-versteht-ki-sätze-12",
+    "title": "KI in der Bildung",
+    "section": "Wie versteht KI Sätze? 1/2",
+    "text": "Wie versteht KI Sätze? 1/2\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen"
+  },
+  {
+    "objectID": "index.html#wie-versteht-ki-sätze-22",
+    "href": "index.html#wie-versteht-ki-sätze-22",
+    "title": "KI in der Bildung",
+    "section": "Wie versteht KI Sätze? 2/2",
+    "text": "Wie versteht KI Sätze? 2/2\n\n\nIndizien für Verstehen:\n\nVektorrepräsentationen von Sätzen\n\nKann genutzt werden Informationen zu extrahieren\nNicht perfekt: Probleme mit Verneinung\n\nEine speziell trainierte KI kann:\n\nZahlenvektoren in Sätze zurückverwandeln\nKombinationen von Vektoren erzeugen sinngemässe Sätze\n\n\n\n  no video support"
+  },
+  {
+    "objectID": "index.html#versteht-ki-auch-abstrakte-konzepte",
+    "href": "index.html#versteht-ki-auch-abstrakte-konzepte",
+    "title": "KI in der Bildung",
+    "section": "Versteht KI auch abstrakte Konzepte?",
+    "text": "Versteht KI auch abstrakte Konzepte?\nMittels Sparse Autoencoder (ein weiteres neuronales Netz) können innerhalb eines GPTs abstrakte Konzepte lokalisiert und manipuliert werden.\n\n\nBeispiel: Anwesenheit eines Konzepts in einem Text markiert mit rot."
+  },
+  {
+    "objectID": "index.html#auswirkungen-auf-itc-arbeitsmarkt",
+    "href": "index.html#auswirkungen-auf-itc-arbeitsmarkt",
+    "title": "KI in der Bildung",
+    "section": "Auswirkungen auf ITC Arbeitsmarkt",
+    "text": "Auswirkungen auf ITC Arbeitsmarkt\nNicole Helmer, Vice President & Global Head of Development Learning bei SAP, «Die Studie zeigt: Neben dem unbestreitbaren Bedarf an einer verantwortungsvollen KI-Entwicklung und einer breiten KI-Kompetenz in sämtlichen IT-Berufen müssen alle Mitarbeitenden ihre übergeordneten Fähigkeiten wie kritisches Denken, Kreativität und komplexes Problemlösen verbessern.»\n«The Transformational Opportunity of AI on ICT Jobs».\nAI-Enabled ICT Workforce Consortium – Accenture, Cisco, Eightfold, Google, IBM, Indeed, Intel, Microsoft und SAP"
+  },
+  {
+    "objectID": "index.html#ict-arbeitsmarkt",
+    "href": "index.html#ict-arbeitsmarkt",
+    "title": "KI in der Bildung",
+    "section": "ICT Arbeitsmarkt",
+    "text": "ICT Arbeitsmarkt\n\n\nNicole Helmer, Vice President & Global Head of Development Learning bei SAP\nNeben dem unbestreitbaren Bedarf an einer verantwortungsvollen KI-Entwicklung und einer breiten KI-Kompetenz in sämtlichen IT-Berufen müssen alle Mitarbeitenden ihre übergeordneten Fähigkeiten wie kritisches Denken, Kreativität und komplexes Problemlösen verbessern.\n\n \n\n\nStudy: “The Transformational Opportunity of AI on ICT Jobs”: Accenture, Cisco, Eightfold, Google, IBM, Indeed, Intel, Microsoft and SAP."
+  },
+  {
+    "objectID": "index.html#freelancer-market",
+    "href": "index.html#freelancer-market",
+    "title": "KI in der Bildung",
+    "section": "Freelancer Market",
+    "text": "Freelancer Market\n\n\n\nHarvard Business Review: Research: How Gen AI Is Already Impacting the Labor Markets\nAfter the introduction of ChatGPT, there was a 21% decrease in the weekly number of posts in automation-prone jobs compared to manual-intensive jobs. Writing jobs were affected the most (30.37% decrease), followed by software, app, and web development (20.62%) and engineering (10.42%)."
+  },
+  {
+    "objectID": "index.html#aidu---demo",
+    "href": "index.html#aidu---demo",
+    "title": "KI in der Bildung",
+    "section": "AIDu - Demo",
+    "text": "AIDu - Demo\nDemonstration von AIDu Lernsituationen:\n\nAllgemeines Assessment von Lernenden\nExploratives Lernen\n\nMathematik - Vektorrechnung ohne Vorkenntnisse\nPhysik - Streuung von Licht an Grenzflächen untersuchen ohne Vorkenntnisse\nFranzösisch - Ein Schulkollegen in einem Pariser Café treffen mit sehr wenig Vorkenntnissen\n\n\nLink"
+  },
+  {
+    "objectID": "index.html#wie-können-kis-denken",
+    "href": "index.html#wie-können-kis-denken",
+    "title": "KI in der Bildung",
+    "section": "Wie können KIs “denken”?",
+    "text": "Wie können KIs “denken”?\nLLMs „denken“ nicht wie Menschen, sondern sie verdichten Informationen.\nCognitive Fähigkeiten als Nebenprodukt des Trainings:\n\nNeue cognitive Fähigkeiten entstehen unvorhersehbar mit zunehmender Größe des Modells\nAuf vielen Gebieten erreichen LLMs menschliches Niveau\n\nVerdichtung führt zu “echten” kognitiven Fähigkeiten:\n\nStelle sehr großer Sprachmengen mit möglichst wenigen Parametern dar\nVerhindere einfaches Merken, fördere Generalisieren\n\nAuswirkungen\n\nNeuronale Netze müssen nach Strukturen, Mustern, Abstraktionen und Verallgemeinerungen suchen\nJe besser diese Komprimierung je grösser das Model, desto „intelligenter“ agieren die LLMs"
+  },
+  {
+    "objectID": "index.html#kis-sind-schlau-und-doof-zugleich",
+    "href": "index.html#kis-sind-schlau-und-doof-zugleich",
+    "title": "KI in der Bildung",
+    "section": "KIs sind schlau und doof zugleich",
+    "text": "KIs sind schlau und doof zugleich"
+  },
+  {
+    "objectID": "index.html#funktionenzeichnen-mit-ki",
+    "href": "index.html#funktionenzeichnen-mit-ki",
+    "title": "KI in der Bildung",
+    "section": "Funktionenzeichnen mit KI",
+    "text": "Funktionenzeichnen mit KI\n\n\nBitte gib mir den Matplotlib code um die function y = x³-3x²-9x+27 zu zeichnen. Verwende das Canvas.\n\nUnd nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, … .\n\n\n\n\n\nGPT 4o"
+  },
+  {
+    "objectID": "index.html#wir-zeichnen-ein-comic",
+    "href": "index.html#wir-zeichnen-ein-comic",
+    "title": "KI in der Bildung",
+    "section": "Wir zeichnen ein Comic",
+    "text": "Wir zeichnen ein Comic\nWorkshop mit 11. und 12. Klässlern\nNach einer kurzen Einführung in Prompting fürs Comiczeichnen:\n\n\nComic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.\n\nStoryline: Die Geschichte in einem Satz.\nStoryboard: Wie sieht die Geschichte aus?\nBildbeschreibung: Was ist auf den einzelnen Bildern zu sehen? Was passiert wenn Du Details weglässt?\nDialoge: Was sagen die Figuren?\nZeichnungen: Zeichne die Bilder.\nZusammenfügen: In einem Graphikprogramm: füge die Bilder und Dialoge zusammen.\n\n\n\n\n\nWas kann man hier besser machen?"
+  },
+  {
+    "objectID": "index.html#lehrplanansprüche-21-jahrhundert",
+    "href": "index.html#lehrplanansprüche-21-jahrhundert",
+    "title": "KI in der Bildung",
+    "section": "Lehrplanansprüche 21 Jahrhundert",
+    "text": "Lehrplanansprüche 21 Jahrhundert\n\n\nDer Kompetenzbegriff nach Weinert\nKompetenzen bezeichnen „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften, damit die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll genutzt werden können.“\nQuelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001\n\nMittels KI sollten wir fördern:\n\nnachhaltiges, transferfähiges Können\n\nLernbegleitung durch KI Dialog\n\nVerfügbarkeit in komplexen, authentischen Situationen\n\nsimulierte Erfahrungsräume\n\nFähigkeit zur Anwendung über die Zeit hinweg\n\nLernsituationen erfordern akkumulierte Kompetenzen"
+  },
+  {
+    "objectID": "index.html#ansprüche-21-jahrhundert",
+    "href": "index.html#ansprüche-21-jahrhundert",
+    "title": "KI in der Bildung",
+    "section": "Ansprüche 21 Jahrhundert",
+    "text": "Ansprüche 21 Jahrhundert\nDer Kompetenzbegriff nach Weinert\n\nKompetenzen bezeichnen „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen … Bereitschaften, damit die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll genutzt werden können.“\n\n\n\nQuelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001"
+  },
+  {
+    "objectID": "index.html#ki-ist-mehr-als-imitation",
+    "href": "index.html#ki-ist-mehr-als-imitation",
+    "title": "KI in der Bildung",
+    "section": "KI ist mehr als Imitation",
+    "text": "KI ist mehr als Imitation\n\n\nModelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen"
+  },
+  {
+    "objectID": "index.html#beispiel-wie-addiert-ein-llm-zahlen",
+    "href": "index.html#beispiel-wie-addiert-ein-llm-zahlen",
+    "title": "KI in der Bildung",
+    "section": "Beispiel: Wie addiert ein LLM Zahlen?",
+    "text": "Beispiel: Wie addiert ein LLM Zahlen?"
+  },
+  {
+    "objectID": "index.html#authentische-lernsituationen",
+    "href": "index.html#authentische-lernsituationen",
+    "title": "KI in der Bildung",
+    "section": "Authentische Lernsituationen",
+    "text": "Authentische Lernsituationen\nAuthentische Lernsituationen helfen Lernenden, ihre Kompetenzen in einem realistischen Kontext zu erproben und zu vertiefen. Es ist klar das Kompetenzsimulation nicht zielführend ist.\n\n\nFlightdeck-1-Flugstunde-Airbus-A320.jpg"
+  },
+  {
+    "objectID": "index.html#welche-lernsituationen",
+    "href": "index.html#welche-lernsituationen",
+    "title": "KI in der Bildung",
+    "section": "Welche Lernsituationen?",
+    "text": "Welche Lernsituationen?\nEine individuelle KI unterstütze Lernsituation kreiert intrinsische Motivation bei den Lernenden, Kompetenzen aufzubauen und zu erproben, und nicht diese zu simulieren.\n\n\nAFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional"
+  },
+  {
+    "objectID": "index.html#how-many-rs",
+    "href": "index.html#how-many-rs",
+    "title": "KI in der Bildung",
+    "section": "How many Rs?",
+    "text": "How many Rs?\nKIs sind schlau und doof zugleich"
+  },
+  {
+    "objectID": "index.html#kurvendiskussion-mit-ki",
+    "href": "index.html#kurvendiskussion-mit-ki",
+    "title": "KI in der Bildung",
+    "section": "Kurvendiskussion mit KI",
+    "text": "Kurvendiskussion mit KI\nWorkshop mit 9. Klässlern\nAufgabe nach kurzer Einführung in prompt engineering:\n\n\nPrompt: Bitte gib mir den Matplotlib code um die function y = x³-3x²-9x+27 zu zeichnen. Verwende das Canvas.\n\nUnd nun beginne einen Dialog über Nullstellen, Extrema, Wendepunkte, … .\nFrage die KI nach was die obigen Begriffe bedeuten.\n\n\n\n\n\nGPT 4o"
+  },
+  {
+    "objectID": "index.html#mustererkennung-a",
+    "href": "index.html#mustererkennung-a",
+    "title": "KI in der Bildung",
+    "section": "Mustererkennung (A)",
+    "text": "Mustererkennung (A)"
+  },
+  {
+    "objectID": "index.html#gpt-ins-gehirn-geschaut-a",
+    "href": "index.html#gpt-ins-gehirn-geschaut-a",
+    "title": "KI in der Bildung",
+    "section": "GPT ins “Gehirn” geschaut (A)",
+    "text": "GPT ins “Gehirn” geschaut (A)\n\n\n\n\nVektorarithmetik = geistige Arbeit\n\nInput Sequenz von Worten(Token) erzeugt ein Output Wort.\nWorte werden in Vektoren (768d) umgewandelt.\nÜber 12 Vektorgenerationen wird Bedeutung akkumuliert,\n“Verrechnung” der Vektoren erzeugt neue Bedeutung, Schluesse und Entscheidungen.\n7 x 17 Vector Maschinen erfassen die Bedeutung des Textes und erzeugen das nächste Wort."
+  },
+  {
+    "objectID": "index.html#welche-dialogführung",
+    "href": "index.html#welche-dialogführung",
+    "title": "KI in der Bildung",
+    "section": "Welche Dialogführung?",
+    "text": "Welche Dialogführung?\nErste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik"
+  },
+  {
+    "objectID": "index.html#welche-ki-lernsituationen",
+    "href": "index.html#welche-ki-lernsituationen",
+    "title": "KI in der Bildung",
+    "section": "Welche KI Lernsituationen?",
+    "text": "Welche KI Lernsituationen?\nEine individuelle KI unterstütze Lernsituation kreiert intrinsische Motivation bei den Lernenden, Kompetenzen aufzubauen und zu erproben, und nicht diese zu simulieren.\n\n\nAFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional"
+  },
+  {
+    "objectID": "index.html#welche-ki-dialogführung",
+    "href": "index.html#welche-ki-dialogführung",
+    "title": "KI in der Bildung",
+    "section": "Welche KI Dialogführung?",
+    "text": "Welche KI Dialogführung?\nAIDu - pädagogische KI-Lernbegleitung\nErste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik"
+  }
+]
