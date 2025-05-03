@@ -5,7 +5,7 @@ subtitle: |
   <br><br>
   *Wolfgang Spahn*
   <br><br>
-  05.05.2025 Kantonsschule_Enge
+  05.05.2025
   <br>
   <br>
   ![](images/phbern-cover.jpg){width="70%"}
@@ -20,7 +20,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    logo: images/myLogo.svg
+    logo: images/logo_phbern.png
     footer: Dr. Wolfgang Spahn
     css: [styles.css]  # Include your custom CSS file here
     include-in-header: includes.html
@@ -604,6 +604,7 @@ Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
 ## Deep Tasks
 
 Schüler:innen arbeiten in Gruppen an einer komplexen Aufgabe, die durch "cut&paste" nicht von KI gelöst werden kann.
+Lehrpersonen unterstützen die Schüler:innen beim Umgang mit der KI und der Lösung der Aufgabe.
 
 <br>
 

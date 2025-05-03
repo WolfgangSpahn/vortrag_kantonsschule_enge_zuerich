@@ -1,56 +1,14 @@
-{"timestamp":20345000,"category":"downloads","name":"added_file_extension","extra":{"value":"jpg","glean_timestamp":"1746105333616"}}
-{"timestamp":20029141,"category":"media.playback","name":"first_frame_loaded","extra":{"resolution":"V,0<h<=240","is_hardware_decoding":"false","is_hdr":"false","buffering_time":"0","metadata_loaded_time":"11","video_codec":"video/avc","decoder_name":"ffmpeg video decoder (RDD remote)","first_frame_loaded_time":"19","playback_type":"Non-MSE playback","glean_timestamp":"1746105417665","total_waiting_data_time":"0"}}
-{"timestamp":20029342,"category":"media.playback","name":"first_frame_loaded","extra":{"decoder_name":"ffmpeg video decoder (RDD remote)","is_hardware_decoding":"false","playback_type":"Non-MSE playback","total_waiting_data_time":"0","metadata_loaded_time":"0","video_codec":"video/avc","is_hdr":"false","buffering_time":"0","resolution":"V,0<h<=240","glean_timestamp":"1746105417665","first_frame_loaded_time":"12"}}
-{"timestamp":20107297,"category":"media.playback","name":"first_frame_loaded","extra":{"decoder_name":"ffmpeg video decoder (RDD remote)","first_frame_loaded_time":"414","resolution":"AV,480<h<=576","buffering_time":"0","metadata_loaded_time":"394","playback_type":"MSE playback","is_hardware_decoding":"false","glean_timestamp":"1746105417665","is_hdr":"false","video_codec":"video/avc","total_waiting_data_time":"0"}}
-{"timestamp":20107469,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20121094,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20134703,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20175315,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20176551,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20178773,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20189165,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20189514,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20190836,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20191190,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20205399,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20210125,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20211786,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20244958,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20253770,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20271411,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20316773,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20317988,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20324953,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20356248,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20364327,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20372514,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105417665"}}
-{"timestamp":20393633,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20407132,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20410638,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105417665","firstTime":"true"}}
-{"timestamp":20441063,"category":"urlbar","name":"engagement","extra":{"provider":"HeuristicFallback","n_words":"1","selected_result":"search_engine","interaction":"typed","actions":"none,none,none,none,none,none,none,none,none,none","results":"search_engine,search_suggest,search_suggest,search_suggest,search_suggest,search_suggest,search_suggest,history,history,history","engagement_type":"enter","search_engine_default_id":"google-b-d","n_results":"10","groups":"heuristic,search_suggest,search_suggest,search_suggest,search_suggest,search_suggest,search_suggest,general,general,general","selected_position":"1","sap":"handoff","n_chars":"3","glean_timestamp":"1746105429680","search_mode":""}}
-{"timestamp":20441739,"category":"serp","name":"impression","extra":{"is_shopping_page":"false","source":"urlbar_handoff","partner_code":"firefox-b-d","is_private":"false","tagged":"true","shopping_tab_displayed":"false","glean_timestamp":"1746105430356","impression_id":"0d204f38-845b-4e1c-b84f-9ba144011b4f","is_signed_in":"false","provider":"google"}}
-{"timestamp":20443559,"category":"serp","name":"engagement","extra":{"target":"non_ads_link","impression_id":"0d204f38-845b-4e1c-b84f-9ba144011b4f","glean_timestamp":"1746105432176","action":"clicked"}}
-{"timestamp":20456904,"category":"form_autocomplete","name":"show_logins","extra":{"value":"11","stringLength":"0","acFieldName":"username","fieldType":"email","loginsFooter":"1","hadPrevious":"0","glean_timestamp":"1746105445521","typeWasPassword":"0"}}
-{"timestamp":20463106,"category":"form_autocomplete","name":"show_logins","extra":{"hadPrevious":"0","stringLength":"1","fieldType":"email","acFieldName":"username","value":"5","glean_timestamp":"1746105451723","loginsFooter":"1","typeWasPassword":"0"}}
-{"timestamp":20431057,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105479608"}}
-{"timestamp":20445016,"category":"media.playback","name":"first_frame_loaded","extra":{"resolution":"V,576<h<=720","first_frame_loaded_time":"131","glean_timestamp":"1746105479611","total_waiting_data_time":"0","video_codec":"video/avc","is_hdr":"false","is_hardware_decoding":"false","playback_type":"Non-MSE playback","decoder_name":"ffmpeg video decoder (RDD remote)","metadata_loaded_time":"102","buffering_time":"0"}}
-{"timestamp":20503147,"category":"pwmgr","name":"doorhanger_submitted_save","extra":{"did_select_pw":"false","glean_timestamp":"1746105491764","did_select_un":"false","did_edit_un":"false","did_edit_pw":"false"}}
-{"timestamp":20609469,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105672259"}}
-{"timestamp":20618690,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105672259"}}
-{"timestamp":20621162,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20623577,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20633839,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20644384,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105672259"}}
-{"timestamp":20650112,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105672259"}}
-{"timestamp":20650924,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20661302,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20662948,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105672259","firstTime":"true"}}
-{"timestamp":20671912,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105672259"}}
-{"timestamp":20686841,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105690609","firstTime":"true"}}
-{"timestamp":20690094,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105690609"}}
-{"timestamp":20756100,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105762456"}}
-{"timestamp":20776926,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105779172","firstTime":"true"}}
-{"timestamp":20779557,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105779172"}}
-{"timestamp":20781574,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"true","glean_timestamp":"1746105779172"}}
-{"timestamp":20782839,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1746105779172","firstTime":"true"}}
-{"timestamp":20791539,"category":"doh","name":"state_shutdown","extra":{"glean_timestamp":"1746105780156","value":"null"}}
+{"timestamp":97274928,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","loadfail_reason":"File doesn't exist.","glean_timestamp":"1746265176326","path_key":"clean"}}
+{"timestamp":97274931,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","path_key":"recovery","glean_timestamp":"1746265176330","loadfail_reason":"N/A"}}
+{"timestamp":97274931,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1746265176330","path_key":"recovery","loadfail_reason":"N/A","can_load":"true"}}
+{"timestamp":97274932,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1746265176331","shutdown_ok":"true","shutdown_reason":"final-state-write-incomplete"}}
+{"timestamp":97275271,"category":"webcompatreporting","name":"reason_dropdown","extra":{"glean_timestamp":"1746265176670","setting":"required"}}
+{"timestamp":97275408,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1746265176807","value":""}}
+{"timestamp":97275478,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1746265176877","value":"null"}}
+{"timestamp":97275694,"category":"normandy","name":"validation_failed_nimbus_experiment","extra":{"glean_timestamp":"1746265177093","feature":"addAnImageInPDF","reason":"invalid-feature","value":"add-an-image-to-pdf-with-alt-text-rollout"}}
+{"timestamp":97275694,"category":"nimbus_events","name":"validation_failed","extra":{"glean_timestamp":"1746265177093","reason":"invalid-feature","experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF"}}
+{"timestamp":97275695,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1746265177093"}}
+{"timestamp":97275785,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1746265177184"}}
+{"timestamp":97281855,"category":"media.playback","name":"first_frame_loaded","extra":{"metadata_loaded_time":"5","playback_type":"Non-MSE playback","is_hdr":"false","resolution":"V,720<h<=1080","first_frame_loaded_time":"17","decoder_name":"ffmpeg video decoder (RDD remote)","is_hardware_decoding":"false","total_waiting_data_time":"0","video_codec":"video/avc","buffering_time":"0","glean_timestamp":"1746265220212"}}
+{"timestamp":97281875,"category":"media.playback","name":"first_frame_loaded","extra":{"is_hardware_decoding":"false","buffering_time":"0","decoder_name":"ffmpeg video decoder (RDD remote)","resolution":"AV,240<h<=480","video_codec":"video/avc","metadata_loaded_time":"9","is_hdr":"false","playback_type":"Non-MSE playback","total_waiting_data_time":"0","glean_timestamp":"1746265220212","first_frame_loaded_time":"38"}}
+{"timestamp":97282650,"category":"media.playback","name":"first_frame_loaded","extra":{"playback_type":"Non-MSE playback","buffering_time":"0","video_codec":"video/avc","glean_timestamp":"1746265220212","resolution":"AV,720<h<=1080","total_waiting_data_time":"0","metadata_loaded_time":"483","decoder_name":"ffmpeg video decoder (RDD remote)","is_hdr":"false","is_hardware_decoding":"false","first_frame_loaded_time":"499"}}
