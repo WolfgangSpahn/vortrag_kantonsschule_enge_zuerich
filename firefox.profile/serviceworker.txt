@@ -1,0 +1,13 @@
+9
+^partitionKey=%28https%2Cphbern.ch%29
+https://www.googletagmanager.com/static/service_worker
+https://www.googletagmanager.com/static/service_worker/54l0/sw.js?origin=https%3A%2F%2Fwww.phbern.ch
+false
+{163fef90-a5bc-47dd-b489-c4a583e1ddf2}
+1
+1746105047111718
+1746105047113871
+1746105047068741
+0
+true
+#

@@ -5,7 +5,7 @@ help:           ## Show this help.
 IMG_DIR = docs/images
 FIND=find
 # use env var PRESENTAION_NAME=presentation
-NAME=introIS2ITSOct2024
+NAME=VortragEnge2025
 QMD=index.qmd
 
 DOCS_PATH=docs/
@@ -49,6 +49,9 @@ upload: render  ## Upload the docs and frontend js to the server
 load: render    ## load docs and frontend js to local nginx server
 	cp -r $(DOCS_PATH)/* $(LOC_PREFIX)$(INTERAKTIV)$(DOCS_PATH)
 	cd ../interaktiv-frontend/ && make build_local && make load
+
+firefox: render  ## Open non caching version in firefox
+	firefox --no-remote --profile firefox.profile/
 
 dev:			## Serves the project in development mode
 	cd docs && python -m http.server 5050

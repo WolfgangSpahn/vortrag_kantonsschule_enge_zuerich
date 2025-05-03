@@ -31,7 +31,6 @@
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="custom-styles.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -342,7 +341,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">KI in der Bildung</h1>
-  <p class="subtitle"></p><p>Was bedeutet KI für uns und für die Bildung? <br><br> <em>Wolfgang Spahn</em> <br><br> 05.05.2025 <br> <br> <img data-src="images/phbern-cover.jpg" style="width:70.0%"></p><p></p>
+  <p class="subtitle"></p><p>Was bedeutet KI für uns und für die Bildung? <br><br> <em>Wolfgang Spahn</em> <br><br> 05.05.2025 Kantonsschule_Enge <br> <br> <img data-src="images/phbern-cover.jpg" style="width:70.0%"></p><p></p>
 
 <div class="quarto-title-authors">
 </div>
@@ -351,11 +350,11 @@
 <section id="agenda" class="slide level2">
 <h2>Agenda</h2>
 <ul>
-<li>Was ist künstliche Intelligenz in 2025? (5min)
+<li>Was ist künstliche Intelligenz in 2025? (10min)
 <ul>
 <li>Definition, Kognition, Roboter</li>
 </ul></li>
-<li>Wie funktionieren diese KI Systeme? (30min)
+<li>Wie funktionieren diese KI Systeme? (20min)
 <ul>
 <li>Mustererkennung(A), Trainingsarten, Verstehen von Worten/Sätzen</li>
 <li>KI ist mehr als Imitation</li>
@@ -367,7 +366,7 @@
 <li>ICT Arbeitsmarkt</li>
 <li>körperliche Arbeit als Model der zu erwartenden Transformation für geistige Arbeit?</li>
 </ul></li>
-<li>KI im Schulumfeld (45min)
+<li>KI im Schulumfeld (30min)
 <ul>
 <li>Chatbots in der Bildung</li>
 <li>KI bewusste Pädagogik</li>
@@ -451,6 +450,30 @@
       }</style></aside>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
+<section id="und-in-kombination" class="slide level2">
+<h2>Und in Kombination?</h2>
+<p>Google DeepMind – Astra Project</p>
+<video width="800" controls="">
+<source src="images/60minAstra.mp4" type="video/mp4">
+</video>
+<div class="small">
+<p>https://deepmind.google/technologies/project-astra/</p>
+</div>
+<aside class="notes">
+<p>CEO: Demis Hassabis</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
 <section id="humanoide-roboter-2025" class="slide level2">
 <h2>Humanoide Roboter 2025</h2>
 <div class="columns">
@@ -513,125 +536,104 @@
 <li>Wort Beziehungen entsprechen Vektor Beziehungen</li>
 </ul>
 
-<img data-src="images/word embedding.webp" style="width:80.0%" class="r-stretch"><p><a href="https://platform.openai.com/tokenizer">OpenAI Tokenizer</a></p>
-<!-- --------------------------------------------------- slide A11 ----------------------------------------------------- -->
-</section>
-<section id="mehrdeutigkeit" class="slide level2">
-<h2>Mehrdeutigkeit @!?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Ein Wort, zwei Bedeutungen</strong></p>
-<ul>
-<li>Ein Wort hat zunächst nur eine Bedeutung (embedding).</li>
-<li>Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.</li>
-</ul>
-<p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/meaning of bank.png" class="gray-border" style="width:95.0%"></p>
-<figcaption>Beispiel: bank (Geldinstitut), bank (Ufer)</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>Das Wort im Kontext</strong></p>
-<ul>
-<li>Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)</li>
-<li>Daraus lernt es das wahrscheinlichste Wort vorherzusagen.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/context of bank.png" class="gray-border" style="width:95.0%"></p>
-<figcaption>Beispiel: river, bank</figcaption>
-</figure>
-</div>
-</div></div>
+<img data-src="images/word_embedding.png" style="width:80.0%" class="r-stretch"><p><a href="https://platform.openai.com/tokenizer">OpenAI Tokenizer</a></p>
 <!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
 </section>
-<section id="wie-versteht-ki-sätze-12" class="slide level2">
-<h2>Wie versteht KI Sätze? 1/2</h2>
+<section id="wie-versteht-ki-sätze" class="slide level2">
+<h2>Wie versteht KI Sätze?</h2>
 <ul>
-<li>Ein Satz entspricht einem Zahlen Vektor</li>
-<li>Satz Beziehungen entsprechen Vektor Beziehungen</li>
+<li>Aus Worten werden Vektoren (embeddings) erzeugt die wiederum von neuronalen Netzen wie LLMs/GPTs interpretiert und zu einem finalen Embeddings (Vektor) umgewandelt werden.</li>
 </ul>
 
-<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
-<img data-src="images/Attention Matrix.webp" style="width:80.0%" class="r-stretch"></section>
-<section id="wie-versteht-ki-sätze-22" class="slide level2">
-<h2>Wie versteht KI Sätze? 2/2</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Indizien für Verstehen:</p>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+<img data-src="images/sentence_embeddings.webp" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">GPT: General Pre-trained Transformer</p></section>
+<section id="large-language-model" class="slide level2">
+<h2>Large Language Model</h2>
+<p>Hat man erstmals ein Model das ein Wort vorhersagen kann, so wird daraus ein Text…</p>
 <ul>
-<li>Vektorrepräsentationen von Sätzen
-<ul>
-<li>Kann genutzt werden Informationen zu extrahieren</li>
-<li><strong>Nicht perfekt:</strong> Probleme mit Verneinung</li>
-</ul></li>
-<li>Eine speziell trainierte KI kann:
-<ul>
-<li>Zahlenvektoren in Sätze zurückverwandeln</li>
-<li>Kombinationen von Vektoren erzeugen sinngemässe Sätze</li>
-</ul></li>
+<li><em>Mir geht es gut und ….</em></li>
+<li><em>Mir geht es gut und [wie] ….</em></li>
+<li><em>Mir geht es gut und wie [geht] ….</em></li>
+<li><em>Mir geht es gut und wie geht [es] ….</em></li>
+<li><em>Mir geht es gut und wie geht es [dir] ….</em></li>
+<li><em>Mir geht es gut und wie geht es dir[.]</em></li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><video class="glue-ambient-video__container" playsinline="" muted="true" loop="true"> <source src="images/vec2text_demo.mp4" type="video/mp4"> no video support </video></p>
-</div></div>
+<p><a href="https://huggingface.co/spaces/liujch1998/infini-gram">n-gram</a></p>
+<p><strong>Und das funktioniert erstaunlich gut.</strong></p>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
-<section id="versteht-ki-auch-abstrakte-konzepte" class="slide level2">
-<h2>Versteht KI auch abstrakte Konzepte?</h2>
-<p>Mittels Sparse Autoencoder (ein weiteres neuronales Netz) können innerhalb eines GPTs abstrakte Konzepte lokalisiert und manipuliert werden.</p>
+<section id="llms-emergente-fähigkeiten" class="slide level2">
+<h2>LLMs: emergente Fähigkeiten</h2>
 
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-<img data-src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/ed11fc0fba655a120823b8272377554bc57529da08537d3dee559096d35997fb/jihvovtrwche957zc6aq.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption"><strong>Beispiel</strong>: Anwesenheit eines Konzepts in einem Text markiert mit rot.</p></section>
-<section id="ki-ist-mehr-als-imitation" class="slide level2">
-<h2>KI ist mehr als Imitation</h2>
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-<img data-src="images/LLMEmergentCapabilites.gif" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen</p></section>
-<section id="gpt-ins-gehirn-geschaut-a" class="slide level2">
-<h2>GPT ins “Gehirn” geschaut (A)</h2>
-<div class="columns">
-<div class="column small" style="width:40%;">
-<p><br></p>
-<ul>
-<li>Vektorarithmetik = geistige Arbeit
-<ul>
-<li><strong>Input Sequenz</strong> von Worten(Token) erzeugt ein <strong>Output Wort</strong>.</li>
-<li><strong>Worte</strong> werden in <strong>Vektoren</strong> (768d) umgewandelt.</li>
-<li>Über <strong>12 Vektorgenerationen</strong> wird Bedeutung akkumuliert,</li>
-<li><strong>“Verrechnung” der Vektoren</strong> erzeugt neue Bedeutung, Schluesse und Entscheidungen.</li>
-<li><strong>7 x 17 Vector Maschinen</strong> erfassen die Bedeutung des Textes und erzeugen das nächste Wort.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:60%;">
-<p><img data-src="images/GPT.png" style="width:110.0%"></p>
-</div></div>
+<img data-src="images/LLMEmergentCapabilites.gif" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen</p><p><br><br></p>
+<div class="small">
+<p><em>Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models: 444 Authors, 2024</em></p>
+</div>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
-<section id="beispiel-wie-addiert-ein-llm-zahlen" class="slide level2">
-<h2>Beispiel: Wie addiert ein LLM Zahlen?</h2>
-<p><img data-src="images/LLMMathThoughts.webp"></p>
-<p><img data-src="images/LLMMathThoughts1.webp" class="absolute fragment" style="border: 1px solid lightgray;top: 100px; left: 700px; width: 30%; "></p>
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-</section>
-<section id="wie-können-kis-denken" class="slide level2">
-<h2>Wie können KIs “denken”?</h2>
-<p>LLMs „denken“ nicht wie Menschen, sondern sie <strong>verdichten</strong> Informationen.</p>
+<section id="wie-kann-das-sein" class="slide level2">
+<h2>Wie kann das sein?</h2>
 <p><strong>Cognitive Fähigkeiten als Nebenprodukt des Trainings</strong>:</p>
 <ul>
-<li>Neue cognitive Fähigkeiten entstehen unvorhersehbar mit zunehmender Größe des Modells</li>
+<li>Neue cognitive Fähigkeiten erscheinen unvorhersehbar mit zunehmender Größe des Modells</li>
 <li>Auf vielen Gebieten erreichen LLMs menschliches Niveau</li>
 </ul>
 <p><strong>Verdichtung führt zu “echten” kognitiven Fähigkeiten</strong>:</p>
 <ul>
-<li>Stelle sehr großer Sprachmengen mit möglichst wenigen Parametern dar</li>
-<li>Verhindere einfaches Merken, fördere Generalisieren</li>
+<li>LLM muss eine sehr große Menge an Text mit <strong>wenigen</strong> Parametern dar stellen</li>
+<li>LLM muss Generalisieren</li>
 </ul>
+<aside class="notes">
 <p><strong>Auswirkungen</strong></p>
 <ul>
 <li><strong>Neuronale Netze müssen nach Strukturen, Mustern, Abstraktionen und Verallgemeinerungen suchen</strong></li>
 <li><strong>Je besser diese Komprimierung je grösser das Model, desto „intelligenter“ agieren die LLMs</strong></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="ki-ins-gehirn-geschaut" class="slide level2">
+<h2>KI ins “Gehirn” geschaut</h2>
+<p><img data-src="images/LLMMathThoughts.webp"></p>
+<p><img data-src="images/LLMMathThoughts1.webp" class="absolute fragment" style="border: 1px solid lightgray;top: 100px; left: 700px; width: 30%; "></p>
+<div class="small">
+<p><a href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html">Anthropic: On the Biology of a Large Language Model</a></p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="llms-entitäten" class="slide level2">
+<h2>LLMs: Entitäten?</h2>
+<p>LLMs speichern Entitäten unabhängig von der Sprache. Entitäten sind lokalisierbar und können manipuliert werden.</p>
+
+<img data-src="images/semantic_features_anthropic.png" style="width:80.0%" class="r-stretch"><div class="small">
+<p>https://transformer-circuits.pub/2024/scaling-monosemanticity/</p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="llms-abstrakte-konzepte" class="slide level2">
+<h2>LLMs: abstrakte Konzepte?</h2>
+<p>Auch abstrakte Konzepte können im LLM lokalisiert und manipuliert werden.</p>
+
+<img data-src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/ed11fc0fba655a120823b8272377554bc57529da08537d3dee559096d35997fb/jihvovtrwche957zc6aq.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption"><strong>Beispiel</strong>: Anwesenheit eines Konzepts in einem Text markiert mit rot.</p><div class="small">
+<p>https://transformer-circuits.pub/2024/scaling-monosemanticity/</p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="kis-sind-schlau-und-doof-zugleich" class="slide level2">
+<h2>KIs sind schlau und doof zugleich</h2>
+<p>How many Rs are in Strawberry?</p>
+<ul>
+<li><a href="https://chatgpt.com/?oai-dm=1&amp;model=gpt-4o-mini">GPT 4o mini</a></li>
 </ul>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
@@ -641,19 +643,6 @@
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 <img data-src="images/HowManyRs_d.webp" class="r-stretch"></section>
-<section id="google-research" class="slide level2">
-<h2>Google Research</h2>
-<video class="glue-ambient-video__container" playsinline="" muted="true" loop="true" style="width: 80%;">
-<source src="https://storage.googleapis.com/gweb-research2023-media/media/PITOM1_Comprehension.mp4" type="video/mp4">
-</video>
-<div class="centered-content">
-<p><em>This study shows that neural activity in the</em> <strong><em>human brain aligns linearly</em></strong> <em>with the internal contextual embeddings of speech and language within</em> <strong><em>large language models (LLMs)</em></strong> <em>as they process everyday conversations.</em></p>
-</div>
-<div class="small">
-<p>Nature Human Behaviour - 2025/03/07 - Goldstone, A., et al.&nbsp;- A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations</p>
-</div>
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-</section>
 <section id="section-2" class="slide level2">
 <h2>_</h2>
 <p><br><br><br><br></p>
@@ -734,6 +723,10 @@
 <div class="centered-xxl-text">
 <p>KI im Schulumfeld</p>
 </div>
+<p><br></p>
+<div class="centered-content">
+<p>– PAUSE –</p>
+</div>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
 <section id="chatbots-in-der-bildung" class="slide level2">
@@ -785,17 +778,24 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 </div></div>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
-<section id="sprach-ki-ist-etabliert" class="slide level2">
-<h2>Sprach-KI ist etabliert</h2>
+<section id="studentinnen-ki" class="slide level2">
+<h2>Student:innen &amp; KI?</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
-<p>OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:</p>
-<p><img data-src="images/igem_digimonitor_w960_h620.jpg" style="width:100.0%"></p>
-</div><div class="column fragment" style="width:40%;">
-<div class="small">
-<p><br><br> <em>DALL·E 3</em>: Social Media Rabbit Hole an AI Application</p>
+<div class="column" style="width:40%;">
+<div style="font-size: 0.8em;">
+<p><strong>Anthropic Education Report</strong>: How University Students Use Claude AI</p>
 </div>
-<p><img data-src="images/social_media_rabbit_hole.webp" class="image-border" style="width:87.0%"></p>
+<div style="font-size: 0.6em;">
+<p>Students primarily use AI systems for <strong>creating</strong> (using information to learn something new) and <strong>analyzing</strong> (taking apart the known and identifying relationships), such as creating coding projects or analyzing law concepts. This aligns with <strong>higher-order cognitive functions</strong> on Bloom’s Taxonomy.</p>
+<strong>This raises questions about ensuring students don’t offload critical cognitive tasks to AI systems.</strong>
+<p>
+</p>
+</div>
+<div class="right-align" style="margin-top: 5em; font-size: 0.5em;">
+<p><em>Comparing the percentage of Claude.ai student conversations that are related to an National Center for Education Statistics in 1 Mio dialogues.</em></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><img data-src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd22ea4cc33c603b51435e334c4311ffc5b1d7f5a-2400x1818.png&amp;w=3840&amp;q=75"></p>
 </div></div>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
@@ -806,7 +806,7 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 <div class="column" style="width:60%;">
 <p>Lernende können:</p>
 <ul>
-<li><strong>Sich Bilden</strong>: Sie <green> erzeugen auf Augenhöhe</green> zusammen mit KI neue Inhalte und Ideen und bauen so <strong>Kompetenzen</strong> auf</li>
+<li><strong>Sich Bilden</strong>: Sie <green> erzeugen auf Augenhöhe</green> zusammen mit KI neue Inhalte und Ideen und bauen so <strong>Kompetenzen</strong> auf <red> &lt;==&lt; </red></li>
 <li><strong>Optimieren</strong>: Sie <blue> automatisieren</blue> den Umgang mit Information/Wissen mithilfe von KI</li>
 <li><strong>Reproduzieren</strong>: Sie <red>übernehmen KI</red> generierte Inhalte ohne dass sie diese verstehen oder hinterfragen</li>
 </ul>
@@ -841,10 +841,10 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 <section id="ansprüche-21-jahrhundert" class="slide level2">
 <h2>Ansprüche 21 Jahrhundert</h2>
 <p><strong>Der Kompetenzbegriff nach Weinert</strong></p>
-<div class="centered-content text-lg">
+<div class="centered-content">
 <p>Kompetenzen bezeichnen „<em>die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte</em> <strong><em>Probleme zu lösen</em></strong>, <em>sowie die damit verbundenen …</em> <strong><em>Bereitschaften</em></strong>, <em>damit die Problemlösungen in</em> <strong>variablen Situationen</strong> <em>erfolgreich und verantwortungsvoll genutzt werden können.</em>“</p>
 </div>
-<p><br></p>
+<p><br><br><br><br><br></p>
 <div class="small">
 <p>Quelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001</p>
 </div>
@@ -864,8 +864,88 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 <h2>Welche KI Lernsituationen?</h2>
 <p>Eine individuelle KI unterstütze Lernsituation kreiert intrinsische Motivation bei den Lernenden, Kompetenzen aufzubauen und zu erproben, und nicht diese zu simulieren.</p>
 
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+<!-- =================================================== slide ===================================================== -->
 <img data-src="images/Flightdeck-1-Flugstunde-Airbus-A320.jpg" class="r-stretch quarto-figure-center"><p class="caption">AFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional</p></section>
+<section id="section-4" class="slide level2">
+<h2>_</h2>
+<p><br><br><br><br></p>
+<div class="centered-xxl-text">
+<p>Echte KI/Mensch Zusammenarbeit</p>
+</div>
+<div class="centered-text">
+<p>Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?</p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="deep-tasks" class="slide level2">
+<h2>Deep Tasks</h2>
+<p>Schüler:innen arbeiten in Gruppen an einer komplexen Aufgabe, die durch “cut&amp;paste” nicht von KI gelöst werden kann.</p>
+<p><br></p>
+<ul>
+<li>KI unterstützt die Schüler:innen bei der Lösung</li>
+<li>Der Plan zu Lösung muss von den Schüler:innen kommen</li>
+<li>Die Schüler:innen müssen den letzten Schritt verstehen haben, um in den Nächsten einzusteigen</li>
+<li>Wird die KI zu schlecht geführt, sind die Ergebnisse schlecht</li>
+</ul>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="wir-zeichnen-ein-comic" class="slide level2">
+<h2>Wir zeichnen ein Comic</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.</p>
+<ul>
+<li>Storyline: Die Geschichte in einem Satz.</li>
+<li>Storyboard: Wie sieht die Geschichte aus?</li>
+<li>Bildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?</li>
+<li>Dialoge: Was sagen die Figuren?</li>
+<li>Zeichnungen: Zeichne jeweils <strong>ein Bild (Panel)</strong> mit KI.</li>
+<li>Zusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/comic.webp" style="width:70.0%"></p>
+</div></div>
+<ul>
+<li><a href="https://chatgpt.com/?oai-dm=1&amp;model=gpt-4o">GPT 4o</a></li>
+</ul>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="wir-zeichnen-ein-comic-1" class="slide level2">
+<h2>Wir zeichnen ein Comic</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.</p>
+<ul>
+<li>Storyline: Die Geschichte in einem Satz.</li>
+<li>Storyboard: Wie sieht die Geschichte aus?</li>
+<li>Bildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?</li>
+<li>Dialoge: Was sagen die Figuren?</li>
+<li>Zeichnungen: Zeichne jeweils <strong>ein Bild (Panel)</strong> mit KI.</li>
+<li>Zusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/PerfekterTag.png" style="width:70.0%"></p>
+</div></div>
+<ul>
+<li><a href="https://chatgpt.com/?oai-dm=1&amp;model=gpt-4o">GPT 4o</a></li>
+</ul>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="schwierige-kreuzworträtsel" class="slide level2">
+<h2>Schwierige Kreuzworträtsel</h2>
+<p>ChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht.</p>
+<h3 id="aufgabe">Aufgabe</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/raetsel.png"></p>
+</div><div class="column small" style="width:60%;">
+<p>1 - Sammlungsaffiner Sehenswerturteiler <br> 2 - Schmiegt sich, letztendlich damenhaft, an Wüstenregionen <br> 3 - Passt zwischen Jung und Fahrt, auch wenn die gar nicht so weit geht <br> 4 - Ungewöhnlich sichtbares Obst? Vergleichsweise Wohlgehüteter! <br> 5 - Auf manch legerer &lt;6 senkrecht: Feier&gt; werden ihre Achtel in die Runde gegeben <br> 6 - Wäre 2025 angemessen für Schweitzers 150. Oder Kehlmanns 50, <br> 7 - Tierische Ausgrenzung <br> 8 - Sterben müssen bleibe mir &lt;3 senkrecht: fern&gt;, doch tot sein – das ist mir … (Epicharm) <br> 9 - Der ganze Mai liegt in ihren Zeichen, Wörtern, Sätzen, Seiten <br> 10 - Soziale Bewegungform <br> 11 - Darin treffen sich die Größten der Großen zum Ballspielen, aber nur kurz <br> 12 - Ende der Welt, mit dem Wolfgang Amadeus’ Vater mitunterschrieb <br> 13 - Mahnmal der Verwundbarkeit <br></p>
+</div></div>
+<ul>
+<li><a href="https://chatgpt.com/?oai-dm=1&amp;model=gpt-4o">GPT 4o</a></li>
+</ul>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
 <section id="kurvendiskussion-mit-ki" class="slide level2">
 <h2>Kurvendiskussion mit KI</h2>
 <p><strong>Workshop mit 9. Klässlern</strong></p>
@@ -885,51 +965,64 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 </ul>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
-<section id="wir-zeichnen-ein-comic" class="slide level2">
-<h2>Wir zeichnen ein Comic</h2>
-<p><strong>Workshop mit 11. und 12. Klässlern</strong></p>
-<p>Nach einer kurzen Einführung in Prompting fürs Comiczeichnen:</p>
+<section id="schwieriges-math-problem" class="slide level2">
+<h2>Schwieriges Math-Problem</h2>
+<p>Wir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch. Wir probieren es gemeinsam.</p>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p>Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.</p>
-<ul>
-<li><strong>Storyline</strong>: Die Geschichte in einem Satz.</li>
-<li><strong>Storyboard</strong>: Wie sieht die Geschichte aus?</li>
-<li><strong>Bildbeschreibung</strong>: Was ist auf den einzelnen Bildern zu sehen? Was passiert wenn Du Details weglässt?</li>
-<li><strong>Dialoge</strong>: Was sagen die Figuren?</li>
-<li><strong>Zeichnungen</strong>: Zeichne die Bilder.</li>
-<li><strong>Zusammenfügen</strong>: In einem Graphikprogramm: füge die Bilder und Dialoge zusammen.</li>
-</ul>
-</div><div class="column" style="width:50%;">
+<div class="column" style="width:60%;">
+<h3 id="aufgabe-1">Aufgabe</h3>
+<p>Nina hat einen Kreis mit 20 Punkten in 20 gleich lange Kreisbögen geteilt. Sie zeichnet alle Sehnen ein, die zwei dieser Punkte verbinden. Wie viele dieser Sehnen sind länger als der Radius, aber kürzer als der Durchmesser des Kreises?</p>
+<ol type="A">
+<li>90 (B) 100 (C) 120 (D) 140 (E ) 160</li>
+</ol>
+</div><div class="column small" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/comic.webp" style="width:70.0%"></p>
-<figcaption>Was kann man hier besser machen?</figcaption>
+<p><img data-src="images/GeometrieFinal.png" style="width:90.0%"></p>
+<figcaption>GPT 4o</figcaption>
 </figure>
 </div>
 </div></div>
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-</section>
-<section id="welche-ki-dialogführung" class="slide level2">
-<h2>Welche KI Dialogführung?</h2>
-<p><strong>AIDu - pädagogische KI-Lernbegleitung</strong></p>
-<p>Erste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik</p>
-<p><img data-src="images/AIdu.webp" style="width:90.0%"> <img data-src="images/AIDu Welcome.webp" class="absolute" style="border: 1px solid gray;top: 370px; left: 300px; width: 40%; "> <img data-src="images/AIDu Isaac.webp" class="absolute" style="border: 1px solid gray;top: 360px; left: 500px; width: 40%; "></p>
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-</section>
-<section id="aidu---demo" class="slide level2">
-<h2>AIDu - Demo</h2>
-<p>Demonstration von AIDu Lernsituationen:</p>
 <ul>
-<li>Allgemeines Assessment von Lernenden</li>
-<li>Exploratives Lernen
-<ul>
-<li>Mathematik - Vektorrechnung ohne Vorkenntnisse</li>
-<li>Physik - Streuung von Licht an Grenzflächen untersuchen ohne Vorkenntnisse</li>
-<li>Französisch - Ein Schulkollegen in einem Pariser Café treffen mit sehr wenig Vorkenntnissen</li>
-</ul></li>
+<li><a href="https://chatgpt.com/?oai-dm=1&amp;model=gpt-4o">GPT 4o</a></li>
 </ul>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="aidu-lernbegleitung-13" class="slide level2">
+<h2>AIDu-Lernbegleitung 1/3</h2>
+<p>Erste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik</p>
+<p><img data-src="images/AIdu.webp" style="width:90.0%"> <img data-src="images/AIDu Welcome.webp" class="absolute" style="border: 1px solid gray;top: 370px; left: 300px; width: 40%; "> <img data-src="images/AIDu_Emilie_informatic.png" class="absolute" style="border: 1px solid gray;top: 360px; left: 500px; width: 40%; "></p>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="aidu-lernbegleitung-23" class="slide level2">
+<h2>AIDu-Lernbegleitung 2/3</h2>
+<p><strong>AIDu - pädagogische KI-Lernbegleitung</strong></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>Forschungsfragen:</p>
+<ul>
+<li>Lernende sind per se keine kompetente KI Dialogpartner. Wie damit umgehen?</li>
+<li>Wie verankern wir Kompetenzen und messen das?</li>
+<li>Wie ermöglichen wir erlebte Selbstwirksamkeit?</li>
+<li>Wie geben wir Gestaltungsspielraum für Lernende und Lehrende?</li>
+<li>Abgrenzung zu Chatbots, die nur Informationen liefern</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/AIDu_Emilie_informatic_Left_Half.png"></p>
+</div></div>
+<p>Kombination von <strong>virtuellen Erfahrungsräumen mit KI Lernbegleitung</strong>. Dabei begleiten wir die Lernenden in der Erarbeitung von Kompetenzen.</p>
 <p><a href="https://sebayt.ch/aidu/">Link</a></p>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="aidu-lernbegleitung-33" class="slide level2">
+<h2>AIDu-Lernbegleitung 3/3</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.srf.ch/play/tv/_/video/_?id=8df4b9f3-2e49-4322-9e0c-ef873a1ae610&amp;urn=urn:srf:video:8df4b9f3-2e49-4322-9e0c-ef873a1ae610&amp;aspectRatio=16_9"><img data-src="https://il.srf.ch/images/?imageUrl=https://download-media.srf.ch/world/image/video/2025/04/8df4b9f3-2e49-4322-9e0c-ef873a1ae610-567s28ms.png&amp;format=webp&amp;width=720" alt="SRF berichtet"></a></p>
+<figcaption>SRF berichtet</figcaption>
+</figure>
+</div>
+<p><a href="https://www.srf.ch/play/tv/-/video/-?urn=urn%3Asrf%3Avideo%3Ab3fff828-9d59-488a-80f2-b1678191443f">“Schweiz aktuell”, Schweizer Fernsehen</a> <a href="https://www.srf.ch/audio/rendez-vous/kuenstliche-intelligenz-im-klassenzimmer?partId=qSrrfc0iKCGTC9b0Wpb7-JIdrlA">“Rendez-vous”, Radio SRF</a> <a href="https://www.srf.ch/news/schweiz/klassenzimmer-der-zukunft-ki-in-der-schule-bildung-oder-beschaeftigung">Beitrag auf SRF online</a></p>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
 <section id="zusammenfassung" class="slide level2">
@@ -972,6 +1065,18 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 </div>
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 </section>
+<section id="seymour-papert---1980" class="slide level2">
+<h2>Seymour Papert - 1980</h2>
+<p><br><br><br></p>
+<div class="centered-xl-text">
+<p><strong>„The role of the teacher is to create the conditions for invention rather than provide ready-made knowledge.“</strong></p>
+</div>
+<p><br><br><br></p>
+<div class="small">
+<p>Schüler von Jean Piaget und Mitbegründer des MIT Media Lab. Er entwickelte die Programmiersprache Logo und das Konzept des „Konstruktivismus“.</p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
 <section id="was-ist-das-problem" class="slide level2">
 <h2>Was ist das Problem?</h2>
 <div class="columns">
@@ -996,13 +1101,126 @@ journal = {Bulletin Suisse de Linguistique Appliquee}
 </figure>
 </div>
 </div></div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="sprach-ki-ist-etabliert" class="slide level2">
+<h2>Sprach-KI ist etabliert</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:</p>
+<p><img data-src="images/igem_digimonitor_w960_h620.jpg" style="width:100.0%"></p>
+</div><div class="column fragment" style="width:40%;">
+<div class="small">
+<p><br><br> <em>DALL·E 3</em>: Social Media Rabbit Hole an AI Application</p>
+</div>
+<p><img data-src="images/social_media_rabbit_hole.webp" class="image-border" style="width:87.0%"></p>
+</div></div>
+<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
+</section>
+<section id="wie-versteht-ki-sätze-22" class="slide level2">
+<h2>Wie versteht KI Sätze? 2/2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Steckt in einem Vektor Embedding wirklich eine Bedeutung?</p>
+<ul>
+<li>Vektorrepräsentationen von <strong>kann</strong> in die Ausgangssätze mittels NN zurückverwandeln</li>
+<li>Kombinationen von Vektoren erzeugen sinngemässe die Kombination dieser Sätze</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><video class="glue-ambient-video__container" playsinline="" muted="true" loop="true"> <source src="images/vec2text_demo.mp4" type="video/mp4"> no video support </video></p>
+</div></div>
+<div class="small">
+<p>Language Model Inversion (ICLR 2024), J.X. Morris et.al</p>
+</div>
+<!-- --------------------------------------------------- slide A11 ----------------------------------------------------- -->
+</section>
+<section id="mehrdeutigkeit" class="slide level2">
+<h2>Mehrdeutigkeit @!?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Ein Wort, zwei Bedeutungen</strong></p>
+<ul>
+<li>Ein Wort hat zunächst nur eine Bedeutung (embedding).</li>
+<li>Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.</li>
+</ul>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/meaning of bank.png" class="gray-border" style="width:95.0%"></p>
+<figcaption>Beispiel: bank (Geldinstitut), bank (Ufer)</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>Das Wort im Kontext</strong></p>
+<ul>
+<li>Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)</li>
+<li>Daraus lernt es das wahrscheinlichste Wort vorherzusagen.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/context of bank.png" class="gray-border" style="width:95.0%"></p>
+<figcaption>Beispiel: river, bank</figcaption>
+</figure>
+</div>
+</div></div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="llms-gehirn" class="slide level2">
+<h2>LLMs &lt;&gt; Gehirn?</h2>
+<video class="glue-ambient-video__container" playsinline="" muted="true" loop="true" style="width: 80%;">
+<source src="https://storage.googleapis.com/gweb-research2023-media/media/PITOM1_Comprehension.mp4" type="video/mp4">
+</video>
+<div class="centered-content">
+<p><em>This study shows that neural activity in the</em> <strong><em>human brain aligns linearly</em></strong> <em>with the internal contextual embeddings of speech and language within</em> <strong><em>large language models (LLMs)</em></strong> <em>as they process everyday conversations.</em></p>
+</div>
+<div class="small">
+<p>Nature Human Behaviour - 2025/03/07 - Goldstone, A., et al.&nbsp;- A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations</p>
+</div>
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+</section>
+<section id="digitale-transformation" class="slide level2">
+<h2>Digitale Transformation</h2>
+<p>Geistige Tätigkeiten befindet sich in einem tiefgreifenden Wandel. <br><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Cognitive_work_19Cent.png" style="width:80.0%"></p>
+<figcaption>19. Jahrhundert</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/Cognitive_work_21Cent.png" style="width:80.0%"></p>
+<figcaption>21. Jahrhundert</figcaption>
+</figure>
+</div>
+</div></div>
+<p><br> <strong>Was heisst das für uns, für die Schule, für den Unterricht?</strong></p>
+<aside class="notes">
+<p>Noch vor 100 Jahren waren gebildete Menschen in der Lage, zentrale Tätigkeiten ihres Alltags – wie Schreiben, Reparieren, Argumentieren oder Produzieren – selbst zu verstehen, anzuwenden und kritisch zu reflektieren.</p>
+<p>Heute sind digitale Systeme die primäre Schnittstelle zum Herstellen, zum Inhalt und den Umgang damit.</p>
+<p>Wird der Umgang digitalen Lehrmedien und Lehrmittel nicht mit einem tiefen Verständnis verbunden, besteht die Gefahr, dass Lernende zwar Nutzer:innen, aber keine selbstbestimmten Gestalter:innen der digitalen Welt werden.</p>
+<p>Echte digitale Bildung muss also über das Bedienen hinausgehen – hin zum Verstehen, Hinterfragen und Mitgestalten.</p>
 
 <div class="quarto-auto-generated-content">
-<p><img src="images/Logo_PH_Bern.webp" class="slide-logo"></p>
+<p><img src="images/myLogo.svg" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Dr.&nbsp;Wolfgang Spahn</p>
 </div>
 </div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
     </div>
   </div>

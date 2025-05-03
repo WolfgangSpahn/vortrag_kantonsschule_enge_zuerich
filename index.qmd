@@ -5,7 +5,7 @@ subtitle: |
   <br><br>
   *Wolfgang Spahn*
   <br><br>
-  05.05.2025
+  05.05.2025 Kantonsschule_Enge
   <br>
   <br>
   ![](images/phbern-cover.jpg){width="70%"}
@@ -20,19 +20,18 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    logo: images/Logo_PH_Bern.webp
+    logo: images/myLogo.svg
     footer: Dr. Wolfgang Spahn
-    css: [styles.css, custom-styles.css]  # Include your custom CSS file here
+    css: [styles.css]  # Include your custom CSS file here
     include-in-header: includes.html
-resources:
-  - interaktive.pdf
+
 ---
 
 ## Agenda
 
-- Was ist künstliche Intelligenz in 2025? (5min)
+- Was ist künstliche Intelligenz in 2025? (10min)
   - Definition, Kognition, Roboter
-- Wie funktionieren diese KI Systeme? (30min)
+- Wie funktionieren diese KI Systeme? (20min)
   - Mustererkennung(A), Trainingsarten, Verstehen von Worten/Sätzen
   - KI ist mehr als Imitation
   - GPT ins "Gehirn" geschaut(A)
@@ -40,7 +39,7 @@ resources:
   - KI/Mensch Zusammenarbeit
   - ICT Arbeitsmarkt
   - körperliche Arbeit als Model der zu erwartenden Transformation für geistige Arbeit?
-- KI im Schulumfeld (45min)
+- KI im Schulumfeld (30min)
   - Chatbots in der Bildung
   - KI bewusste Pädagogik
   - AIDu - pädagogische KI-Lernbegleiter
@@ -110,7 +109,22 @@ Analogie
 ::: {.notes}
 - Forschung deckt ziemlich alle kognitiven Bereiche ab.
 :::
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Und in Kombination?
 
+Google DeepMind -- Astra Project
+
+<video width="800" controls>
+  <source src="images/60minAstra.mp4" type="video/mp4">
+</video>
+
+:::{.small}
+https://deepmind.google/technologies/project-astra/
+:::
+
+:::{.notes}
+CEO: Demis Hassabis
+:::
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Humanoide Roboter 2025
 
@@ -144,6 +158,7 @@ Wie funktionieren diese KI Systeme?
 
 <div type="mustererkennung" id="svg-mustererkennung"></div>
 
+
 <!-- --------------------------------------------------- slide A9 ----------------------------------------------------- -->
 ## Trainingsarten
 
@@ -171,128 +186,113 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 - Ein Wort/Token entspricht einem Zahlen Vektor
 - Wort Beziehungen entsprechen Vektor Beziehungen 
 
-![](images/word embedding.webp){width="80%" }
+![](images/word_embedding.png){width="80%" }
 
 [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
 
-<!-- --------------------------------------------------- slide A11 ----------------------------------------------------- -->
-## Mehrdeutigkeit @!?
-:::: {.columns}
-::: {.column width="50%"}
-**Ein Wort, zwei Bedeutungen**
-
-- Ein Wort hat zunächst nur eine Bedeutung (embedding). 
-- Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.
-
-<br>
-
-![Beispiel: bank (Geldinstitut), bank (Ufer)](images/meaning of bank.png){width="95%" .gray-border}
-
-:::
-::: {.column width="50%"}
-
-**Das Wort im Kontext**
-
-- Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)
-- Daraus lernt es das wahrscheinlichste Wort vorherzusagen.
-
-![Beispiel: river, bank](images/context of bank.png){width="95%" .gray-border}
-
-:::
-::::
 
 <!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
-## Wie versteht KI Sätze? 1/2
+## Wie versteht KI Sätze?
 
-- Ein Satz entspricht einem Zahlen Vektor
-- Satz Beziehungen entsprechen Vektor Beziehungen
+- Aus Worten werden Vektoren (embeddings) erzeugt die wiederum von neuronalen Netzen wie LLMs/GPTs interpretiert und zu einem finalen Embeddings (Vektor) umgewandelt werden.
 
-![](images/Attention Matrix.webp){width="80%" }
-
-<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
-## Wie versteht KI Sätze? 2/2
-
-:::: {.columns}
-::: {.column width="50%"}
-Indizien für Verstehen:
-
-- Vektorrepräsentationen von Sätzen
-  - Kann genutzt werden Informationen zu extrahieren
-  - **Nicht perfekt:** Probleme mit Verneinung
-- Eine speziell trainierte KI kann:
-  - Zahlenvektoren in Sätze zurückverwandeln
-  - Kombinationen von Vektoren erzeugen sinngemässe Sätze
-
-:::
-::: {.column width="50%"}
-  <video class="glue-ambient-video__container" playsinline="" muted="true" loop="true">
-                  <source src="images/vec2text_demo.mp4" type="video/mp4">
-                  no video support
-  </video>
-:::
-::::
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Versteht KI auch abstrakte Konzepte?
-
-Mittels Sparse Autoencoder (ein weiteres neuronales Netz) können innerhalb eines GPTs abstrakte Konzepte lokalisiert und manipuliert werden.
-
-
-
-![**Beispiel**: Anwesenheit eines Konzepts in einem Text markiert mit rot.](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/ed11fc0fba655a120823b8272377554bc57529da08537d3dee559096d35997fb/jihvovtrwche957zc6aq){width="80%"}
+![GPT: General Pre-trained Transformer](images/sentence_embeddings.webp){width="80%" style="border: 1px solid lightgray;"}
 
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## KI ist mehr als Imitation
+## Large Language Model
+
+Hat man erstmals ein Model das ein Wort vorhersagen kann, so wird daraus ein Text...
+
+- *Mir geht es gut und ....*
+- *Mir geht es gut und [wie] ....*
+- *Mir geht es gut und wie [geht] ....*
+- *Mir geht es gut und wie geht [es] ....*
+- *Mir geht es gut und wie geht es [dir] ....*
+- *Mir geht es gut und wie geht es dir[.]*
+
+[n-gram](https://huggingface.co/spaces/liujch1998/infini-gram)
+
+**Und das funktioniert erstaunlich gut.**
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## LLMs: emergente Fähigkeiten
 
 ![Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen](images/LLMEmergentCapabilites.gif){width="80%" }
 
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## GPT ins "Gehirn" geschaut (A)
+<br><br>
 
-:::: {.columns}
-::: {.column width="40%" .small}
-<br>
-
-- Vektorarithmetik = geistige Arbeit
-  - **Input Sequenz** von Worten(Token) erzeugt ein **Output Wort**.
-  - **Worte** werden in **Vektoren** (768d) umgewandelt.
-  - Über **12 Vektorgenerationen** wird Bedeutung akkumuliert,
-  - **"Verrechnung" der Vektoren** erzeugt neue Bedeutung, Schluesse und Entscheidungen.
-  - **7 x 17 Vector Maschinen** erfassen die Bedeutung des Textes und erzeugen das nächste Wort.
+:::{.small}
+*Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models: 444 Authors, 2024*
 :::
-::: {.column width="60%"}
-![](images/GPT.png){width="110%" }
-:::
-::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Beispiel: Wie addiert ein LLM Zahlen?
+## Wie kann das sein? 
+
+**Cognitive Fähigkeiten als Nebenprodukt des Trainings**:
+
+  - Neue cognitive Fähigkeiten erscheinen unvorhersehbar mit zunehmender Größe des Modells
+  - Auf vielen Gebieten erreichen LLMs menschliches Niveau
+  
+**Verdichtung führt zu "echten" kognitiven Fähigkeiten**:
+
+  - LLM muss eine sehr große Menge an Text mit **wenigen** Parametern dar stellen
+  - LLM muss Generalisieren
+
+:::{.notes}
+**Auswirkungen**
+
+  - **Neuronale Netze müssen nach Strukturen, Mustern, Abstraktionen und Verallgemeinerungen suchen**
+  - **Je besser diese Komprimierung je grösser das Model, desto „intelligenter“ agieren die LLMs**
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI ins "Gehirn" geschaut
 
 
 ![](images/LLMMathThoughts.webp)
 
 ![](images/LLMMathThoughts1.webp){ .absolute top=100 left=700 width="30%" style="border: 1px solid lightgray;" .fragment }
 
+:::{.small}
+[Anthropic: On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+:::
+
+
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Wie können KIs "denken"? 
+## LLMs: Entitäten?
 
-LLMs „denken“ nicht wie Menschen, sondern sie **verdichten** Informationen.
+LLMs speichern Entitäten unabhängig von der Sprache. Entitäten sind lokalisierbar und können manipuliert werden.
 
-**Cognitive Fähigkeiten als Nebenprodukt des Trainings**:
 
-  - Neue cognitive Fähigkeiten entstehen unvorhersehbar mit zunehmender Größe des Modells
-  - Auf vielen Gebieten erreichen LLMs menschliches Niveau
-  
-**Verdichtung führt zu "echten" kognitiven Fähigkeiten**:
+![](images/semantic_features_anthropic.png){width="80%"}
 
-  - Stelle sehr großer Sprachmengen mit möglichst wenigen Parametern dar
-  - Verhindere einfaches Merken, fördere Generalisieren
 
-**Auswirkungen**
+:::{.small}
+https://transformer-circuits.pub/2024/scaling-monosemanticity/
+:::
 
-  - **Neuronale Netze müssen nach Strukturen, Mustern, Abstraktionen und Verallgemeinerungen suchen**
-  - **Je besser diese Komprimierung je grösser das Model, desto „intelligenter“ agieren die LLMs**
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## LLMs: abstrakte Konzepte?
+
+Auch abstrakte Konzepte können im LLM lokalisiert und manipuliert werden.
+
+![**Beispiel**: Anwesenheit eines Konzepts in einem Text markiert mit rot.](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/ed11fc0fba655a120823b8272377554bc57529da08537d3dee559096d35997fb/jihvovtrwche957zc6aq){width="80%"}
+
+:::{.small}
+https://transformer-circuits.pub/2024/scaling-monosemanticity/
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KIs sind schlau und doof zugleich
+
+
+How many Rs are in Strawberry?
+
+- [GPT 4o mini](https://chatgpt.com/?oai-dm=1&model=gpt-4o-mini)
+
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## How many Rs?
@@ -300,22 +300,6 @@ LLMs „denken“ nicht wie Menschen, sondern sie **verdichten** Informationen.
 KIs sind schlau und doof zugleich
 
 ![](images/HowManyRs_d.webp)
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## Google Research
-
-<video class="glue-ambient-video__container" playsinline="" muted="true" loop="true" style="width: 80%;">
-                <source src="https://storage.googleapis.com/gweb-research2023-media/media/PITOM1_Comprehension.mp4" type="video/mp4">
-</video>
-
-
-:::{.centered-content}
-*This study shows that neural activity in the* ***human brain aligns linearly*** *with the internal contextual embeddings of speech and language within* ***large language models (LLMs)*** *as they process everyday conversations.*
-:::
-:::{.small}
-Nature Human Behaviour - 2025/03/07 - Goldstone, A., et al. - A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations
-:::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## _
@@ -430,6 +414,11 @@ als Model der zu erwartenden Transformation für geistige Arbeit?
 ::: {.centered-xxl-text}
 KI im Schulumfeld
 :::
+<br>
+
+::: {.centered-content}
+-- PAUSE --
+:::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Chatbots in der Bildung
@@ -496,23 +485,31 @@ Prüfungsvorbereitung mit und ohne KI Chatbots
 ::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Sprach-KI ist etabliert
+## Student:innen & KI?
 
 :::: {.columns}
-::: {.column width="60%"}
+::: {.column width="40%"}
 
-OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:
-
-![](images/igem_digimonitor_w960_h620.jpg){width="100%" }
-:::
-::: {.column width="40%" .fragment}
-
-:::{.small}
-<br><br>
-*DALL·E 3*: Social Media Rabbit Hole an AI Application
+::: {style="font-size: 0.8em;"}
+**Anthropic Education Report**: How University Students Use Claude AI
 :::
 
-![](images/social_media_rabbit_hole.webp){width="87%" class="image-border"}
+::: {style="font-size: 0.6em;"}
+Students primarily use AI systems for 
+**creating** (using information to learn something new) and 
+**analyzing** (taking apart the known and identifying relationships), such as creating coding projects or analyzing law concepts. 
+This aligns with **higher-order cognitive functions** on Bloom’s Taxonomy. 
+
+**This raises questions about ensuring students don’t offload critical cognitive tasks to AI systems.** <p></p>
+:::
+
+::: {.right-align style="margin-top: 5em; font-size: 0.5em;"}
+*Comparing the percentage of Claude.ai student conversations that are related to an National Center for Education Statistics in 1 Mio dialogues.*
+:::
+
+:::
+:::{.column width="60%"}
+![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd22ea4cc33c603b51435e334c4311ffc5b1d7f5a-2400x1818.png&w=3840&q=75)
 :::
 ::::
 
@@ -526,7 +523,7 @@ Mit KI können wir auf sehr unterschiedliche Weise umgehen.
 
 Lernende können:
 
-- **Sich Bilden**: Sie <green> erzeugen auf Augenhöhe</green> zusammen mit KI neue Inhalte und Ideen und bauen so **Kompetenzen** auf
+- **Sich Bilden**: Sie <green> erzeugen auf Augenhöhe</green> zusammen mit KI neue Inhalte und Ideen und bauen so **Kompetenzen** auf <red> <==< </red>
 - **Optimieren**: Sie <blue> automatisieren</blue> den Umgang mit Information/Wissen mithilfe von KI
 - **Reproduzieren**: Sie <red>übernehmen KI</red> generierte Inhalte ohne dass sie diese verstehen oder hinterfragen
 :::
@@ -560,11 +557,11 @@ Lernende können:
 
 **Der Kompetenzbegriff nach Weinert**
 
-:::{.centered-content .text-lg}
+:::{.centered-content }
 Kompetenzen bezeichnen „*die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte* ***Probleme zu lösen***, *sowie die damit verbundenen ...* ***Bereitschaften***, *damit die Problemlösungen in* **variablen Situationen** *erfolgreich und verantwortungsvoll genutzt werden können.*“
 :::
 
-<br>
+<br><br><br><br><br>
 
 :::{.small}
 Quelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001
@@ -587,6 +584,110 @@ Quelle: Weinert (Hrsg.) Leistungsmessungen in Schulen; 2001
 Eine individuelle KI unterstütze Lernsituation kreiert intrinsische Motivation bei den Lernenden, Kompetenzen aufzubauen und zu erproben, und nicht diese zu simulieren.
 
 ![AFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional](images/Flightdeck-1-Flugstunde-Airbus-A320.jpg)
+
+
+
+<!-- =================================================== slide ===================================================== -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+Echte KI/Mensch Zusammenarbeit
+:::
+
+::: {.centered-text}
+Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Deep Tasks
+
+Schüler:innen arbeiten in Gruppen an einer komplexen Aufgabe, die durch "cut&paste" nicht von KI gelöst werden kann.
+
+<br>
+
+- KI unterstützt die Schüler:innen bei der Lösung
+- Der Plan zu Lösung muss von den Schüler:innen kommen
+- Die Schüler:innen müssen den letzten Schritt verstehen haben, um in den Nächsten einzusteigen
+- Wird die KI zu schlecht geführt, sind die Ergebnisse schlecht
+
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Wir zeichnen ein Comic
+
+:::: {.columns}
+::: {.column width="50%"}
+Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+
+- Storyline: Die Geschichte in einem Satz.
+- Storyboard: Wie sieht die Geschichte aus? 
+- Bildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?
+- Dialoge: Was sagen die Figuren?
+- Zeichnungen: Zeichne jeweils **ein Bild (Panel)** mit KI.
+- Zusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen.
+
+:::
+::: {.column width="50%"}
+![](images/comic.webp){width="70%"}
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Wir zeichnen ein Comic
+
+:::: {.columns}
+::: {.column width="50%"}
+Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+
+- Storyline: Die Geschichte in einem Satz.
+- Storyboard: Wie sieht die Geschichte aus? 
+- Bildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?
+- Dialoge: Was sagen die Figuren?
+- Zeichnungen: Zeichne jeweils **ein Bild (Panel)** mit KI.
+- Zusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen.
+
+:::
+::: {.column width="50%"}
+![](images/PerfekterTag.png){width="70%"}
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Schwierige Kreuzworträtsel
+
+ChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht.
+
+### Aufgabe
+
+:::: {.columns}
+::: {.column width="40%"}
+![](images/raetsel.png)
+:::
+::: {.column width="60%" .small}
+1	- Sammlungsaffiner Sehenswerturteiler <br>
+2	- Schmiegt sich, letztendlich damenhaft, an Wüstenregionen <br>
+3	- Passt zwischen Jung und Fahrt, auch wenn die gar nicht so weit geht <br>
+4	- Ungewöhnlich sichtbares Obst? Vergleichsweise Wohlgehüteter! <br>
+5	- Auf manch legerer <6 senkrecht: Feier> werden ihre Achtel in die Runde gegeben <br>
+6	- Wäre 2025 angemessen für Schweitzers 150. Oder Kehlmanns 50, <br>
+7	- Tierische Ausgrenzung <br>
+8	- Sterben müssen bleibe mir <3 senkrecht: fern>, doch tot sein – das ist mir … (Epicharm) <br>
+9	- Der ganze Mai liegt in ihren Zeichen, Wörtern, Sätzen, Seiten <br>
+10	- Soziale Bewegungform <br>
+11	- Darin treffen sich die Größten der Großen zum Ballspielen, aber nur kurz <br>
+12	- Ende der Welt, mit dem Wolfgang Amadeus’ Vater mitunterschrieb <br>
+13	- Mahnmal der Verwundbarkeit <br>
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
@@ -616,53 +717,79 @@ Aufgabe nach kurzer Einführung in prompt engineering:
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Wir zeichnen ein Comic
 
-**Workshop mit 11. und 12. Klässlern**
+## Schwieriges Math-Problem
 
-Nach einer kurzen Einführung in Prompting fürs Comiczeichnen:
+Wir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch.
+Wir probieren es gemeinsam.
 
 :::: {.columns}
-::: {.column width="50%"}
-Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+:::{.column width="60%"}
 
-- **Storyline**: Die Geschichte in einem Satz.
-- **Storyboard**: Wie sieht die Geschichte aus? 
-- **Bildbeschreibung**: Was ist auf den einzelnen Bildern zu sehen? Was passiert wenn Du Details weglässt?
-- **Dialoge**: Was sagen die Figuren?
-- **Zeichnungen**: Zeichne die Bilder.
-- **Zusammenfügen**: In einem Graphikprogramm: füge die Bilder und Dialoge zusammen.
+### Aufgabe
 
+Nina hat einen Kreis mit 20 Punkten in 20 gleich lange Kreisbögen geteilt.
+Sie zeichnet alle Sehnen ein, die zwei dieser Punkte verbinden. Wie viele dieser
+Sehnen sind länger als der Radius, aber kürzer als der Durchmesser des Kreises?
+
+(A) 90 (B) 100 (C) 120 (D) 140 (E ) 160
 :::
-::: {.column width="50%"}
-![Was kann man hier besser machen?](images/comic.webp){width="70%"}
+:::{.column width="40%" .small}
+
+![GPT 4o](images/GeometrieFinal.png ){width="90%"}
+
 :::
 ::::
 
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Welche KI Dialogführung?
+## AIDu-Lernbegleitung 1/3
 
-**AIDu - pädagogische KI-Lernbegleitung**
 
 Erste Experimente mit 10-12 Klässlern: Allg., Geschichte, Französisch und Physik
 
 ![](images/AIdu.webp){width="90%"}
 ![](images/AIDu Welcome.webp){width="40%" .absolute top=370 left=300 style="border: 1px solid gray;"}
-![](images/AIDu Isaac.webp){width="40%" .absolute top=360 left=500 style="border: 1px solid gray;"}
+![](images/AIDu_Emilie_informatic.png){width="40%" .absolute top=360 left=500 style="border: 1px solid gray;"}
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## AIDu - Demo
+## AIDu-Lernbegleitung 2/3
 
-Demonstration von AIDu Lernsituationen:
+**AIDu - pädagogische KI-Lernbegleitung**
 
-- Allgemeines Assessment von Lernenden
-- Exploratives Lernen
-  - Mathematik - Vektorrechnung ohne Vorkenntnisse
-  - Physik - Streuung von Licht an Grenzflächen untersuchen ohne Vorkenntnisse
-  - Französisch - Ein Schulkollegen in einem Pariser Café treffen mit sehr wenig Vorkenntnissen
+:::: {.columns}
+::: {.column width="60%"}
+
+Forschungsfragen:
+
+- Lernende sind per se keine kompetente KI Dialogpartner. Wie damit umgehen?
+- Wie verankern wir Kompetenzen und messen das?
+- Wie ermöglichen wir erlebte Selbstwirksamkeit?
+- Wie geben wir Gestaltungsspielraum für Lernende und Lehrende?
+- Abgrenzung zu Chatbots, die nur Informationen liefern
+:::
+::: {.column width="40%"}
+![](images/AIDu_Emilie_informatic_Left_Half.png)
+
+:::
+::::
+
+Kombination von **virtuellen Erfahrungsräumen mit KI Lernbegleitung**. Dabei begleiten wir die Lernenden in der Erarbeitung von Kompetenzen.
 
 [Link](https://sebayt.ch/aidu/)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## AIDu-Lernbegleitung 3/3
+
+[![SRF berichtet](https://il.srf.ch/images/?imageUrl=https://download-media.srf.ch/world/image/video/2025/04/8df4b9f3-2e49-4322-9e0c-ef873a1ae610-567s28ms.png&format=webp&width=720)](https://www.srf.ch/play/tv/_/video/_?id=8df4b9f3-2e49-4322-9e0c-ef873a1ae610&urn=urn:srf:video:8df4b9f3-2e49-4322-9e0c-ef873a1ae610&aspectRatio=16_9)
+
+["Schweiz aktuell", Schweizer Fernsehen](https://www.srf.ch/play/tv/-/video/-?urn=urn%3Asrf%3Avideo%3Ab3fff828-9d59-488a-80f2-b1678191443f)
+["Rendez-vous", Radio SRF](https://www.srf.ch/audio/rendez-vous/kuenstliche-intelligenz-im-klassenzimmer?partId=qSrrfc0iKCGTC9b0Wpb7-JIdrlA)
+[Beitrag auf SRF online](https://www.srf.ch/news/schweiz/klassenzimmer-der-zukunft-ki-in-der-schule-bildung-oder-beschaeftigung)
+
+
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Zusammenfassung
@@ -694,6 +821,21 @@ Demonstration von AIDu Lernsituationen:
 [>/](https://wolfgangspahn.github.io/intro-IS2-KI-research.github.io)
 :::
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Seymour Papert - 1980
+
+<br><br><br>
+
+:::{.centered-xl-text}
+**„The role of the teacher is to create the conditions for invention rather than provide ready-made knowledge.“**
+:::
+
+<br><br><br>
+
+::: {.small}
+Schüler von Jean Piaget und Mitbegründer des MIT Media Lab. Er entwickelte die Programmiersprache Logo und das Konzept des „Konstruktivismus“.
+:::
+
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Was ist das Problem?
@@ -716,3 +858,122 @@ Aber KI ist Realität. Daher ist **Wegschauen ist keine Lösung**!
 ![DALL·E 3: Consumer Education](images/consumer_education1.webp){width="100%"}
 :::
 ::::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Sprach-KI ist etabliert
+
+:::: {.columns}
+::: {.column width="60%"}
+
+OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:
+
+![](images/igem_digimonitor_w960_h620.jpg){width="100%" }
+:::
+::: {.column width="40%" .fragment}
+
+:::{.small}
+<br><br>
+*DALL·E 3*: Social Media Rabbit Hole an AI Application
+:::
+
+![](images/social_media_rabbit_hole.webp){width="87%" class="image-border"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide A10 ----------------------------------------------------- -->
+## Wie versteht KI Sätze? 2/2
+
+:::: {.columns}
+::: {.column width="50%"}
+Steckt in einem Vektor Embedding wirklich eine Bedeutung?
+
+- Vektorrepräsentationen von **kann** in die Ausgangssätze mittels NN zurückverwandeln
+- Kombinationen von Vektoren erzeugen sinngemässe die Kombination dieser Sätze
+
+:::
+::: {.column width="50%"}
+  <video class="glue-ambient-video__container" playsinline="" muted="true" loop="true">
+                  <source src="images/vec2text_demo.mp4" type="video/mp4">
+                  no video support
+  </video>
+
+:::
+::::
+
+:::{.small}
+Language Model Inversion (ICLR 2024), J.X. Morris et.al
+:::
+
+<!-- --------------------------------------------------- slide A11 ----------------------------------------------------- -->
+## Mehrdeutigkeit @!?
+
+:::: {.columns}
+::: {.column width="50%"}
+**Ein Wort, zwei Bedeutungen**
+
+- Ein Wort hat zunächst nur eine Bedeutung (embedding). 
+- Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.
+
+<br>
+
+![Beispiel: bank (Geldinstitut), bank (Ufer)](images/meaning of bank.png){width="95%" .gray-border}
+
+:::
+::: {.column width="50%"}
+
+**Das Wort im Kontext**
+
+- Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)
+- Daraus lernt es das wahrscheinlichste Wort vorherzusagen.
+
+![Beispiel: river, bank](images/context of bank.png){width="95%" .gray-border}
+
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## LLMs <> Gehirn?
+
+<video class="glue-ambient-video__container" playsinline="" muted="true" loop="true" style="width: 80%;">
+                <source src="https://storage.googleapis.com/gweb-research2023-media/media/PITOM1_Comprehension.mp4" type="video/mp4">
+</video>
+
+
+:::{.centered-content}
+*This study shows that neural activity in the* ***human brain aligns linearly*** *with the internal contextual embeddings of speech and language within* ***large language models (LLMs)*** *as they process everyday conversations.*
+:::
+
+:::{.small}
+Nature Human Behaviour - 2025/03/07 - Goldstone, A., et al. - A unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Digitale Transformation
+
+Geistige Tätigkeiten befindet sich in einem tiefgreifenden Wandel.
+<br><br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![19. Jahrhundert](images/Cognitive_work_19Cent.png){width="80%"}
+:::
+::: {.column width="50%"}
+
+![21. Jahrhundert](images/Cognitive_work_21Cent.png){width="80%"}
+:::
+::::
+
+<br>
+**Was heisst das für uns, für die Schule, für den Unterricht?**
+
+:::{.notes}
+Noch vor 100 Jahren waren gebildete Menschen in der Lage, zentrale Tätigkeiten ihres Alltags – wie Schreiben, Reparieren, Argumentieren oder Produzieren – selbst zu verstehen, anzuwenden und kritisch zu reflektieren. 
+
+Heute sind digitale Systeme die primäre Schnittstelle zum Herstellen, zum Inhalt und den Umgang damit.
+
+Wird der Umgang digitalen Lehrmedien und Lehrmittel nicht mit einem tiefen Verständnis verbunden, besteht die Gefahr, dass Lernende zwar Nutzer:innen, aber keine selbstbestimmten Gestalter:innen der digitalen Welt werden.
+
+Echte digitale Bildung muss also über das Bedienen hinausgehen – hin zum Verstehen, Hinterfragen und Mitgestalten.

@@ -1,37 +1,45 @@
 /* css styles */
 /* Increase specificity by specifying a more detailed selector */
 body .reveal .slides > h1 {
-    color: #ba1313;
+    color: #a3002f; /* Updated color from custom-styles.css */
 }
-
 
 img.image-border {
     border: 2px solid black; /* Adjust thickness and color as needed */
     border-radius: 5px; /* Optional: for rounded corners */
-  }
-  
-.small {
+}
+
+.small, .text-sm {
+    font-size: 0.6em;
+}
+
+.text-lg {
+    font-size: 1.4em;
+}
+
+.text-1xs {
+    font-size: 0.4em;
+}
+
+.footer {
     font-size: 0.6em;
 }
 
 .reveal h1 {
-    /*thin typewriter font*/
-    font-family: "Courier", monospace;
-    font-size:larger;
-    /*medium weight*/
-    font-weight:100;
+    font-family: "Courier New", monospace, italic; /* Updated font-family */
+    color: #a3002f; /* Updated color */
+    font-weight: bold; /* Updated weight */
 }
 
-
-h2 {
-    font-family: "Courier", monospace;
-    margin-bottom: 40px; /* Adjust the value as needed */
-    color: #ba1313; /* Change the color value as needed */
-    font-weight: 600; /* Adjust the value as needed */
+.reveal h2 {
+    font-family: "Courier New", monospace, italic; /* Updated font-family */
+    margin-bottom: 40px;
+    color: #a3002f; /* Updated color */
+    font-weight: 600;
 }
 
 .reveal h3 {
-    color: #ba1313; /* Change the color value as needed */
+    color: #a3002f; /* Updated color */
 }
 
 .clickable {
@@ -41,37 +49,35 @@ h2 {
 .callout {
     width: 7cm;
     height: 4cm;
-    border: 2px solid #000; /* Customize border as needed */
-    background-color: #f5f5f5; /* Light background color */
+    border: 2px solid #000;
+    background-color: #f5f5f5;
     padding: 10px;
     position: absolute;
-    top: 20%; /* Adjust these values to control placement */
-    left: 30%; /* Adjust these values to control placement */
+    top: 20%;
+    left: 30%;
     font-size: 1em;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-  }
+}
 
-/* First level list items */
+/* List item styles */
 ul > li, ol > li {
     font-size: x-large;
 }
 
-/* Second level nested list items */
 ul ul > li, ol ol > li {
     font-size: large;
 }
 
-/* Third level nested list items */
 ul ul ul > li, ol ol ol > li {
     font-size: medium;
 }
 
-/* Continue for deeper levels if needed */
 ul ul ul ul > li, ol ol ol ol > li {
     font-size: small;
 }
 
+/* Figure and figcaption styles */
 figcaption {
     font-style: italic;
     padding-left: 1em;
@@ -84,21 +90,12 @@ figure .grayfigure {
     text-align: center;
 }
 
-/* figcaption {
-    font-size: 0.8em;
-    text-align: center;
-} */
-
-.margin-top-20 {
-    margin-top: 20px;
-}
-
 .gray-border {
     border: 2px solid gray;
     padding: 10px;
 }
 
-/* Toast Container */
+/* Toast styles */
 .toast-container {
     position: fixed;
     top: 20px;
@@ -106,7 +103,6 @@ figure .grayfigure {
     z-index: 9999;
 }
 
-/* Toast Message */
 .toast-message {
     background-color: #333;
     color: white;
@@ -117,17 +113,41 @@ figure .grayfigure {
     transition: opacity 0.5s;
 }
 
-/* Make the toast message visible */
 .toast-show {
     opacity: 1;
     transition: opacity 0.5s;
+}
+
+/* Centered text styles */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-xs-text {
+    font-size: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.centered-xxs-text {
+    font-size: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.centered-xl-text {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .centered-xxl-text {
     font-size: 64px;
     text-align: center;
     font-weight: bold;
-  }
+}
 
 .centered-xxl-rounded-button {
     font-size: 64px;
@@ -137,26 +157,58 @@ figure .grayfigure {
     padding: 12px;
     background-color: #444;
     color: white;
-    display: block; 
-    margin-left: auto; 
+    display: block;
+    margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-  }
+}
 
-  table {
-   font-size: large
-  }
+/* Table styles */
+table {
+    font-size: large;
+}
 
-  .red {
+/* Color classes */
+.red {
     color: #ba1313;
-  }
+}
 
-  .green {
+.green {
     color: #13ba5b;
-  }
+}
 
-  .blue {
-    color: #1364ba;;
-  }
+.blue {
+    color: #1364ba;
+}
 
-  
+.right-align {
+    text-align: right;
+    border-right: 3px solid #444;
+    padding-right: 12px;
+}
+
+/* Courier Prime font styles */
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.courier-prime-bold-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
