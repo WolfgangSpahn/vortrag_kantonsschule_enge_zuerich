@@ -819,7 +819,7 @@ Kombination von **virtuellen Erfahrungsräumen mit KI Lernbegleitung**. Dabei be
 ::: {.centered-xxl-text}
  _-_ Danke für die Aufmerksamkeit _-_
  <br>
-[>/](https://wolfgangspahn.github.io/intro-IS2-KI-research.github.io)
+[>/](https://wolfgangspahn.github.io/vortrag_kantonsschule_enge_zuerich/#/title-slide)
 :::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
